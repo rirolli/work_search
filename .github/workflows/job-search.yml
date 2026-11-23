@@ -1,0 +1,109 @@
+name: Ricerca lavoro
+
+# Alle 8:00 e alle 20:00 ora di Roma.
+# Il cron di GitHub è in UTC e non conosce l'ora legale: pianifichiamo sia
+# l'orario invernale (UTC+1) sia quello estivo (UTC+2) e il primo step tiene
+# solo l'esecuzione che corrisponde davvero alle 8 o alle 20 a Roma.
+# Il controllo usa l'orario pianificato, non quello effettivo, quindi resta
+# corretto anche se GitHub avvia il job con qualche minuto di ritardo.
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 08:00 ora legale (CEST)
+    - cron: "0 7 * * *"   # 08:00 ora solare (CET)
+    - cron: "0 18 * * *"  # 20:00 ora legale (CEST)
+    - cron: "0 19 * * *"  # 20:00 ora solare (CET)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-search
+  cancel-in-progress: false
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Controllo orario (Europe/Rome)
+        id: gate
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          if [ "$EVENT" != "schedule" ]; then
+            echo "Avvio manuale: eseguo."
+            echo "run=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          utc_hour=$(echo "$SCHEDULE" | awk '{print $2}')
+          offset=$(TZ=Europe/Rome date +%z)          # +0100 oppure +0200
+          off_h=$((10#${offset:1:2}))
+          rome_hour=$(( (10#$utc_hour + off_h) % 24 ))
+          echo "Pianificato alle $utc_hour UTC = $rome_hour a Roma (offset $offset)"
+          if [ "$rome_hour" = "8" ] || [ "$rome_hour" = "20" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Non è l'orario giusto con l'ora corrente: salto."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+
+      - uses: actions/setup-go@v5
+        if: steps.gate.outputs.run == 'true'
+        with:
+          go-version-file: go.mod
+
+      - name: Test
+        if: steps.gate.outputs.run == 'true'
+        run: go test ./...
+
+      - name: Ricerca
+        if: steps.gate.outputs.run == 'true'
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          JOOBLE_API_KEY: ${{ secrets.JOOBLE_API_KEY }}
+        run: go run ./cmd/jobsearch -config config -out docs -state data/state.json
+
+      - name: Riepilogo
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          d = json.load(open("docs/offerte.json"))
+          jobs = d["jobs"]
+          new = [j for j in jobs if j.get("new")]
+          print(f"## Ricerca lavoro – {len(jobs)} offerte, {len(new)} nuove\n")
+          print("| Priorità | Score | Azienda | Ruolo | Sede |")
+          print("|---|---|---|---|---|")
+          for j in (new or jobs)[:30]:
+              t = j["title"].replace("|", "/")
+              print(f"| {j['priority']} | {j['score']} | {j['company']} | [{t}]({j['url']}) | {j['location'].replace('|','/')} |")
+          bad = [s for s in d["sources"] if not s["ok"] and not s["skipped"]]
+          if bad:
+              print(f"\n**Fonti in errore ({len(bad)}):** " + ", ".join(s["name"] for s in bad))
+          EOF
+
+      - name: Salva i report come artefatto
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ricerca-lavoro
+          path: docs/
+          retention-days: 14
+
+      - name: Commit dei risultati
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs data
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica."
+          else
+            git commit -m "Ricerca lavoro $(TZ=Europe/Rome date '+%Y-%m-%d %H:%M')"
+            git push
+          fi

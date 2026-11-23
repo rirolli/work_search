@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ricerca lavoro – {{local .Generated}}</title>
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1d2329;--muted:#66707a;--line:#e2e4e6;--accent:#1f4e79;--hi:#c6efce;--hi-ink:#1e5c2c;--md:#ffeb9c;--md-ink:#7a5c00;--lo:#ededed;--new:#ddebf7}
+@media (prefers-color-scheme:dark){:root{--bg:#15181b;--card:#1d2125;--ink:#e6e8ea;--muted:#9aa3ab;--line:#2c3237;--accent:#7fb0e0;--hi:#1f3d26;--hi-ink:#9be0a8;--md:#3d3414;--md-ink:#f0d070;--lo:#2a2e32;--new:#1d3247}}
+*{box-sizing:border-box}
+body{margin:0;font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{padding:20px 24px 8px}
+h1{font-size:20px;margin:0 0 4px}
+h2{font-size:16px;margin:28px 0 10px}
+.muted{color:var(--muted)}
+main{padding:0 24px 40px}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 14px;min-width:110px}
+.stat b{display:block;font-size:20px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:14px 0;position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:2}
+input[type=search],select{padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink);font:inherit}
+input[type=search]{min-width:260px}
+.tablewrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{position:sticky;top:0;background:var(--card);cursor:pointer;white-space:nowrap;font-weight:600;user-select:none}
+th.sorted-asc::after{content:" ▲"}th.sorted-desc::after{content:" ▼"}
+tr:hover td{background:color-mix(in srgb,var(--accent) 6%,transparent)}
+a{color:var(--accent)}
+.pill{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;font-weight:600}
+.Alta{background:var(--hi);color:var(--hi-ink)}.Media{background:var(--md);color:var(--md-ink)}.Bassa{background:var(--lo)}
+.new{background:var(--new);color:var(--accent)}
+.small{font-size:12px}
+.err{color:#b4443a}
+.ok{color:var(--hi-ink)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+details{margin-top:20px}
+summary{cursor:pointer;font-weight:600}
+</style>
+</head>
+<body>
+<header>
+<h1>Ricerca lavoro – Earth Observation / ML</h1>
+<div class="muted">Aggiornato il {{local .Generated}} (ora di Roma) · {{.Fetched}} offerte scaricate, {{len .Jobs}} in linea con il profilo</div>
+</header>
+<main>
+<div class="stats">
+<div class="stat"><b>{{count "Alta"}}</b>Priorità alta</div>
+<div class="stat"><b>{{count "Media"}}</b>Priorità media</div>
+<div class="stat"><b>{{count "Bassa"}}</b>Priorità bassa</div>
+<div class="stat"><b>{{count "new"}}</b>Nuove</div>
+<div class="stat"><b>{{len .Gone}}</b>Non più visibili</div>
+<div class="stat"><b>{{failed}}</b>Fonti in errore</div>
+</div>
+
+<div class="controls">
+<input type="search" id="q" placeholder="Filtra per azienda, ruolo, sede, settore…" aria-label="Filtro testuale">
+<select id="prio" aria-label="Priorità"><option value="">Tutte le priorità</option><option>Alta</option><option>Media</option><option>Bassa</option></select>
+<select id="aero" aria-label="Aerospaziale"><option value="">Tutti i settori</option><option value="Sì">Solo aerospaziale</option><option value="No">Solo non aerospaziale</option></select>
+<label><input type="checkbox" id="onlyNew"> Solo nuove</label>
+<label><input type="checkbox" id="onlyItaly"> Solo Italia / Roma</label>
+<span class="muted small" id="shown"></span>
+</div>
+
+<div class="tablewrap">
+<table id="jobs">
+<thead><tr>
+<th data-type="prio">Priorità</th><th data-type="num">Score</th><th>Azienda</th><th>Ruolo</th><th>Sede</th>
+<th>Settore</th><th data-type="text">Pubblicata</th><th>Prima vista</th><th>Retribuzione</th><th>Fonte</th><th>Perché</th>
+</tr></thead>
+<tbody>
+{{range .Jobs}}
+<tr data-prio="{{.Priority}}" data-new="{{if .New}}1{{end}}" data-aero="{{.Aerospace}}">
+<td><span class="pill {{.Priority}}">{{.Priority}}</span>{{if .New}} <span class="pill new">NUOVA</span>{{end}}</td>
+<td class="num">{{.Score}}</td>
+<td><b>{{.Company}}</b>{{if .CompanyRating}}<div class="muted small">rating {{.CompanyRating}}/10</div>{{end}}</td>
+<td><a href="{{.URL}}" target="_blank" rel="noopener">{{.Title}}</a>{{if .Department}}<div class="muted small">{{.Department}}</div>{{end}}</td>
+<td>{{.Location}}{{if .Remote}} <span class="muted small">(remoto)</span>{{end}}</td>
+<td>{{.Sector}}{{if .MacroSector}}<div class="muted small">{{.MacroSector}}</div>{{end}}</td>
+<td>{{published .}}</td>
+<td>{{day .FirstSeen}}</td>
+<td>{{.Salary}}{{if eq .SalaryOK "Sì"}} <span class="ok small">≥ soglia</span>{{else if eq .SalaryOK "No"}} <span class="err small">sotto soglia</span>{{end}}</td>
+<td class="small">{{.Source}}</td>
+<td class="small">{{join .Matched ", "}}</td>
+</tr>
+{{end}}
+</tbody>
+</table>
+</div>
+
+{{if .Gone}}
+<h2>Non più visibili (ultimi {{.Profile.DisappearedDays}} giorni)</h2>
+<p class="muted">Offerte viste in passato che la fonte non elenca più: probabilmente chiuse.</p>
+<div class="tablewrap"><table>
+<thead><tr><th>Azienda</th><th>Ruolo</th><th>Sede</th><th>Priorità</th><th>Prima vista</th><th>Ultima vista</th></tr></thead>
+<tbody>{{range .Gone}}<tr><td>{{.Company}}</td><td><a href="{{.URL}}" target="_blank" rel="noopener">{{.Title}}</a></td><td>{{.Location}}</td><td><span class="pill {{.Priority}}">{{.Priority}}</span></td><td>{{day .FirstSeen}}</td><td>{{day .LastSeen}}</td></tr>{{end}}</tbody>
+</table></div>
+{{end}}
+
+<details>
+<summary>Stato delle fonti ({{len .Sources}})</summary>
+<div class="tablewrap" style="margin-top:10px"><table>
+<thead><tr><th>Fonte</th><th>Esito</th><th>Scaricate</th><th>Tenute</th><th>Nota</th></tr></thead>
+<tbody>{{range .Sources}}<tr>
+<td>{{.Name}}{{if not .Verified}} <span class="muted small">(endpoint da verificare)</span>{{end}}</td>
+<td>{{if .Skipped}}<span class="muted">saltata</span>{{else if .OK}}<span class="ok">OK</span>{{else}}<span class="err">errore</span>{{end}}</td>
+<td class="num">{{.Fetched}}</td><td class="num">{{.Kept}}</td><td class="small">{{.Error}}</td>
+</tr>{{end}}</tbody>
+</table></div>
+</details>
+
+<details>
+<summary>Come viene calcolato il punteggio</summary>
+<p>Parola chiave nel titolo: peso × 2; nella descrizione: peso. Si aggiungono il peso della sede (Roma più alto), il rating dell'azienda × {{.Profile.CompanyRatingFactor}} e {{.Profile.RecencyBonus}} punti se pubblicata negli ultimi {{.Profile.RecencyDays}} giorni.
+Priorità alta ≥ {{.Profile.PriorityHigh}}, media ≥ {{.Profile.PriorityMedium}}. Restano fuori le offerte sotto {{.Profile.MinScore}} punti, i titoli esclusi (stage, internship…) e le sedi fuori area.
+La data di scadenza non è esposta dalle API: va controllata sull'annuncio. "Prima vista" indica quando questa routine ha trovato l'offerta.</p>
+<p>Tutto è configurabile in <code>config/profile.json</code>, <code>config/companies.json</code> e <code>config/searches.json</code>.</p>
+</details>
+</main>
+
+<script>
+(function(){
+  var q=document.getElementById('q'),prio=document.getElementById('prio'),aero=document.getElementById('aero'),
+      onlyNew=document.getElementById('onlyNew'),onlyItaly=document.getElementById('onlyItaly'),shown=document.getElementById('shown');
+  var tbody=document.querySelector('#jobs tbody'),rows=Array.prototype.slice.call(tbody.rows);
+  var italy=/\b(ital|roma|rome|frascati|milan|torino|turin|napoli|naples|pisa|bologna|firenze|florence|genova|padova|matera|fucino|l'aquila)/i;
+  function apply(){
+    var t=q.value.trim().toLowerCase(),n=0;
+    rows.forEach(function(r){
+      var txt=r.textContent.toLowerCase();
+      var ok=(!t||txt.indexOf(t)>=0)&&(!prio.value||r.dataset.prio===prio.value)&&(!aero.value||r.dataset.aero===aero.value)
+        &&(!onlyNew.checked||r.dataset.new==='1')&&(!onlyItaly.checked||italy.test(r.cells[4].textContent));
+      r.style.display=ok?'':'none'; if(ok)n++;
+    });
+    shown.textContent=n+' di '+rows.length+' offerte';
+  }
+  [q,prio,aero,onlyNew,onlyItaly].forEach(function(el){el.addEventListener('input',apply);el.addEventListener('change',apply);});
+  var rank={Alta:0,Media:1,Bassa:2};
+  document.querySelectorAll('#jobs th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var asc=!th.classList.contains('sorted-asc');
+      document.querySelectorAll('#jobs th').forEach(function(h){h.classList.remove('sorted-asc','sorted-desc');});
+      th.classList.add(asc?'sorted-asc':'sorted-desc');
+      var type=th.dataset.type;
+      rows.sort(function(a,b){
+        var x=a.cells[i].textContent.trim(),y=b.cells[i].textContent.trim(),c;
+        if(type==='num')c=parseFloat(x)-parseFloat(y);
+        else if(type==='prio')c=rank[a.dataset.prio]-rank[b.dataset.prio];
+        else c=x.localeCompare(y,'it');
+        return asc?c:-c;
+      });
+      rows.forEach(function(r){tbody.appendChild(r);});
+    });
+  });
+  apply();
+})();
+</script>
+</body>
+</html>

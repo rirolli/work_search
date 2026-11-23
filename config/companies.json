@@ -1,0 +1,89 @@
+{
+  "_comment": "Aziende monitorate. 'sources' elenca le API pubbliche delle pagine carriere (verified=true: endpoint controllato a mano). Le aziende senza 'sources' vengono comunque riconosciute nei risultati degli aggregatori tramite name/aliases, e ricevono settore e rating. exclude=true scarta l'azienda (es. datore di lavoro attuale). Tipi supportati: greenhouse, lever (region eu), ashby, personio (domain de/com), recruitee, workable, smartrecruiters, workday (domain, tenant, site, queries).",
+  "companies": [
+    {
+      "name": "ICEYE", "sector": "Spazio – EO SAR", "macro_sector": "Aerospazio", "aerospace": true, "rating": 9, "country": "Finlandia / Europa",
+      "sources": [{"type": "ashby", "id": "iceye", "verified": true}]
+    },
+    {
+      "name": "Planet", "aliases": ["Planet Labs"], "sector": "Spazio – EO", "macro_sector": "Aerospazio", "aerospace": true, "rating": 9, "country": "Germania / Olanda",
+      "sources": [{"type": "greenhouse", "id": "planetlabs", "verified": true}]
+    },
+    {
+      "name": "Loft Orbital", "sector": "Spazio – missioni as a service", "macro_sector": "Aerospazio", "aerospace": true, "rating": 7, "country": "Francia",
+      "sources": [{"type": "lever", "id": "loftorbital", "verified": true}]
+    },
+    {
+      "name": "Overstory", "sector": "Utility / rischio vegetazione", "macro_sector": "Clima e sostenibilità", "aerospace": false, "rating": 7, "country": "Remoto (Europa)",
+      "sources": [{"type": "ashby", "id": "overstory", "verified": true}]
+    },
+    {
+      "name": "Scandit", "sector": "Software CV per retail/logistica", "macro_sector": "Retail e logistica", "aerospace": false, "rating": 8, "country": "Svizzera / Europa",
+      "sources": [{"type": "greenhouse", "id": "scandit", "verified": true}]
+    },
+    {
+      "name": "Google DeepMind", "aliases": ["DeepMind"], "sector": "Ricerca AI", "macro_sector": "Big tech", "aerospace": false, "rating": 10, "country": "UK / Svizzera / Europa",
+      "sources": [{"type": "greenhouse", "id": "deepmind", "verified": true}]
+    },
+    {
+      "name": "LiveEO", "sector": "Analytics satellitari per infrastrutture", "macro_sector": "Geospatial AI", "aerospace": false, "rating": 8, "country": "Germania",
+      "sources": [{"type": "personio", "id": "liveeo-gmbh", "domain": "com", "verified": true}]
+    },
+    {
+      "name": "Black Shark", "aliases": ["Blackshark", "Blackshark.ai"], "sector": "Digital twin 3D del pianeta", "macro_sector": "Geospatial AI", "aerospace": false, "rating": 7, "country": "Austria",
+      "sources": [{"type": "lever", "id": "blackshark", "region": "eu", "verified": true}]
+    },
+    {
+      "name": "osapiens", "sector": "Sostenibilità e compliance (EUDR)", "macro_sector": "Geospatial AI", "aerospace": false, "rating": 7, "country": "Germania",
+      "sources": [{"type": "personio", "id": "osapiens", "domain": "com", "verified": false, "note": "feed Personio presunto: controllare il foglio Fonti dopo la prima esecuzione"}]
+    },
+    {
+      "name": "constellr", "sector": "Spazio – EO termico per agricoltura", "macro_sector": "Aerospazio", "aerospace": true, "rating": 7, "country": "Germania / Europa",
+      "sources": [{"type": "recruitee", "id": "constellr", "verified": false, "note": "l'API Recruitee non ha risposto alla verifica manuale"}]
+    },
+    {
+      "name": "Airbus", "aliases": ["Airbus Defence and Space"], "sector": "Aerospazio e difesa", "macro_sector": "Aerospazio", "aerospace": true, "rating": 9, "country": "Francia / Germania / Spagna",
+      "sources": [{"type": "workday", "domain": "ag.wd3.myworkdayjobs.com", "tenant": "ag", "site": "Airbus", "verified": false,
+        "queries": ["machine learning", "artificial intelligence", "computer vision", "earth observation", "image processing"], "pages": 2}]
+    },
+    {
+      "name": "Thales", "aliases": ["Thales Alenia Space", "Thales Group"], "sector": "Spazio – costruttore di satelliti", "macro_sector": "Aerospazio", "aerospace": true, "rating": 8, "country": "Italia / Francia",
+      "sources": [{"type": "workday", "domain": "thales.wd3.myworkdayjobs.com", "tenant": "thales", "site": "Careers", "verified": false,
+        "queries": ["machine learning", "artificial intelligence", "computer vision", "earth observation", "data scientist"], "pages": 2}]
+    },
+    {
+      "name": "Jobgether", "sector": "Aggregatore (aziende partner non nominate)", "macro_sector": "Varie", "aerospace": false, "rating": 4, "country": "Remoto",
+      "sources": [{"type": "lever", "id": "jobgether", "verified": true, "note": "molte offerte di terzi: il filtro sul titolo e sulla sede fa la selezione"}]
+    },
+
+    {"name": "OHB", "aliases": ["OHB-System", "OHB System", "OHB Italia"], "sector": "Spazio – costruttore di satelliti", "macro_sector": "Aerospazio", "aerospace": true, "rating": 8, "country": "Germania / Italia"},
+    {"name": "Telespazio", "sector": "Spazio – servizi satellitari", "macro_sector": "Aerospazio", "aerospace": true, "rating": 8, "country": "Italia"},
+    {"name": "ESA", "aliases": ["European Space Agency", "ESRIN", "ESTEC", "ESOC"], "sector": "Agenzia spaziale", "macro_sector": "Aerospazio", "aerospace": true, "rating": 10, "country": "Italia / Europa"},
+    {"name": "ECMWF", "aliases": ["European Centre for Medium-Range Weather Forecasts"], "sector": "Ente intergovernativo meteo", "macro_sector": "Meteo e clima", "aerospace": false, "rating": 10, "country": "Germania / Regno Unito / Italia"},
+    {"name": "Open Cosmos", "sector": "Spazio – satelliti e dati EO", "macro_sector": "Aerospazio", "aerospace": true, "rating": 7, "country": "Spagna / Portogallo / UK"},
+    {"name": "Satlantis", "sector": "Spazio – payload ottici EO", "macro_sector": "Aerospazio", "aerospace": true, "rating": 6, "country": "Spagna / Francia"},
+    {"name": "Development Seed", "sector": "Open science e consulenza geospaziale", "macro_sector": "Geospatial AI", "aerospace": false, "rating": 8, "country": "Portogallo / Europa (remoto)"},
+    {"name": "AtlasAI", "aliases": ["Atlas AI"], "sector": "Finanza e impact investing", "macro_sector": "Geospatial AI", "aerospace": false, "rating": 6, "country": "Europa (remoto)"},
+    {"name": "Aistech Space", "aliases": ["Aistech"], "sector": "Spazio – EO termico", "macro_sector": "Aerospazio", "aerospace": true, "rating": 6, "country": "Spagna"},
+    {"name": "Hydrosat", "sector": "Spazio – EO termico per agri-food", "macro_sector": "Aerospazio", "aerospace": true, "rating": 7, "country": "Lussemburgo / Francia"},
+    {"name": "SPAICE", "sector": "Autonomia per satelliti e droni", "macro_sector": "Aerospazio", "aerospace": true, "rating": 6, "country": "Italia"},
+    {"name": "Infinite Orbits", "sector": "Spazio – servizi in orbita", "macro_sector": "Aerospazio", "aerospace": true, "rating": 6, "country": "Francia"},
+    {"name": "Safran.AI", "aliases": ["Safran AI", "Preligens"], "sector": "Geospatial AI per la difesa", "macro_sector": "Difesa", "aerospace": false, "rating": 8, "country": "Francia"},
+    {"name": "Visarsoft", "aliases": ["Madfish"], "sector": "Defence tech", "macro_sector": "Difesa", "aerospace": false, "rating": 5, "country": "Europa (remoto)"},
+    {"name": "Treefera", "sector": "Supply chain / foreste", "macro_sector": "Clima e sostenibilità", "aerospace": false, "rating": 6, "country": "Regno Unito"},
+    {"name": "Clera", "sector": "Utility / rischio incendi (climate tech)", "macro_sector": "Energia", "aerospace": false, "rating": 7, "country": "Europa (remoto)"},
+    {"name": "Eni", "sector": "Energia (oil & gas, transizione)", "macro_sector": "Energia", "aerospace": false, "rating": 9, "country": "Italia"},
+    {"name": "Plenitude", "sector": "Energia retail e rinnovabili", "macro_sector": "Energia", "aerospace": false, "rating": 8, "country": "Italia"},
+    {"name": "Enel", "sector": "Energia e utility", "macro_sector": "Energia", "aerospace": false, "rating": 9, "country": "Italia"},
+    {"name": "Sky Italia", "aliases": ["Sky Group"], "sector": "Media / intrattenimento", "macro_sector": "Media e telco", "aerospace": false, "rating": 8, "country": "Italia"},
+    {"name": "NTT DATA", "aliases": ["NTT Data Italia"], "sector": "Consulenza multi-settore", "macro_sector": "Consulenza IT", "aerospace": false, "rating": 6, "country": "Italia"},
+    {"name": "Almawave", "sector": "AI e software enterprise", "macro_sector": "Software e IT", "aerospace": false, "rating": 6, "country": "Italia"},
+    {"name": "Pi School", "sector": "AI R&D (progetti ESA)", "macro_sector": "Ricerca e formazione AI", "aerospace": false, "rating": 6, "country": "Italia"},
+    {"name": "AI4I", "aliases": ["Istituto Italiano di Intelligenza Artificiale"], "sector": "Ricerca applicata per l'industria", "macro_sector": "Industria", "aerospace": false, "rating": 7, "country": "Italia"},
+    {"name": "Technoprobe", "sector": "Semiconduttori", "macro_sector": "Industria", "aerospace": false, "rating": 7, "country": "Italia"},
+    {"name": "ESYEN", "sector": "Ingegneria per lo spazio", "macro_sector": "Aerospazio", "aerospace": true, "rating": 5, "country": "Italia"},
+    {"name": "Localyte", "sector": "Navigazione", "macro_sector": "Deep tech", "aerospace": false, "rating": 4, "country": "Italia"},
+
+    {"name": "e-GEOS", "aliases": ["e GEOS", "eGEOS"], "sector": "Spazio – servizi EO", "macro_sector": "Aerospazio", "aerospace": true, "rating": 0, "country": "Italia", "exclude": true, "notes": "datore di lavoro attuale: escluso dai risultati"}
+  ]
+}
