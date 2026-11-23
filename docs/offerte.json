@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T12:13:49.266005784Z",
+ "generated": "2026-11-23T12:53:36.284312151Z",
  "jobs": [
   {
    "key": "ashby:iceye:e5082d17-b132-4106-b70d-2a08cdeeb405",
@@ -325,6 +325,36 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "teamtailor:https://leafspace.teamtailor.com:6c7171f2-17fa-4afe-acfb-6ee68e52a29b",
+   "company": "Leaf Space",
+   "title": "Project Manager – ESA/EU/ASI Space Projects",
+   "location": "Lomazzo, Italy",
+   "remote": false,
+   "department": "BID",
+   "url": "https://leafspace.teamtailor.com/jobs/8638002-project-manager-esa-eu-asi-space-projects",
+   "source": "Teamtailor",
+   "published": "2026-10-29T14:58:43Z",
+   "sector": "Ground segment as a service",
+   "macro_sector": "Aerospazio",
+   "aerospace": "Sì",
+   "company_rating": 7,
+   "country": "Italia (Lomazzo)",
+   "score": 70,
+   "priority": "Media",
+   "matched": [
+    "remote sensing",
+    "satellite",
+    "esa",
+    "ecss",
+    "lead",
+    "project manager",
+    "sede: italy"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:53:36.284312151Z",
    "new": true
   },
   {
@@ -1320,6 +1350,34 @@
    "new": true
   },
   {
+   "key": "teamtailor:https://careers.open-cosmos.com:c3d4fbc9-a42e-46d9-ae16-4c26ca92ac7c",
+   "company": "Open Cosmos",
+   "title": "Project Manager, Software Engineering",
+   "location": "Didcot, United Kingdom / Pallini, Greece / Barcelona, Spain / Coimbra, Portugal / Palma, Spain / Porto, Portugal / La Laguna, Spain",
+   "remote": false,
+   "department": "DATA",
+   "url": "https://careers.open-cosmos.com/jobs/8751178-project-manager-software-engineering",
+   "source": "Teamtailor",
+   "published": "2026-11-16T21:34:10Z",
+   "sector": "Spazio – satelliti e dati EO",
+   "macro_sector": "Aerospazio",
+   "aerospace": "Sì",
+   "company_rating": 7,
+   "country": "Spagna / Portogallo / UK",
+   "score": 49,
+   "priority": "Bassa",
+   "matched": [
+    "geospatial",
+    "satellite",
+    "image processing",
+    "project manager",
+    "sede: spain"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:53:36.284312151Z",
+   "new": true
+  },
+  {
    "key": "ashby:iceye:9dc49b37-2a22-4e94-9af3-d4312f366cd8",
    "company": "ICEYE",
    "title": "AI Solutions Engineer",
@@ -1672,6 +1730,33 @@
    "new": true
   },
   {
+   "key": "successfactors:https://careers.qinetiq.com:https://careers.qinetiq.com/job/Manchester-Naimuri-Technical-Lead-Defence-Engl/1452198533/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
+   "company": "QinetiQ",
+   "title": "Naimuri - Technical Lead Defence",
+   "location": "Manchester, England, United Kingdom",
+   "remote": false,
+   "url": "https://careers.qinetiq.com/job/Manchester-Naimuri-Technical-Lead-Defence-Engl/1452198533/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
+   "source": "SuccessFactors",
+   "published": "2026-10-28T00:00:00Z",
+   "sector": "Difesa e spazio",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": "Sì",
+   "company_rating": 7,
+   "country": "UK / Belgio",
+   "score": 44,
+   "priority": "Bassa",
+   "matched": [
+    "technical lead",
+    "head",
+    "lead",
+    "python",
+    "sede: united kingdom"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:53:36.284312151Z",
+   "new": true
+  },
+  {
    "key": "lever:loftorbital:f5f9edbc-3e8c-4eb3-b757-25cfcbf8e7fa",
    "company": "Loft Orbital",
    "title": "Full Stack Engineer - AI Marketplace",
@@ -1786,6 +1871,32 @@
    "new": true
   },
   {
+   "key": "bamboohr:astroscale:689",
+   "company": "Astroscale",
+   "title": "Senior Computer Vision Engineer",
+   "location": "Oxfordshire UK, Didcot",
+   "remote": false,
+   "department": "CV \u0026 Robotics",
+   "url": "https://astroscale.bamboohr.com/careers/689",
+   "source": "BambooHR",
+   "published": "0001-01-01T00:00:00Z",
+   "sector": "Servizi in orbita",
+   "macro_sector": "Aerospazio",
+   "aerospace": "Sì",
+   "company_rating": 7,
+   "country": "UK / Giappone",
+   "score": 43,
+   "priority": "Bassa",
+   "matched": [
+    "computer vision",
+    "senior",
+    "sede: uk"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:53:36.284312151Z",
+   "new": true
+  },
+  {
    "key": "arbeitnow:remote-senior-data-scientist-research-eu-uk-berlin-88725",
    "company": "Makersite GmbH",
    "title": "Senior Data Scientist - Research EU/UK (m/f/x)",
@@ -1883,6 +1994,33 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": true
+  },
+  {
+   "key": "successfactors:https://careers.qinetiq.com:https://careers.qinetiq.com/job/Manchester-Naimuri-Senior-Data-Scientist-Engl/1280625801/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
+   "company": "QinetiQ",
+   "title": "Naimuri - Senior Data Scientist",
+   "location": "Manchester, England, United Kingdom",
+   "remote": false,
+   "url": "https://careers.qinetiq.com/job/Manchester-Naimuri-Senior-Data-Scientist-Engl/1280625801/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
+   "source": "SuccessFactors",
+   "published": "2026-11-17T02:00:00Z",
+   "sector": "Difesa e spazio",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": "Sì",
+   "company_rating": 7,
+   "country": "UK / Belgio",
+   "score": 41,
+   "priority": "Bassa",
+   "matched": [
+    "satellite",
+    "head",
+    "senior",
+    "python",
+    "sede: united kingdom"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:53:36.284312151Z",
    "new": true
   },
   {
@@ -2006,6 +2144,32 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": true
+  },
+  {
+   "key": "successfactors:https://careers.qinetiq.com:https://careers.qinetiq.com/job/Manchester-Technical-Lead-Engl/1266596701/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
+   "company": "QinetiQ",
+   "title": "Technical Lead",
+   "location": "Manchester, England, United Kingdom",
+   "remote": false,
+   "url": "https://careers.qinetiq.com/job/Manchester-Technical-Lead-Engl/1266596701/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
+   "source": "SuccessFactors",
+   "published": "2026-11-08T02:00:00Z",
+   "sector": "Difesa e spazio",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": "Sì",
+   "company_rating": 7,
+   "country": "UK / Belgio",
+   "score": 38,
+   "priority": "Bassa",
+   "matched": [
+    "technical lead",
+    "lead",
+    "python",
+    "sede: united kingdom"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:53:36.284312151Z",
    "new": true
   },
   {
@@ -2555,6 +2719,31 @@
    "new": true
   },
   {
+   "key": "workday:globalhr:/job/Gloucester-South-Gloucestershire/Principal-Data-Scientist---Machine-Learning-Researcher_01804570",
+   "company": "RTX",
+   "title": "Principal Data Scientist \u0026 Machine Learning Researcher",
+   "location": "3 Locations",
+   "remote": false,
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/Gloucester-South-Gloucestershire/Principal-Data-Scientist---Machine-Learning-Researcher_01804570",
+   "source": "Workday",
+   "published": "0001-01-01T00:00:00Z",
+   "published_note": "Posted 30+ Days Ago",
+   "sector": "Aerospazio e difesa (Collins, Pratt \u0026 Whitney, Raytheon)",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": "Sì",
+   "company_rating": 8,
+   "country": "USA / Europa",
+   "score": 32,
+   "priority": "Bassa",
+   "matched": [
+    "machine learning",
+    "principal"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:53:36.284312151Z",
+   "new": true
+  },
+  {
    "key": "arbeitnow:ai-forward-deployed-engineer-netherlands-amsterdam-113124",
    "company": "databricks",
    "title": "AI Forward Deployed Engineer - Netherlands",
@@ -2696,6 +2885,30 @@
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
    "new": true
+  },
+  {
+   "key": "bamboohr:clearspace:81",
+   "company": "ClearSpace",
+   "title": "On-board Data Handling Engineer",
+   "location": "London, London, City of",
+   "remote": false,
+   "url": "https://clearspace.bamboohr.com/careers/81",
+   "source": "BambooHR",
+   "published": "0001-01-01T00:00:00Z",
+   "sector": "Rimozione detriti",
+   "macro_sector": "Aerospazio",
+   "aerospace": "Sì",
+   "company_rating": 6,
+   "country": "Svizzera / UK",
+   "score": 30,
+   "priority": "Bassa",
+   "matched": [
+    "on board",
+    "sede: london"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:53:36.284312151Z",
+   "new": true
   }
  ],
  "sources": [
@@ -2707,7 +2920,7 @@
    "fetched": 192,
    "kept": 13,
    "verified": true,
-   "millis": 139
+   "millis": 129
   },
   {
    "name": "Planet · Greenhouse",
@@ -2717,7 +2930,7 @@
    "fetched": 110,
    "kept": 4,
    "verified": true,
-   "millis": 175
+   "millis": 137
   },
   {
    "name": "Loft Orbital · Lever",
@@ -2727,7 +2940,7 @@
    "fetched": 86,
    "kept": 3,
    "verified": true,
-   "millis": 653
+   "millis": 549
   },
   {
    "name": "Overstory · Ashby",
@@ -2737,7 +2950,7 @@
    "fetched": 7,
    "kept": 0,
    "verified": true,
-   "millis": 78
+   "millis": 43
   },
   {
    "name": "Scandit · Greenhouse",
@@ -2747,7 +2960,7 @@
    "fetched": 11,
    "kept": 0,
    "verified": true,
-   "millis": 61
+   "millis": 79
   },
   {
    "name": "LiveEO · Personio",
@@ -2757,7 +2970,7 @@
    "fetched": 23,
    "kept": 2,
    "verified": true,
-   "millis": 179
+   "millis": 1300
   },
   {
    "name": "Black Shark · Lever",
@@ -2767,7 +2980,7 @@
    "fetched": 5,
    "kept": 2,
    "verified": true,
-   "millis": 925
+   "millis": 893
   },
   {
    "name": "osapiens · Pinpoint",
@@ -2777,17 +2990,17 @@
    "fetched": 76,
    "kept": 0,
    "verified": true,
-   "millis": 1603
+   "millis": 1562
   },
   {
    "name": "Airbus · Workday",
    "type": "workday",
    "ok": true,
    "skipped": false,
-   "fetched": 130,
+   "fetched": 129,
    "kept": 5,
    "verified": false,
-   "millis": 12193
+   "millis": 12222
   },
   {
    "name": "Thales · Workday",
@@ -2797,37 +3010,37 @@
    "fetched": 155,
    "kept": 4,
    "verified": false,
-   "millis": 12612
+   "millis": 12855
   },
   {
    "name": "Jobgether · Lever",
    "type": "lever",
    "ok": true,
    "skipped": false,
-   "fetched": 4549,
+   "fetched": 4591,
    "kept": 11,
    "verified": true,
-   "millis": 27614
+   "millis": 33658
   },
   {
    "name": "ESA · Successfactors",
    "type": "successfactors",
    "ok": true,
    "skipped": false,
-   "fetched": 20,
+   "fetched": 73,
    "kept": 3,
    "verified": true,
-   "millis": 2051
+   "millis": 7259
   },
   {
    "name": "Open Cosmos · Teamtailor",
    "type": "teamtailor",
    "ok": true,
    "skipped": false,
-   "fetched": 54,
-   "kept": 1,
+   "fetched": 58,
+   "kept": 2,
    "verified": true,
-   "millis": 161
+   "millis": 95
   },
   {
    "name": "Development Seed · Greenhouse",
@@ -2837,7 +3050,7 @@
    "fetched": 1,
    "kept": 0,
    "verified": true,
-   "millis": 53
+   "millis": 35
   },
   {
    "name": "Hydrosat · Recruitee",
@@ -2847,7 +3060,7 @@
    "fetched": 14,
    "kept": 2,
    "verified": true,
-   "millis": 328
+   "millis": 279
   },
   {
    "name": "Safran.AI · Lever",
@@ -2857,7 +3070,7 @@
    "fetched": 16,
    "kept": 4,
    "verified": true,
-   "millis": 22126
+   "millis": 67
   },
   {
    "name": "Helsing · Greenhouse",
@@ -2867,7 +3080,7 @@
    "fetched": 176,
    "kept": 1,
    "verified": true,
-   "millis": 257
+   "millis": 199
   },
   {
    "name": "Wayve · Ashby",
@@ -2877,7 +3090,7 @@
    "fetched": 151,
    "kept": 19,
    "verified": true,
-   "millis": 189
+   "millis": 96
   },
   {
    "name": "Spire Global · Greenhouse",
@@ -2887,7 +3100,7 @@
    "fetched": 25,
    "kept": 0,
    "verified": true,
-   "millis": 164
+   "millis": 72
   },
   {
    "name": "Kuva Space · Teamtailor",
@@ -2897,7 +3110,7 @@
    "fetched": 2,
    "kept": 0,
    "verified": true,
-   "millis": 372
+   "millis": 118
   },
   {
    "name": "OroraTech · Personio",
@@ -2907,7 +3120,257 @@
    "fetched": 1,
    "kept": 0,
    "verified": true,
-   "millis": 798
+   "millis": 78
+  },
+  {
+   "name": "Leaf Space · Teamtailor",
+   "type": "teamtailor",
+   "ok": true,
+   "skipped": false,
+   "fetched": 10,
+   "kept": 1,
+   "verified": true,
+   "millis": 546
+  },
+  {
+   "name": "Leonardo DRS · Successfactors",
+   "type": "successfactors",
+   "ok": true,
+   "skipped": false,
+   "fetched": 89,
+   "kept": 0,
+   "verified": true,
+   "millis": 3249
+  },
+  {
+   "name": "Rolls-Royce · Workday",
+   "type": "workday",
+   "ok": true,
+   "skipped": false,
+   "fetched": 109,
+   "kept": 0,
+   "verified": true,
+   "millis": 12584
+  },
+  {
+   "name": "Kongsberg · Teamtailor",
+   "type": "teamtailor",
+   "ok": true,
+   "skipped": false,
+   "fetched": 9,
+   "kept": 0,
+   "verified": true,
+   "millis": 492
+  },
+  {
+   "name": "QinetiQ · Successfactors",
+   "type": "successfactors",
+   "ok": true,
+   "skipped": false,
+   "fetched": 69,
+   "kept": 3,
+   "verified": true,
+   "millis": 7615
+  },
+  {
+   "name": "SES · Successfactors",
+   "type": "successfactors",
+   "ok": true,
+   "skipped": false,
+   "fetched": 61,
+   "kept": 0,
+   "verified": true,
+   "millis": 7167
+  },
+  {
+   "name": "Eutelsat OneWeb · Successfactors",
+   "type": "successfactors",
+   "ok": true,
+   "skipped": false,
+   "fetched": 41,
+   "kept": 0,
+   "verified": true,
+   "millis": 3436
+  },
+  {
+   "name": "Isar Aerospace · Greenhouse",
+   "type": "greenhouse",
+   "ok": true,
+   "skipped": false,
+   "fetched": 144,
+   "kept": 0,
+   "verified": true,
+   "millis": 132
+  },
+  {
+   "name": "The Exploration Company · Ashby",
+   "type": "ashby",
+   "ok": true,
+   "skipped": false,
+   "fetched": 127,
+   "kept": 0,
+   "verified": true,
+   "millis": 62
+  },
+  {
+   "name": "ClearSpace · Bamboohr",
+   "type": "bamboohr",
+   "ok": true,
+   "skipped": false,
+   "fetched": 31,
+   "kept": 1,
+   "verified": true,
+   "millis": 964
+  },
+  {
+   "name": "Redwire Space Europe · Greenhouse",
+   "type": "greenhouse",
+   "ok": true,
+   "skipped": false,
+   "fetched": 11,
+   "kept": 0,
+   "verified": true,
+   "millis": 40
+  },
+  {
+   "name": "Exolaunch · Personio",
+   "type": "personio",
+   "ok": true,
+   "skipped": false,
+   "fetched": 10,
+   "kept": 0,
+   "verified": true,
+   "millis": 1109
+  },
+  {
+   "name": "Astroscale · Bamboohr",
+   "type": "bamboohr",
+   "ok": true,
+   "skipped": false,
+   "fetched": 48,
+   "kept": 1,
+   "verified": true,
+   "millis": 1008
+  },
+  {
+   "name": "Satellogic · Bamboohr",
+   "type": "bamboohr",
+   "ok": true,
+   "skipped": false,
+   "fetched": 15,
+   "kept": 0,
+   "verified": true,
+   "millis": 306
+  },
+  {
+   "name": "GE Aerospace · Workday",
+   "type": "workday",
+   "ok": true,
+   "skipped": false,
+   "fetched": 84,
+   "kept": 0,
+   "verified": true,
+   "millis": 2522
+  },
+  {
+   "name": "Boeing · Workday",
+   "type": "workday",
+   "ok": true,
+   "skipped": false,
+   "fetched": 177,
+   "kept": 0,
+   "verified": true,
+   "millis": 10277
+  },
+  {
+   "name": "Northrop Grumman · Workday",
+   "type": "workday",
+   "ok": true,
+   "skipped": false,
+   "fetched": 165,
+   "kept": 0,
+   "verified": true,
+   "millis": 5990
+  },
+  {
+   "name": "RTX · Workday",
+   "type": "workday",
+   "ok": true,
+   "skipped": false,
+   "fetched": 207,
+   "kept": 1,
+   "verified": true,
+   "millis": 4585
+  },
+  {
+   "name": "L3Harris · Successfactors",
+   "type": "successfactors",
+   "ok": true,
+   "skipped": false,
+   "fetched": 108,
+   "kept": 0,
+   "verified": true,
+   "millis": 3948
+  },
+  {
+   "name": "Blue Origin · Workday",
+   "type": "workday",
+   "ok": true,
+   "skipped": false,
+   "fetched": 113,
+   "kept": 0,
+   "verified": true,
+   "millis": 5721
+  },
+  {
+   "name": "SpaceX · Greenhouse",
+   "type": "greenhouse",
+   "ok": true,
+   "skipped": false,
+   "fetched": 2845,
+   "kept": 0,
+   "verified": true,
+   "millis": 1547
+  },
+  {
+   "name": "Rocket Lab · Greenhouse",
+   "type": "greenhouse",
+   "ok": true,
+   "skipped": false,
+   "fetched": 554,
+   "kept": 0,
+   "verified": true,
+   "millis": 526
+  },
+  {
+   "name": "Capella Space · Greenhouse",
+   "type": "greenhouse",
+   "ok": true,
+   "skipped": false,
+   "fetched": 9,
+   "kept": 0,
+   "verified": true,
+   "millis": 42
+  },
+  {
+   "name": "BlackSky · Greenhouse",
+   "type": "greenhouse",
+   "ok": true,
+   "skipped": false,
+   "fetched": 40,
+   "kept": 0,
+   "verified": true,
+   "millis": 70
+  },
+  {
+   "name": "Embraer · Breezy",
+   "type": "breezy",
+   "ok": true,
+   "skipped": false,
+   "fetched": 53,
+   "kept": 0,
+   "verified": true,
+   "millis": 116
   },
   {
    "name": "Adzuna: machine learning @ Roma it",
@@ -3097,6 +3560,116 @@
    "millis": 0
   },
   {
+   "name": "Adzuna: Avio Colleferro @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: Avio Aero @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: Elettronica ELT @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: MBDA @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: Rheinmetall Italia @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: Sitael @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: OHB Italia @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: GMV @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: Indra @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: Space Engineering @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
    "name": "Adzuna: earth observation machine learning @  de",
    "type": "adzuna",
    "ok": false,
@@ -3214,7 +3787,7 @@
    "fetched": 900,
    "kept": 25,
    "verified": true,
-   "millis": 1437
+   "millis": 914
   },
   {
    "name": "Remotive: machine learning @",
@@ -3224,7 +3797,7 @@
    "fetched": 16,
    "kept": 0,
    "verified": true,
-   "millis": 154
+   "millis": 82
   }
  ]
 }
