@@ -1,66 +1,804 @@
 {
-  "_comment": "Aziende da cercare con 'go run ./cmd/discover' (o il workflow 'Scoperta fonti'). Gli slug vengono ricavati anche dal nome; 'domains' serve per i siti carriere su dominio proprio (Teamtailor, Pinpoint, SuccessFactors). Le fonti trovate vanno copiate in companies.json.",
-  "candidates": [
-    {"company": "Google DeepMind", "slugs": ["deepmind", "googledeepmind"]},
-    {"company": "osapiens", "domains": ["careers.osapiens.com"]},
-    {"company": "constellr", "domains": ["careers.constellr.com", "jobs.constellr.com"]},
-    {"company": "Open Cosmos", "slugs": ["opencosmos", "open-cosmos"], "domains": ["careers.open-cosmos.com"]},
-    {"company": "ESA", "slugs": ["esa"], "domains": ["jobs.esa.int"]},
-    {"company": "EUMETSAT", "domains": ["jobs.eumetsat.int", "careers.eumetsat.int"]},
-    {"company": "ECMWF"},
-    {"company": "Development Seed", "slugs": ["developmentseed", "devseed"]},
-    {"company": "Satlantis"},
-    {"company": "AtlasAI", "slugs": ["atlasai", "atlas-ai"]},
-    {"company": "Aistech Space", "slugs": ["aistech", "aistechspace"]},
-    {"company": "Hydrosat"},
-    {"company": "SPAICE", "slugs": ["spaice", "spaicetech"]},
-    {"company": "Infinite Orbits", "slugs": ["infiniteorbits"]},
-    {"company": "Safran.AI", "slugs": ["safranai", "preligens", "safran"]},
-    {"company": "Treefera"},
-    {"company": "Clera"},
-    {"company": "OHB", "slugs": ["ohb", "ohbsystem", "ohb-system"], "domains": ["jobs.ohb.de", "karriere.ohb.de"]},
-    {"company": "Telespazio", "domains": ["careers.leonardo.com", "jobs.leonardo.com"]},
-    {"company": "Leonardo", "workday": true, "domains": ["careers.leonardo.com", "jobs.leonardo.com"]},
-    {"company": "Eni", "workday": true, "domains": ["jobs.eni.com", "careers.eni.com"]},
-    {"company": "Enel", "workday": true, "domains": ["jobs.enel.com", "careers.enel.com"]},
-    {"company": "Sky", "slugs": ["sky", "skygroup"], "workday": true},
-    {"company": "NTT DATA", "slugs": ["nttdata"], "workday": true},
-    {"company": "Almawave"},
-    {"company": "Pi School", "slugs": ["pischool", "pischoolsrl"]},
-    {"company": "Technoprobe"},
-
-    {"company": "AIKO", "slugs": ["aiko", "aikospace", "aiko-space"], "note": "Torino – AI autonoma onboard per missioni spaziali"},
-    {"company": "Ubotica", "note": "Irlanda/Olanda – AI onboard (Φsat)"},
-    {"company": "KP Labs", "slugs": ["kplabs"], "note": "Polonia – AI onboard e hyperspectral"},
-    {"company": "D-Orbit", "slugs": ["dorbit"], "note": "Como – logistica spaziale, edge computing in orbita"},
-    {"company": "Argotec", "note": "Torino – piccoli satelliti"},
-    {"company": "Planetek Italia", "slugs": ["planetek"], "note": "Bari – EO e onboard processing"},
-    {"company": "Aresys", "note": "Milano – elaborazione SAR"},
-    {"company": "IngeniArs", "note": "Pisa – AI onboard su FPGA"},
-    {"company": "Terradue", "note": "Roma – piattaforme cloud per EO"},
-    {"company": "Serco", "slugs": ["serco", "sercoitalia"], "workday": true, "note": "Frascati – servizi per ESA/Copernicus"},
-    {"company": "RHEA Group", "slugs": ["rhea", "rheagroup"], "note": "Frascati – servizi per ESA"},
-    {"company": "Starion Group", "slugs": ["starion", "starionitalia"], "note": "Roma/Frascati – ingegneria per ESA"},
-    {"company": "MEEO", "note": "Ferrara – EO data"},
-    {"company": "Translated", "note": "Roma – AI per il linguaggio, in crescita"},
-    {"company": "OroraTech", "slugs": ["ororatech"], "note": "Monaco – EO termico per incendi"},
-    {"company": "UP42", "slugs": ["up42"], "note": "Berlino – marketplace di dati geospaziali"},
-    {"company": "CloudFerro", "slugs": ["cloudferro"], "note": "Varsavia – cloud per dati Copernicus"},
-    {"company": "Kayrros", "note": "Parigi – analytics da satellite per energia e clima"},
-    {"company": "Picterra", "note": "Losanna – geospatial AI"},
-    {"company": "Spire Global", "slugs": ["spire", "spireglobal"], "note": "Lussemburgo/Glasgow – dati satellitari"},
-    {"company": "EarthDaily Analytics", "slugs": ["earthdaily", "earthdailyanalytics"]},
-    {"company": "Satellite Vu", "slugs": ["satellitevu"], "note": "Londra – EO termico"},
-    {"company": "Kuva Space", "slugs": ["kuvaspace"], "note": "Finlandia – hyperspectral"},
-    {"company": "Marble Imaging", "slugs": ["marbleimaging"], "note": "Brema – EO ad altissima risoluzione"},
-    {"company": "Unseenlabs", "note": "Rennes – RF da satellite"},
-    {"company": "Vyoma", "note": "Monaco – space situational awareness"},
-    {"company": "Mercator Ocean", "slugs": ["mercatorocean"], "note": "Tolosa – Copernicus Marine"},
-    {"company": "Isardsat", "slugs": ["isardsat"], "note": "Barcellona – altimetria e EO"},
-    {"company": "Sateliot", "note": "Barcellona"},
-    {"company": "Exotrail", "note": "Parigi"},
-    {"company": "Helsing", "note": "Monaco/Londra/Parigi – AI per la difesa, incluso ISR da satellite"},
-    {"company": "Wayve", "note": "Londra – computer vision / guida autonoma"},
-    {"company": "Mistral AI", "slugs": ["mistral"], "note": "Parigi – modelli di AI"}
-  ]
+ "_comment": "Aziende da cercare con 'go run ./cmd/discover' (o il workflow 'Scoperta fonti'). Gli slug vengono ricavati anche dal nome; 'domains' serve per i siti carriere su dominio proprio (Teamtailor, Pinpoint, SuccessFactors). Le fonti trovate vanno copiate in companies.json.",
+ "candidates": [
+  {
+   "company": "Google DeepMind",
+   "slugs": [
+    "deepmind",
+    "googledeepmind"
+   ]
+  },
+  {
+   "company": "osapiens",
+   "domains": [
+    "careers.osapiens.com"
+   ]
+  },
+  {
+   "company": "constellr",
+   "domains": [
+    "careers.constellr.com",
+    "jobs.constellr.com"
+   ]
+  },
+  {
+   "company": "Open Cosmos",
+   "slugs": [
+    "opencosmos",
+    "open-cosmos"
+   ],
+   "domains": [
+    "careers.open-cosmos.com"
+   ]
+  },
+  {
+   "company": "ESA",
+   "slugs": [
+    "esa"
+   ],
+   "domains": [
+    "jobs.esa.int"
+   ]
+  },
+  {
+   "company": "EUMETSAT",
+   "domains": [
+    "jobs.eumetsat.int",
+    "careers.eumetsat.int"
+   ]
+  },
+  {
+   "company": "ECMWF"
+  },
+  {
+   "company": "Development Seed",
+   "slugs": [
+    "developmentseed",
+    "devseed"
+   ]
+  },
+  {
+   "company": "Satlantis"
+  },
+  {
+   "company": "AtlasAI",
+   "slugs": [
+    "atlasai",
+    "atlas-ai"
+   ]
+  },
+  {
+   "company": "Aistech Space",
+   "slugs": [
+    "aistech",
+    "aistechspace"
+   ]
+  },
+  {
+   "company": "Hydrosat"
+  },
+  {
+   "company": "SPAICE",
+   "slugs": [
+    "spaice",
+    "spaicetech"
+   ]
+  },
+  {
+   "company": "Infinite Orbits",
+   "slugs": [
+    "infiniteorbits"
+   ]
+  },
+  {
+   "company": "Safran.AI",
+   "slugs": [
+    "safranai",
+    "preligens",
+    "safran"
+   ]
+  },
+  {
+   "company": "Treefera"
+  },
+  {
+   "company": "Clera"
+  },
+  {
+   "company": "OHB",
+   "slugs": [
+    "ohb",
+    "ohbsystem",
+    "ohb-system"
+   ],
+   "domains": [
+    "jobs.ohb.de",
+    "karriere.ohb.de"
+   ]
+  },
+  {
+   "company": "Telespazio",
+   "domains": [
+    "careers.leonardo.com",
+    "jobs.leonardo.com"
+   ]
+  },
+  {
+   "company": "Leonardo",
+   "workday": true,
+   "domains": [
+    "careers.leonardo.com",
+    "jobs.leonardo.com"
+   ]
+  },
+  {
+   "company": "Eni",
+   "workday": true,
+   "domains": [
+    "jobs.eni.com",
+    "careers.eni.com"
+   ]
+  },
+  {
+   "company": "Enel",
+   "workday": true,
+   "domains": [
+    "jobs.enel.com",
+    "careers.enel.com"
+   ]
+  },
+  {
+   "company": "Sky",
+   "slugs": [
+    "sky",
+    "skygroup"
+   ],
+   "workday": true
+  },
+  {
+   "company": "NTT DATA",
+   "slugs": [
+    "nttdata"
+   ],
+   "workday": true
+  },
+  {
+   "company": "Almawave"
+  },
+  {
+   "company": "Pi School",
+   "slugs": [
+    "pischool",
+    "pischoolsrl"
+   ]
+  },
+  {
+   "company": "Technoprobe"
+  },
+  {
+   "company": "AIKO",
+   "slugs": [
+    "aiko",
+    "aikospace",
+    "aiko-space"
+   ],
+   "note": "Torino – AI autonoma onboard per missioni spaziali"
+  },
+  {
+   "company": "Ubotica",
+   "note": "Irlanda/Olanda – AI onboard (Φsat)"
+  },
+  {
+   "company": "KP Labs",
+   "slugs": [
+    "kplabs"
+   ],
+   "note": "Polonia – AI onboard e hyperspectral"
+  },
+  {
+   "company": "D-Orbit",
+   "slugs": [
+    "dorbit"
+   ],
+   "note": "Como – logistica spaziale, edge computing in orbita"
+  },
+  {
+   "company": "Argotec",
+   "note": "Torino – piccoli satelliti"
+  },
+  {
+   "company": "Planetek Italia",
+   "slugs": [
+    "planetek"
+   ],
+   "note": "Bari – EO e onboard processing"
+  },
+  {
+   "company": "Aresys",
+   "note": "Milano – elaborazione SAR"
+  },
+  {
+   "company": "IngeniArs",
+   "note": "Pisa – AI onboard su FPGA"
+  },
+  {
+   "company": "Terradue",
+   "note": "Roma – piattaforme cloud per EO"
+  },
+  {
+   "company": "Serco",
+   "slugs": [
+    "serco",
+    "sercoitalia"
+   ],
+   "workday": true,
+   "note": "Frascati – servizi per ESA/Copernicus"
+  },
+  {
+   "company": "RHEA Group",
+   "slugs": [
+    "rhea",
+    "rheagroup"
+   ],
+   "note": "Frascati – servizi per ESA"
+  },
+  {
+   "company": "Starion Group",
+   "slugs": [
+    "starion",
+    "starionitalia"
+   ],
+   "note": "Roma/Frascati – ingegneria per ESA"
+  },
+  {
+   "company": "MEEO",
+   "note": "Ferrara – EO data"
+  },
+  {
+   "company": "Translated",
+   "note": "Roma – AI per il linguaggio, in crescita"
+  },
+  {
+   "company": "OroraTech",
+   "slugs": [
+    "ororatech"
+   ],
+   "note": "Monaco – EO termico per incendi"
+  },
+  {
+   "company": "UP42",
+   "slugs": [
+    "up42"
+   ],
+   "note": "Berlino – marketplace di dati geospaziali"
+  },
+  {
+   "company": "CloudFerro",
+   "slugs": [
+    "cloudferro"
+   ],
+   "note": "Varsavia – cloud per dati Copernicus"
+  },
+  {
+   "company": "Kayrros",
+   "note": "Parigi – analytics da satellite per energia e clima"
+  },
+  {
+   "company": "Picterra",
+   "note": "Losanna – geospatial AI"
+  },
+  {
+   "company": "Spire Global",
+   "slugs": [
+    "spire",
+    "spireglobal"
+   ],
+   "note": "Lussemburgo/Glasgow – dati satellitari"
+  },
+  {
+   "company": "EarthDaily Analytics",
+   "slugs": [
+    "earthdaily",
+    "earthdailyanalytics"
+   ]
+  },
+  {
+   "company": "Satellite Vu",
+   "slugs": [
+    "satellitevu"
+   ],
+   "note": "Londra – EO termico"
+  },
+  {
+   "company": "Kuva Space",
+   "slugs": [
+    "kuvaspace"
+   ],
+   "note": "Finlandia – hyperspectral"
+  },
+  {
+   "company": "Marble Imaging",
+   "slugs": [
+    "marbleimaging"
+   ],
+   "note": "Brema – EO ad altissima risoluzione"
+  },
+  {
+   "company": "Unseenlabs",
+   "note": "Rennes – RF da satellite"
+  },
+  {
+   "company": "Vyoma",
+   "note": "Monaco – space situational awareness"
+  },
+  {
+   "company": "Mercator Ocean",
+   "slugs": [
+    "mercatorocean"
+   ],
+   "note": "Tolosa – Copernicus Marine"
+  },
+  {
+   "company": "Isardsat",
+   "slugs": [
+    "isardsat"
+   ],
+   "note": "Barcellona – altimetria e EO"
+  },
+  {
+   "company": "Sateliot",
+   "note": "Barcellona"
+  },
+  {
+   "company": "Exotrail",
+   "note": "Parigi"
+  },
+  {
+   "company": "Helsing",
+   "note": "Monaco/Londra/Parigi – AI per la difesa, incluso ISR da satellite"
+  },
+  {
+   "company": "Wayve",
+   "note": "Londra – computer vision / guida autonoma"
+  },
+  {
+   "company": "Mistral AI",
+   "slugs": [
+    "mistral"
+   ],
+   "note": "Parigi – modelli di AI"
+  },
+  {
+   "company": "Avio",
+   "slugs": [
+    "avio",
+    "aviospace"
+   ],
+   "domains": [
+    "careers.avio.com"
+   ]
+  },
+  {
+   "company": "Avio Aero",
+   "slugs": [
+    "avioaero"
+   ]
+  },
+  {
+   "company": "ELT Group",
+   "slugs": [
+    "eltgroup",
+    "elettronica"
+   ]
+  },
+  {
+   "company": "MBDA",
+   "slugs": [
+    "mbda"
+   ],
+   "domains": [
+    "careers.mbda-systems.com"
+   ]
+  },
+  {
+   "company": "Rheinmetall Italia",
+   "slugs": [
+    "rheinmetall"
+   ]
+  },
+  {
+   "company": "Sitael",
+   "slugs": [
+    "sitael"
+   ]
+  },
+  {
+   "company": "Tyvak International",
+   "slugs": [
+    "tyvak"
+   ]
+  },
+  {
+   "company": "Apogeo Space",
+   "slugs": [
+    "apogeospace"
+   ]
+  },
+  {
+   "company": "Kayser Italia",
+   "slugs": [
+    "kayseritalia"
+   ]
+  },
+  {
+   "company": "ALTEC",
+   "slugs": [
+    "altec"
+   ]
+  },
+  {
+   "company": "Leaf Space",
+   "slugs": [
+    "leafspace"
+   ],
+   "domains": [
+    "careers.leaf.space"
+   ]
+  },
+  {
+   "company": "Sidereus Space Dynamics",
+   "slugs": [
+    "sidereus"
+   ]
+  },
+  {
+   "company": "Officina Stellare",
+   "slugs": [
+    "officinastellare"
+   ]
+  },
+  {
+   "company": "IDS Ingegneria dei Sistemi",
+   "slugs": [
+    "idscorporation"
+   ]
+  },
+  {
+   "company": "Space Engineering",
+   "slugs": [
+    "spaceengineering"
+   ]
+  },
+  {
+   "company": "SpaceDyS",
+   "slugs": [
+    "spacedys"
+   ]
+  },
+  {
+   "company": "GMSpazio",
+   "slugs": [
+    "gmspazio"
+   ]
+  },
+  {
+   "company": "CIRA",
+   "slugs": [
+    "cira"
+   ]
+  },
+  {
+   "company": "ASI",
+   "slugs": [
+    "asi"
+   ]
+  },
+  {
+   "company": "Piaggio Aerospace",
+   "slugs": [
+    "piaggioaerospace"
+   ]
+  },
+  {
+   "company": "Tecnam",
+   "slugs": [
+    "tecnam"
+   ]
+  },
+  {
+   "company": "Leonardo DRS",
+   "slugs": [
+    "leonardodrs"
+   ],
+   "workday_urls": [
+    "https://leonardodrs.wd1.myworkdayjobs.com/LeonardoDRSCareers"
+   ]
+  },
+  {
+   "company": "Safran",
+   "slugs": [
+    "safran",
+    "safrangroup"
+   ]
+  },
+  {
+   "company": "ArianeGroup",
+   "slugs": [
+    "arianegroup"
+   ]
+  },
+  {
+   "company": "Dassault Aviation",
+   "slugs": [
+    "dassaultaviation"
+   ]
+  },
+  {
+   "company": "Rolls-Royce",
+   "slugs": [
+    "rollsroyce"
+   ],
+   "workday_urls": [
+    "https://rollsroyce.wd3.myworkdayjobs.com/professional"
+   ]
+  },
+  {
+   "company": "BAE Systems",
+   "slugs": [
+    "baesystems"
+   ],
+   "workday_urls": [
+    "https://baesystems.wd3.myworkdayjobs.com/BAE_Systems_External_Career_Site"
+   ]
+  },
+  {
+   "company": "Saab",
+   "slugs": [
+    "saab"
+   ]
+  },
+  {
+   "company": "Kongsberg",
+   "slugs": [
+    "kongsberg",
+    "ksat"
+   ]
+  },
+  {
+   "company": "Hensoldt",
+   "slugs": [
+    "hensoldt"
+   ]
+  },
+  {
+   "company": "Indra",
+   "slugs": [
+    "indra",
+    "indracompany"
+   ]
+  },
+  {
+   "company": "GMV",
+   "slugs": [
+    "gmv"
+   ]
+  },
+  {
+   "company": "Deimos",
+   "slugs": [
+    "deimos",
+    "elecnordeimos"
+   ]
+  },
+  {
+   "company": "Sener",
+   "slugs": [
+    "sener"
+   ]
+  },
+  {
+   "company": "QinetiQ",
+   "slugs": [
+    "qinetiq"
+   ]
+  },
+  {
+   "company": "Surrey Satellite Technology",
+   "slugs": [
+    "sstl"
+   ]
+  },
+  {
+   "company": "SES",
+   "slugs": [
+    "ses",
+    "sessatellites"
+   ]
+  },
+  {
+   "company": "Eutelsat OneWeb",
+   "slugs": [
+    "eutelsat",
+    "oneweb"
+   ]
+  },
+  {
+   "company": "Isar Aerospace",
+   "slugs": [
+    "isaraerospace"
+   ]
+  },
+  {
+   "company": "Rocket Factory Augsburg",
+   "slugs": [
+    "rfa",
+    "rocketfactoryaugsburg"
+   ]
+  },
+  {
+   "company": "The Exploration Company",
+   "slugs": [
+    "theexplorationcompany",
+    "exploration"
+   ]
+  },
+  {
+   "company": "Reflex Aerospace",
+   "slugs": [
+    "reflexaerospace"
+   ]
+  },
+  {
+   "company": "ClearSpace",
+   "slugs": [
+    "clearspace"
+   ]
+  },
+  {
+   "company": "Aerospacelab",
+   "slugs": [
+    "aerospacelab"
+   ]
+  },
+  {
+   "company": "Redwire Space Europe",
+   "slugs": [
+    "redwire"
+   ]
+  },
+  {
+   "company": "Exolaunch",
+   "slugs": [
+    "exolaunch"
+   ]
+  },
+  {
+   "company": "Astroscale",
+   "slugs": [
+    "astroscale"
+   ]
+  },
+  {
+   "company": "Satellogic",
+   "slugs": [
+    "satellogic"
+   ]
+  },
+  {
+   "company": "GE Aerospace",
+   "slugs": [
+    "geaerospace"
+   ],
+   "workday_urls": [
+    "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite"
+   ]
+  },
+  {
+   "company": "Boeing",
+   "slugs": [
+    "boeing"
+   ],
+   "workday_urls": [
+    "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS"
+   ]
+  },
+  {
+   "company": "Lockheed Martin",
+   "slugs": [
+    "lockheedmartin"
+   ]
+  },
+  {
+   "company": "Northrop Grumman",
+   "slugs": [
+    "northropgrumman"
+   ],
+   "workday_urls": [
+    "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site"
+   ]
+  },
+  {
+   "company": "RTX",
+   "slugs": [
+    "rtx"
+   ],
+   "workday_urls": [
+    "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway"
+   ]
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "slugs": [
+    "honeywell"
+   ],
+   "workday_urls": [
+    "https://honeywell.wd5.myworkdayjobs.com/Honeywell"
+   ]
+  },
+  {
+   "company": "L3Harris",
+   "slugs": [
+    "l3harris"
+   ],
+   "workday_urls": [
+    "https://l3harris.wd1.myworkdayjobs.com/L3HarrisCareers"
+   ]
+  },
+  {
+   "company": "Vantor",
+   "slugs": [
+    "vantor",
+    "maxar"
+   ],
+   "workday_urls": [
+    "https://maxar.wd1.myworkdayjobs.com/MAXAR"
+   ]
+  },
+  {
+   "company": "Blue Origin",
+   "slugs": [
+    "blueorigin"
+   ],
+   "workday_urls": [
+    "https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin"
+   ]
+  },
+  {
+   "company": "SpaceX",
+   "slugs": [
+    "spacex"
+   ]
+  },
+  {
+   "company": "Rocket Lab",
+   "slugs": [
+    "rocketlab"
+   ]
+  },
+  {
+   "company": "Capella Space",
+   "slugs": [
+    "capellaspace"
+   ]
+  },
+  {
+   "company": "Umbra",
+   "slugs": [
+    "umbra",
+    "umbraspace"
+   ]
+  },
+  {
+   "company": "BlackSky",
+   "slugs": [
+    "blacksky"
+   ]
+  },
+  {
+   "company": "Embraer",
+   "slugs": [
+    "embraer"
+   ]
+  }
+ ]
 }

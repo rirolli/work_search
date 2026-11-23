@@ -842,6 +842,610 @@
    ]
   },
   {
+   "name": "Avio",
+   "sector": "Lanciatori (Vega)",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 8,
+   "country": "Italia (Colleferro, Roma)",
+   "aliases": [
+    "Avio S.p.A."
+   ]
+  },
+  {
+   "name": "Avio Aero",
+   "sector": "Motori aeronautici (GE Aerospace)",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 8,
+   "country": "Italia (Rivalta, Pomigliano, Brindisi)",
+   "aliases": [
+    "GE Avio"
+   ]
+  },
+  {
+   "name": "ELT Group",
+   "sector": "Elettronica per la difesa",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": true,
+   "rating": 7,
+   "country": "Italia (Roma)",
+   "aliases": [
+    "Elettronica S.p.A.",
+    "Elettronica Group"
+   ]
+  },
+  {
+   "name": "MBDA",
+   "sector": "Sistemi missilistici",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": true,
+   "rating": 8,
+   "country": "Italia (Roma, La Spezia) / Francia / UK",
+   "aliases": [
+    "MBDA Italia"
+   ]
+  },
+  {
+   "name": "Rheinmetall Italia",
+   "sector": "Difesa – radar e sistemi",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": true,
+   "rating": 7,
+   "country": "Italia (Roma)",
+   "aliases": [
+    "Rheinmetall"
+   ]
+  },
+  {
+   "name": "Sitael",
+   "sector": "Piccoli satelliti e propulsione",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "Italia (Bari, Pisa)",
+   "aliases": [
+    "SITAEL"
+   ]
+  },
+  {
+   "name": "Tyvak International",
+   "sector": "Nanosatelliti",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 6,
+   "country": "Italia (Torino)",
+   "aliases": [
+    "Tyvak"
+   ]
+  },
+  {
+   "name": "Apogeo Space",
+   "sector": "Costellazione IoT",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 5,
+   "country": "Italia (Brescia)"
+  },
+  {
+   "name": "Kayser Italia",
+   "sector": "Payload scientifici",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 6,
+   "country": "Italia (Livorno)"
+  },
+  {
+   "name": "ALTEC",
+   "sector": "Servizi per l'esplorazione spaziale",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 6,
+   "country": "Italia (Torino)",
+   "aliases": [
+    "Altec S.p.A."
+   ]
+  },
+  {
+   "name": "Leaf Space",
+   "sector": "Ground segment as a service",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "Italia (Lomazzo)"
+  },
+  {
+   "name": "Sidereus Space Dynamics",
+   "sector": "Lanciatori riutilizzabili",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 5,
+   "country": "Italia (Salerno)",
+   "aliases": [
+    "Sidereus"
+   ]
+  },
+  {
+   "name": "Officina Stellare",
+   "sector": "Ottiche per satelliti",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 5,
+   "country": "Italia (Vicenza)"
+  },
+  {
+   "name": "IDS Ingegneria dei Sistemi",
+   "sector": "Radar e software aerospaziale",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 6,
+   "country": "Italia (Pisa, Roma)"
+  },
+  {
+   "name": "Space Engineering",
+   "sector": "Ingegneria di sistemi satellitari",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 6,
+   "country": "Italia (Roma)",
+   "aliases": [
+    "Space Engineering S.p.A."
+   ]
+  },
+  {
+   "name": "SpaceDyS",
+   "sector": "Dinamica orbitale e SSA",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 6,
+   "country": "Italia (Pisa)"
+  },
+  {
+   "name": "GMSpazio",
+   "sector": "Software per lo spazio",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 5,
+   "country": "Italia (Roma)"
+  },
+  {
+   "name": "CIRA",
+   "sector": "Centro di ricerca aerospaziale",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "Italia (Capua)",
+   "aliases": [
+    "Centro Italiano Ricerche Aerospaziali"
+   ]
+  },
+  {
+   "name": "ASI",
+   "sector": "Agenzia spaziale",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 9,
+   "country": "Italia (Roma)",
+   "aliases": [
+    "Agenzia Spaziale Italiana"
+   ]
+  },
+  {
+   "name": "Piaggio Aerospace",
+   "sector": "Aeronautica",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 5,
+   "country": "Italia (Villanova d'Albenga)"
+  },
+  {
+   "name": "Tecnam",
+   "sector": "Aeronautica generale",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 5,
+   "country": "Italia (Capua)"
+  },
+  {
+   "name": "Leonardo DRS",
+   "sector": "Elettronica per la difesa (gruppo Leonardo)",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": true,
+   "rating": 7,
+   "country": "USA / Italia"
+  },
+  {
+   "name": "Safran",
+   "sector": "Motori, avionica, ottica",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 9,
+   "country": "Francia / Europa",
+   "aliases": [
+    "Safran Group"
+   ]
+  },
+  {
+   "name": "ArianeGroup",
+   "sector": "Lanciatori",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 8,
+   "country": "Francia / Germania",
+   "aliases": [
+    "Ariane Group",
+    "Arianespace"
+   ]
+  },
+  {
+   "name": "Dassault Aviation",
+   "sector": "Aeronautica militare e civile",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 8,
+   "country": "Francia"
+  },
+  {
+   "name": "Rolls-Royce",
+   "sector": "Motori aeronautici",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 8,
+   "country": "UK / Germania",
+   "aliases": [
+    "Rolls Royce"
+   ]
+  },
+  {
+   "name": "BAE Systems",
+   "sector": "Difesa e aerospazio",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": true,
+   "rating": 8,
+   "country": "UK / Europa"
+  },
+  {
+   "name": "Saab",
+   "sector": "Difesa e aerospazio",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": true,
+   "rating": 8,
+   "country": "Svezia"
+  },
+  {
+   "name": "Kongsberg",
+   "sector": "Difesa, spazio e marittimo",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 8,
+   "country": "Norvegia",
+   "aliases": [
+    "Kongsberg Defence & Aerospace",
+    "KSAT",
+    "Kongsberg Satellite Services"
+   ]
+  },
+  {
+   "name": "Hensoldt",
+   "sector": "Sensori e radar per la difesa",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": true,
+   "rating": 8,
+   "country": "Germania"
+  },
+  {
+   "name": "Indra",
+   "sector": "Difesa, spazio e sistemi",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "Spagna / Italia",
+   "aliases": [
+    "Indra Sistemas"
+   ]
+  },
+  {
+   "name": "GMV",
+   "sector": "Ground segment, navigazione, EO",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 8,
+   "country": "Spagna / Italia / Europa",
+   "aliases": [
+    "GMV Innovating Solutions"
+   ]
+  },
+  {
+   "name": "Deimos",
+   "sector": "Sistemi spaziali ed EO (Elecnor)",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "Spagna / Portogallo / Italia",
+   "aliases": [
+    "Elecnor Deimos",
+    "Deimos Space"
+   ]
+  },
+  {
+   "name": "Sener",
+   "sector": "Ingegneria aerospaziale",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 6,
+   "country": "Spagna",
+   "aliases": [
+    "SENER Aeroespacial"
+   ]
+  },
+  {
+   "name": "QinetiQ",
+   "sector": "Difesa e spazio",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": true,
+   "rating": 7,
+   "country": "UK / Belgio"
+  },
+  {
+   "name": "Surrey Satellite Technology",
+   "sector": "Piccoli satelliti EO",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "UK",
+   "aliases": [
+    "SSTL"
+   ]
+  },
+  {
+   "name": "SES",
+   "sector": "Operatore satellitare",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 8,
+   "country": "Lussemburgo",
+   "aliases": [
+    "SES S.A."
+   ]
+  },
+  {
+   "name": "Eutelsat OneWeb",
+   "sector": "Operatore satellitare",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "Francia / UK",
+   "aliases": [
+    "Eutelsat",
+    "OneWeb"
+   ]
+  },
+  {
+   "name": "Isar Aerospace",
+   "sector": "Lanciatori",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "Germania"
+  },
+  {
+   "name": "Rocket Factory Augsburg",
+   "sector": "Lanciatori",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 6,
+   "country": "Germania"
+  },
+  {
+   "name": "The Exploration Company",
+   "sector": "Capsule spaziali",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "Germania / Francia"
+  },
+  {
+   "name": "Reflex Aerospace",
+   "sector": "Satelliti su misura",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 6,
+   "country": "Germania"
+  },
+  {
+   "name": "ClearSpace",
+   "sector": "Rimozione detriti",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 6,
+   "country": "Svizzera / UK"
+  },
+  {
+   "name": "Aerospacelab",
+   "sector": "Satelliti EO",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "Belgio"
+  },
+  {
+   "name": "Redwire Space Europe",
+   "sector": "Sistemi spaziali",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 6,
+   "country": "Belgio / Lussemburgo",
+   "aliases": [
+    "Redwire",
+    "Space Applications Services"
+   ]
+  },
+  {
+   "name": "Exolaunch",
+   "sector": "Servizi di lancio",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 5,
+   "country": "Germania"
+  },
+  {
+   "name": "Astroscale",
+   "sector": "Servizi in orbita",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "UK / Giappone"
+  },
+  {
+   "name": "Satellogic",
+   "sector": "Costellazione EO",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "Spagna / globale"
+  },
+  {
+   "name": "GE Aerospace",
+   "sector": "Motori aeronautici",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 9,
+   "country": "USA / Europa / Italia",
+   "aliases": [
+    "GE Aviation"
+   ]
+  },
+  {
+   "name": "Boeing",
+   "sector": "Aerospazio e difesa",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 8,
+   "country": "USA / Europa"
+  },
+  {
+   "name": "Lockheed Martin",
+   "sector": "Aerospazio e difesa",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": true,
+   "rating": 8,
+   "country": "USA / UK / Italia"
+  },
+  {
+   "name": "Northrop Grumman",
+   "sector": "Aerospazio e difesa",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": true,
+   "rating": 8,
+   "country": "USA / Europa"
+  },
+  {
+   "name": "RTX",
+   "sector": "Aerospazio e difesa (Collins, Pratt & Whitney, Raytheon)",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": true,
+   "rating": 8,
+   "country": "USA / Europa",
+   "aliases": [
+    "Collins Aerospace",
+    "Pratt & Whitney",
+    "Raytheon"
+   ]
+  },
+  {
+   "name": "Honeywell Aerospace",
+   "sector": "Avionica e sistemi",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 8,
+   "country": "USA / Europa",
+   "aliases": [
+    "Honeywell"
+   ]
+  },
+  {
+   "name": "L3Harris",
+   "sector": "Difesa, spazio e sensori",
+   "macro_sector": "Aerospazio e difesa",
+   "aerospace": true,
+   "rating": 7,
+   "country": "USA / UK"
+  },
+  {
+   "name": "Vantor",
+   "sector": "EO ad alta risoluzione (ex Maxar)",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 8,
+   "country": "USA / Europa",
+   "aliases": [
+    "Maxar",
+    "Maxar Technologies"
+   ]
+  },
+  {
+   "name": "Blue Origin",
+   "sector": "Lanciatori",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "USA"
+  },
+  {
+   "name": "SpaceX",
+   "sector": "Lanciatori e Starlink",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 9,
+   "country": "USA"
+  },
+  {
+   "name": "Rocket Lab",
+   "sector": "Lanciatori e satelliti",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "USA / Nuova Zelanda"
+  },
+  {
+   "name": "Capella Space",
+   "sector": "EO SAR",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 8,
+   "country": "USA"
+  },
+  {
+   "name": "Umbra",
+   "sector": "EO SAR",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 8,
+   "country": "USA",
+   "aliases": [
+    "Umbra Space"
+   ]
+  },
+  {
+   "name": "BlackSky",
+   "sector": "EO e analytics",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "USA",
+   "aliases": [
+    "BlackSky Technology"
+   ]
+  },
+  {
+   "name": "Embraer",
+   "sector": "Aeronautica",
+   "macro_sector": "Aerospazio",
+   "aerospace": true,
+   "rating": 7,
+   "country": "Brasile / Portogallo"
+  },
+  {
    "name": "e-GEOS",
    "aliases": [
     "e GEOS",

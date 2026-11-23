@@ -12,6 +12,7 @@ import (
 	"flag"
 	"fmt"
 	"log"
+	"net/url"
 	"os"
 	"regexp"
 	"sort"
@@ -29,7 +30,9 @@ type candidate struct {
 	Slugs   []string `json:"slugs,omitempty"`   // in aggiunta a quelli ricavati dal nome
 	Domains []string `json:"domains,omitempty"` // per teamtailor, pinpoint, successfactors
 	Workday bool     `json:"workday,omitempty"` // prova anche *.myworkdayjobs.com
-	Note    string   `json:"note,omitempty"`
+	// Indirizzi Workday noti, es. https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS
+	WorkdayURLs []string `json:"workday_urls,omitempty"`
+	Note        string   `json:"note,omitempty"`
 }
 
 var nonAlnum = regexp.MustCompile(`[^a-z0-9]+`)
@@ -77,6 +80,16 @@ func trials(c candidate) []config.Source {
 				}
 			}
 		}
+	}
+	for _, raw := range c.WorkdayURLs {
+		u, err := url.Parse(raw)
+		if err != nil || !strings.Contains(u.Host, ".myworkdayjobs.com") {
+			continue
+		}
+		parts := strings.Split(strings.Trim(u.Path, "/"), "/")
+		site := parts[len(parts)-1]
+		tenant := strings.SplitN(u.Host, ".", 2)[0]
+		out = append(out, config.Source{Type: "workday", Domain: u.Host, Tenant: tenant, Site: site, Pages: 1})
 	}
 	domains := append([]string{}, c.Domains...)
 	for _, s := range slugs(c) {
