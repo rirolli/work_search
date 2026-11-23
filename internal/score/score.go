@@ -59,16 +59,13 @@ func Evaluate(j *model.Job, p config.Profile, now time.Time) (bool, Reason) {
 			return false, Reason("titolo escluso: " + t)
 		}
 	}
-	if len(p.TitleRequiredAny) > 0 {
-		ok := false
-		for _, t := range p.TitleRequiredAny {
-			if Has(title, t) {
-				ok = true
-				break
-			}
-		}
-		if !ok {
+	if len(p.TitleRequiredAny) > 0 && !hasAny(title, p.TitleRequiredAny) {
+		// Ruolo gestionale: ammesso solo se il contesto è ML/AI/EO.
+		if !hasAny(title, p.TitleManagerAny) {
 			return false, "titolo fuori profilo"
+		}
+		if len(p.ManagerRequiresAny) > 0 && !hasAny(title+desc, p.ManagerRequiresAny) {
+			return false, "ruolo gestionale fuori ambito ML/EO"
 		}
 	}
 
@@ -96,7 +93,7 @@ func Evaluate(j *model.Job, p config.Profile, now time.Time) (bool, Reason) {
 		return false, "offerta troppo vecchia"
 	}
 
-	score := 0
+	score, descScore := 0, 0
 	var matched []string
 	for _, k := range p.Keywords {
 		switch {
@@ -104,13 +101,16 @@ func Evaluate(j *model.Job, p config.Profile, now time.Time) (bool, Reason) {
 			score += 2 * k.Weight
 			matched = append(matched, k.Term)
 		case Has(desc, k.Term):
-			score += k.Weight
+			descScore += k.Weight
 			if k.Weight > 0 {
 				matched = append(matched, k.Term)
 			}
 		}
 	}
-	score += locScore
+	if p.DescriptionMax > 0 && descScore > p.DescriptionMax {
+		descScore = p.DescriptionMax
+	}
+	score += descScore + locScore
 	if locMatched != "" {
 		matched = append(matched, "sede: "+locMatched)
 	}
@@ -150,6 +150,15 @@ func Evaluate(j *model.Job, p config.Profile, now time.Time) (bool, Reason) {
 		return false, "punteggio sotto soglia"
 	}
 	return true, ""
+}
+
+func hasAny(normText string, terms []string) bool {
+	for _, t := range terms {
+		if Has(normText, t) {
+			return true
+		}
+	}
+	return false
 }
 
 // Sort ordina per priorità, poi punteggio, poi data.

@@ -10,7 +10,13 @@ Una GitHub Action esegue la ricerca **alle 8:00 e alle 20:00 (ora di Roma)**. A 
    - `offerte.xlsx`: fogli *Offerte*, *Non più visibili*, *Fonti* (esito di ogni fonte) e *Info* (criteri);
    - `offerte.json`: gli stessi dati in formato JSON.
 
-I file vengono committati nel repository e allegati all'esecuzione come artefatto (`ricerca-lavoro`). Il riepilogo delle offerte nuove compare anche nella pagina dell'esecuzione su GitHub.
+I file vengono committati nel repository e allegati all'esecuzione come artefatto (`ricerca-lavoro`). Le prime offerte compaiono anche qui sotto, nella sezione **Risultati**, che la routine riscrive a ogni esecuzione (non modificare il testo tra i due marcatori).
+
+## Risultati
+
+<!-- RISULTATI:INIZIO -->
+_In attesa della prossima esecuzione della routine._
+<!-- RISULTATI:FINE -->
 
 ## Primo avvio
 
@@ -39,11 +45,13 @@ Un'azienda senza `sources` viene comunque riconosciuta nei risultati degli aggre
 
 ## Punteggio
 
-- Il titolo deve contenere almeno un termine di `title_required_any` e nessuno di `title_exclude`.
-- Ogni parola chiave vale `peso × 2` se compare nel titolo, `peso` se compare nella descrizione.
-- Si aggiungono il peso della sede (Roma 30, Frascati 26, Italia 15, Europa 5–8, remoto 10), il rating dell'azienda × 2 e un bonus se l'offerta è recente.
-- Le sedi in `location_exclude` (USA, India…) vengono scartate, a meno che la stessa offerta indichi anche una sede europea.
-- Priorità **Alta** ≥ 70, **Media** ≥ 45; sotto 25 l'offerta non compare. Tutte le soglie si cambiano in `profile.json`.
+- Il titolo deve contenere un termine "core" di `title_required_any` (ML, computer vision, EO, SAR, geospatial…) e nessuno di `title_exclude`.
+- In alternativa può essere un ruolo gestionale (`title_manager_any`: team lead, engineering/technical manager, project manager…), ma solo se titolo o descrizione citano un ambito di `manager_requires_any` (ML, AI, EO, remote sensing…).
+- Ogni parola chiave vale `peso × 2` nel titolo e `peso` nella descrizione; i punti dalla descrizione hanno un tetto (`description_max`, 30), così le aziende spaziali non salgono solo per il gergo del settore.
+- Si aggiungono il peso della sede (Roma 30, Frascati 26, Italia 15, Europa 4–8, remoto 10), il rating dell'azienda e un bonus se l'offerta è recente.
+- Le sedi in `location_exclude` (USA e sigle degli stati, India, Giappone…) vengono scartate, a meno che la stessa offerta indichi anche una sede europea.
+- Lo stesso annuncio pubblicato in più sedi diventa una sola riga, con le sedi unite.
+- Priorità **Alta** ≥ 75, **Media** ≥ 50; sotto 30 l'offerta non compare. Tutte le soglie si cambiano in `profile.json`.
 
 I termini si confrontano come parole intere: `ai` non corrisponde dentro "maintenance".
 

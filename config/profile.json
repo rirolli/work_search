@@ -1,146 +1,658 @@
 {
   "_comment": "Criteri di filtro e punteggio. I termini si confrontano come parole intere, senza distinzione maiuscole/minuscole e ignorando la punteggiatura.",
-
   "title_required_any": [
-    "machine learning", "ml", "mlops", "computer vision", "vision", "deep learning",
-    "ai", "artificial intelligence", "intelligenza artificiale", "ia",
-    "data scientist", "data science", "remote sensing", "telerilevamento",
-    "earth observation", "eo", "geospatial", "gis", "image processing", "sar",
-    "perception", "onboard", "on board", "payload data",
-    "engineering manager", "technical manager", "tech lead", "technical lead", "team lead",
-    "head of ai", "head of data", "head of machine learning",
-    "research scientist", "applied scientist", "research engineer",
-    "project manager", "program manager", "programme manager"
+    "machine learning",
+    "ml",
+    "mlops",
+    "computer vision",
+    "vision",
+    "deep learning",
+    "ai",
+    "artificial intelligence",
+    "intelligenza artificiale",
+    "ia",
+    "data scientist",
+    "data science",
+    "remote sensing",
+    "telerilevamento",
+    "earth observation",
+    "eo",
+    "geospatial",
+    "gis",
+    "image processing",
+    "perception",
+    "onboard",
+    "on board",
+    "payload data",
+    "research scientist",
+    "applied scientist",
+    "research engineer",
+    "sar"
   ],
-
+  "title_manager_any": [
+    "engineering manager",
+    "technical manager",
+    "tech lead",
+    "technical lead",
+    "team lead",
+    "head of ai",
+    "head of data",
+    "head of machine learning",
+    "project manager",
+    "program manager",
+    "programme manager",
+    "lead",
+    "head",
+    "director",
+    "manager"
+  ],
+  "manager_requires_any": [
+    "machine learning",
+    "ml",
+    "deep learning",
+    "computer vision",
+    "artificial intelligence",
+    "ai",
+    "data science",
+    "data scientist",
+    "earth observation",
+    "remote sensing",
+    "telerilevamento",
+    "geospatial",
+    "image processing",
+    "perception"
+  ],
+  "description_max": 30,
   "title_exclude": [
-    "intern", "internship", "stage", "stagista", "tirocinio", "tirocinante",
-    "werkstudent", "working student", "praktikum", "praktikant", "thesis", "tesi",
-    "apprentice", "apprendistato", "alternance", "stagiaire", "phd student", "doctoral",
-    "student", "graduate programme", "trainee"
+    "intern",
+    "internship",
+    "stage",
+    "stagista",
+    "tirocinio",
+    "tirocinante",
+    "werkstudent",
+    "working student",
+    "praktikum",
+    "praktikant",
+    "thesis",
+    "tesi",
+    "apprentice",
+    "apprendistato",
+    "alternance",
+    "stagiaire",
+    "phd student",
+    "doctoral",
+    "student",
+    "graduate programme",
+    "trainee",
+    "annotation",
+    "annotator",
+    "labeling",
+    "labelling"
   ],
-
   "keywords": [
-    {"term": "earth observation", "weight": 15},
-    {"term": "remote sensing", "weight": 14},
-    {"term": "telerilevamento", "weight": 14},
-    {"term": "sar", "weight": 12},
-    {"term": "synthetic aperture radar", "weight": 12},
-    {"term": "computer vision", "weight": 12},
-    {"term": "geospatial", "weight": 10},
-    {"term": "onboard", "weight": 10},
-    {"term": "on board", "weight": 10},
-    {"term": "technical manager", "weight": 10},
-    {"term": "engineering manager", "weight": 10},
-    {"term": "satellite", "weight": 8},
-    {"term": "satellitare", "weight": 8},
-    {"term": "satellites", "weight": 8},
-    {"term": "image processing", "weight": 8},
-    {"term": "deep learning", "weight": 8},
-    {"term": "machine learning", "weight": 8},
-    {"term": "pytorch", "weight": 8},
-    {"term": "edge ai", "weight": 8},
-    {"term": "team lead", "weight": 8},
-    {"term": "tech lead", "weight": 8},
-    {"term": "technical lead", "weight": 8},
-    {"term": "multispectral", "weight": 6},
-    {"term": "hyperspectral", "weight": 6},
-    {"term": "copernicus", "weight": 6},
-    {"term": "sentinel", "weight": 6},
-    {"term": "esa", "weight": 6},
-    {"term": "ecss", "weight": 6},
-    {"term": "foundation model", "weight": 6},
-    {"term": "foundation models", "weight": 6},
-    {"term": "eo", "weight": 6},
-    {"term": "head", "weight": 6},
-    {"term": "segmentation", "weight": 5},
-    {"term": "object detection", "weight": 5},
-    {"term": "lead", "weight": 4},
-    {"term": "senior", "weight": 4},
-    {"term": "principal", "weight": 4},
-    {"term": "mlops", "weight": 4},
-    {"term": "gis", "weight": 4},
-    {"term": "python", "weight": 3},
-    {"term": "project manager", "weight": 3},
-    {"term": "program manager", "weight": 3},
-    {"term": "junior", "weight": -15},
-    {"term": "sales", "weight": -20},
-    {"term": "account executive", "weight": -20}
+    {
+      "term": "earth observation",
+      "weight": 15
+    },
+    {
+      "term": "remote sensing",
+      "weight": 14
+    },
+    {
+      "term": "telerilevamento",
+      "weight": 14
+    },
+    {
+      "term": "sar",
+      "weight": 12
+    },
+    {
+      "term": "synthetic aperture radar",
+      "weight": 12
+    },
+    {
+      "term": "computer vision",
+      "weight": 12
+    },
+    {
+      "term": "geospatial",
+      "weight": 10
+    },
+    {
+      "term": "onboard",
+      "weight": 10
+    },
+    {
+      "term": "on board",
+      "weight": 10
+    },
+    {
+      "term": "technical manager",
+      "weight": 10
+    },
+    {
+      "term": "engineering manager",
+      "weight": 10
+    },
+    {
+      "term": "satellite",
+      "weight": 8
+    },
+    {
+      "term": "satellitare",
+      "weight": 8
+    },
+    {
+      "term": "satellites",
+      "weight": 8
+    },
+    {
+      "term": "image processing",
+      "weight": 8
+    },
+    {
+      "term": "deep learning",
+      "weight": 8
+    },
+    {
+      "term": "machine learning",
+      "weight": 8
+    },
+    {
+      "term": "pytorch",
+      "weight": 8
+    },
+    {
+      "term": "edge ai",
+      "weight": 8
+    },
+    {
+      "term": "team lead",
+      "weight": 8
+    },
+    {
+      "term": "tech lead",
+      "weight": 8
+    },
+    {
+      "term": "technical lead",
+      "weight": 8
+    },
+    {
+      "term": "multispectral",
+      "weight": 6
+    },
+    {
+      "term": "hyperspectral",
+      "weight": 6
+    },
+    {
+      "term": "copernicus",
+      "weight": 6
+    },
+    {
+      "term": "sentinel",
+      "weight": 6
+    },
+    {
+      "term": "esa",
+      "weight": 6
+    },
+    {
+      "term": "ecss",
+      "weight": 6
+    },
+    {
+      "term": "foundation model",
+      "weight": 6
+    },
+    {
+      "term": "foundation models",
+      "weight": 6
+    },
+    {
+      "term": "eo",
+      "weight": 6
+    },
+    {
+      "term": "head",
+      "weight": 6
+    },
+    {
+      "term": "segmentation",
+      "weight": 5
+    },
+    {
+      "term": "object detection",
+      "weight": 5
+    },
+    {
+      "term": "lead",
+      "weight": 4
+    },
+    {
+      "term": "senior",
+      "weight": 4
+    },
+    {
+      "term": "principal",
+      "weight": 4
+    },
+    {
+      "term": "mlops",
+      "weight": 4
+    },
+    {
+      "term": "gis",
+      "weight": 4
+    },
+    {
+      "term": "python",
+      "weight": 3
+    },
+    {
+      "term": "project manager",
+      "weight": 3
+    },
+    {
+      "term": "program manager",
+      "weight": 3
+    },
+    {
+      "term": "junior",
+      "weight": -15
+    },
+    {
+      "term": "sales",
+      "weight": -20
+    },
+    {
+      "term": "account executive",
+      "weight": -20
+    }
   ],
-
   "locations": [
-    {"term": "roma", "weight": 30},
-    {"term": "rome", "weight": 30},
-    {"term": "frascati", "weight": 26},
-    {"term": "lazio", "weight": 24},
-    {"term": "fucino", "weight": 15},
-    {"term": "italy", "weight": 15},
-    {"term": "italia", "weight": 15},
-    {"term": "milano", "weight": 8},
-    {"term": "milan", "weight": 8},
-    {"term": "torino", "weight": 8},
-    {"term": "turin", "weight": 8},
-    {"term": "napoli", "weight": 8},
-    {"term": "matera", "weight": 8},
-    {"term": "pisa", "weight": 6},
-    {"term": "europe", "weight": 8},
-    {"term": "emea", "weight": 8},
-    {"term": "eu", "weight": 8},
-    {"term": "noordwijk", "weight": 8},
-    {"term": "darmstadt", "weight": 8},
-    {"term": "bonn", "weight": 6},
-    {"term": "reading", "weight": 6},
-    {"term": "toulouse", "weight": 7},
-    {"term": "germany", "weight": 6},
-    {"term": "deutschland", "weight": 6},
-    {"term": "munich", "weight": 6},
-    {"term": "münchen", "weight": 6},
-    {"term": "berlin", "weight": 6},
-    {"term": "bremen", "weight": 6},
-    {"term": "netherlands", "weight": 6},
-    {"term": "amsterdam", "weight": 6},
-    {"term": "france", "weight": 6},
-    {"term": "paris", "weight": 6},
-    {"term": "spain", "weight": 5},
-    {"term": "madrid", "weight": 5},
-    {"term": "barcelona", "weight": 5},
-    {"term": "portugal", "weight": 5},
-    {"term": "lisbon", "weight": 5},
-    {"term": "finland", "weight": 5},
-    {"term": "espoo", "weight": 5},
-    {"term": "helsinki", "weight": 5},
-    {"term": "austria", "weight": 5},
-    {"term": "graz", "weight": 5},
-    {"term": "vienna", "weight": 5},
-    {"term": "switzerland", "weight": 5},
-    {"term": "zurich", "weight": 5},
-    {"term": "luxembourg", "weight": 5},
-    {"term": "belgium", "weight": 5},
-    {"term": "united kingdom", "weight": 4},
-    {"term": "uk", "weight": 4},
-    {"term": "london", "weight": 4},
-    {"term": "remote", "weight": 10, "weak": true},
-    {"term": "remoto", "weight": 10, "weak": true},
-    {"term": "hybrid", "weight": 2, "weak": true}
+    {
+      "term": "roma",
+      "weight": 30
+    },
+    {
+      "term": "rome",
+      "weight": 30
+    },
+    {
+      "term": "frascati",
+      "weight": 26
+    },
+    {
+      "term": "lazio",
+      "weight": 24
+    },
+    {
+      "term": "fucino",
+      "weight": 15
+    },
+    {
+      "term": "italy",
+      "weight": 15
+    },
+    {
+      "term": "italia",
+      "weight": 15
+    },
+    {
+      "term": "milano",
+      "weight": 8
+    },
+    {
+      "term": "milan",
+      "weight": 8
+    },
+    {
+      "term": "torino",
+      "weight": 8
+    },
+    {
+      "term": "turin",
+      "weight": 8
+    },
+    {
+      "term": "napoli",
+      "weight": 8
+    },
+    {
+      "term": "matera",
+      "weight": 8
+    },
+    {
+      "term": "pisa",
+      "weight": 6
+    },
+    {
+      "term": "europe",
+      "weight": 8
+    },
+    {
+      "term": "emea",
+      "weight": 8
+    },
+    {
+      "term": "eu",
+      "weight": 8
+    },
+    {
+      "term": "noordwijk",
+      "weight": 8
+    },
+    {
+      "term": "darmstadt",
+      "weight": 8
+    },
+    {
+      "term": "bonn",
+      "weight": 6
+    },
+    {
+      "term": "reading",
+      "weight": 6
+    },
+    {
+      "term": "toulouse",
+      "weight": 7
+    },
+    {
+      "term": "germany",
+      "weight": 6
+    },
+    {
+      "term": "deutschland",
+      "weight": 6
+    },
+    {
+      "term": "munich",
+      "weight": 6
+    },
+    {
+      "term": "münchen",
+      "weight": 6
+    },
+    {
+      "term": "berlin",
+      "weight": 6
+    },
+    {
+      "term": "bremen",
+      "weight": 6
+    },
+    {
+      "term": "netherlands",
+      "weight": 6
+    },
+    {
+      "term": "amsterdam",
+      "weight": 6
+    },
+    {
+      "term": "france",
+      "weight": 6
+    },
+    {
+      "term": "paris",
+      "weight": 6
+    },
+    {
+      "term": "spain",
+      "weight": 5
+    },
+    {
+      "term": "madrid",
+      "weight": 5
+    },
+    {
+      "term": "barcelona",
+      "weight": 5
+    },
+    {
+      "term": "portugal",
+      "weight": 5
+    },
+    {
+      "term": "lisbon",
+      "weight": 5
+    },
+    {
+      "term": "finland",
+      "weight": 5
+    },
+    {
+      "term": "espoo",
+      "weight": 5
+    },
+    {
+      "term": "helsinki",
+      "weight": 5
+    },
+    {
+      "term": "austria",
+      "weight": 5
+    },
+    {
+      "term": "graz",
+      "weight": 5
+    },
+    {
+      "term": "vienna",
+      "weight": 5
+    },
+    {
+      "term": "switzerland",
+      "weight": 5
+    },
+    {
+      "term": "zurich",
+      "weight": 5
+    },
+    {
+      "term": "luxembourg",
+      "weight": 5
+    },
+    {
+      "term": "belgium",
+      "weight": 5
+    },
+    {
+      "term": "united kingdom",
+      "weight": 4
+    },
+    {
+      "term": "uk",
+      "weight": 4
+    },
+    {
+      "term": "london",
+      "weight": 4
+    },
+    {
+      "term": "valencia",
+      "weight": 5
+    },
+    {
+      "term": "getafe",
+      "weight": 5
+    },
+    {
+      "term": "ottobrunn",
+      "weight": 6
+    },
+    {
+      "term": "taufkirchen",
+      "weight": 6
+    },
+    {
+      "term": "immenstaad",
+      "weight": 6
+    },
+    {
+      "term": "friedrichshafen",
+      "weight": 6
+    },
+    {
+      "term": "oberpfaffenhofen",
+      "weight": 6
+    },
+    {
+      "term": "wessling",
+      "weight": 6
+    },
+    {
+      "term": "weßling",
+      "weight": 6
+    },
+    {
+      "term": "neuss",
+      "weight": 5
+    },
+    {
+      "term": "cannes",
+      "weight": 6
+    },
+    {
+      "term": "elancourt",
+      "weight": 5
+    },
+    {
+      "term": "stevenage",
+      "weight": 4
+    },
+    {
+      "term": "portsmouth",
+      "weight": 4
+    },
+    {
+      "term": "warsaw",
+      "weight": 4
+    },
+    {
+      "term": "poland",
+      "weight": 4
+    },
+    {
+      "term": "stockholm",
+      "weight": 4
+    },
+    {
+      "term": "sweden",
+      "weight": 4
+    },
+    {
+      "term": "denmark",
+      "weight": 4
+    },
+    {
+      "term": "copenhagen",
+      "weight": 4
+    },
+    {
+      "term": "norway",
+      "weight": 4
+    },
+    {
+      "term": "oslo",
+      "weight": 4
+    },
+    {
+      "term": "ireland",
+      "weight": 4
+    },
+    {
+      "term": "dublin",
+      "weight": 4
+    },
+    {
+      "term": "remote",
+      "weight": 10,
+      "weak": true
+    },
+    {
+      "term": "remoto",
+      "weight": 10,
+      "weak": true
+    },
+    {
+      "term": "hybrid",
+      "weight": 2,
+      "weak": true
+    }
   ],
-
   "location_exclude": [
-    "united states", "usa", "us", "u s", "canada", "americas", "latam", "apac",
-    "india", "bangalore", "bengaluru", "hyderabad", "pune", "china", "japan", "singapore",
-    "australia", "brazil", "mexico",
-    "san francisco", "new york", "seattle", "boston", "austin", "denver", "los angeles",
-    "washington", "toronto", "vancouver", "california", "texas", "colorado", "virginia", "massachusetts"
+    "united states",
+    "usa",
+    "us",
+    "u s",
+    "canada",
+    "americas",
+    "latam",
+    "apac",
+    "india",
+    "bangalore",
+    "bengaluru",
+    "hyderabad",
+    "pune",
+    "china",
+    "japan",
+    "singapore",
+    "australia",
+    "brazil",
+    "mexico",
+    "san francisco",
+    "new york",
+    "seattle",
+    "boston",
+    "austin",
+    "denver",
+    "los angeles",
+    "washington",
+    "toronto",
+    "vancouver",
+    "california",
+    "texas",
+    "colorado",
+    "virginia",
+    "massachusetts",
+    "tokyo",
+    "osaka",
+    "seoul",
+    "korea",
+    "golden",
+    "ca",
+    "co",
+    "ny",
+    "tx",
+    "wa",
+    "ma",
+    "va",
+    "fl",
+    "ga",
+    "il",
+    "nc",
+    "az",
+    "ut",
+    "pa",
+    "nj",
+    "md",
+    "mn"
   ],
-
-  "min_score": 25,
-  "priority_high": 70,
-  "priority_medium": 45,
+  "min_score": 30,
+  "priority_high": 75,
+  "priority_medium": 50,
   "salary_min_eur": 45000,
-  "company_rating_factor": 2,
+  "company_rating_factor": 1,
   "recency_days": 7,
   "recency_bonus": 5,
   "max_age_days": 120,
   "new_within_hours": 24,
   "disappeared_days": 14,
-  "state_retention_days": 90
+  "state_retention_days": 90,
+  "readme_top": 40
 }

@@ -99,6 +99,19 @@ func TestEndToEnd(t *testing.T) {
 		}
 		rc.Close()
 	}
+	readme := filepath.Join(out, "README.md")
+	os.WriteFile(readme, []byte("# Titolo\n\nprima\n"+report.ReadmeStart+"\nvecchio\n"+report.ReadmeEnd+"\n\ndopo\n"), 0o644)
+	for i := 0; i < 2; i++ { // due volte: la sezione va sostituita, non duplicata
+		if err := report.UpdateReadme(readme, d, 40); err != nil {
+			t.Fatal(err)
+		}
+	}
+	md, _ := os.ReadFile(readme)
+	if s := string(md); strings.Contains(s, "vecchio") || strings.Count(s, report.ReadmeStart) != 1 ||
+		!strings.Contains(s, "](https://example.com/1)") || !strings.HasSuffix(s, "dopo\n") {
+		t.Errorf("README non aggiornato correttamente:\n%s", s)
+	}
+
 	html, _ := os.ReadFile(filepath.Join(out, "index.html"))
 	if !strings.Contains(string(html), "Machine Learning Engineer – SAR") || !strings.Contains(string(html), "NUOVA") {
 		t.Error("l'HTML non contiene l'offerta attesa")

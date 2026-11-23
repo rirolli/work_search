@@ -30,6 +30,7 @@ func main() {
 	statePath := flag.String("state", "data/state.json", "file di stato delle offerte già viste")
 	only := flag.String("only", "", "esegui solo le aziende/ricerche il cui nome contiene questo testo (debug)")
 	parallel := flag.Int("parallel", 6, "richieste in parallelo")
+	readme := flag.String("readme", "README.md", "README in cui aggiornare la sezione Risultati (vuoto = non toccarlo)")
 	flag.Parse()
 
 	cfg, err := config.Load(*cfgDir)
@@ -77,6 +78,9 @@ func main() {
 	must(report.WriteXLSX(filepath.Join(*outDir, "offerte.xlsx"), data))
 	must(writeJSON(filepath.Join(*outDir, "offerte.json"), data))
 	must(st.Save(*statePath))
+	if *readme != "" {
+		must(report.UpdateReadme(*readme, data, cfg.Profile.ReadmeTop))
+	}
 
 	failed := 0
 	for _, s := range statuses {
@@ -223,7 +227,7 @@ func matchCompany(name string, companies []config.Company) *config.Company {
 
 func process(raw []model.Job, cfg *config.Config, now time.Time) ([]model.Job, int) {
 	seenKey := map[string]bool{}
-	seenTitle := map[string]bool{}
+	byTitle := map[string]int{} // azienda+titolo -> indice in kept
 	var kept []model.Job
 	discarded := 0
 	for _, j := range raw {
@@ -240,28 +244,29 @@ func process(raw []model.Job, cfg *config.Config, now time.Time) ([]model.Job, i
 				applyMeta(&j, c)
 			}
 		}
-		// stessa azienda + stesso titolo + stessa sede da più fonti: tieni la prima (ATS prima degli aggregatori)
-		dk := score.Norm(j.Company) + "|" + score.Norm(j.Title) + "|" + score.Norm(firstPart(j.Location))
-		if seenTitle[dk] {
-			continue
-		}
 		ok, _ := score.Evaluate(&j, cfg.Profile, now)
 		if !ok {
 			discarded++
 			continue
 		}
-		seenTitle[dk] = true
+		// Stessa azienda e stesso titolo (più sedi o più fonti): una sola riga,
+		// con le sedi unite. Vince la prima vista (le fonti ATS precedono gli aggregatori).
+		dk := score.Norm(j.Company) + "|" + score.Norm(j.Title)
+		if i, dup := byTitle[dk]; dup {
+			k := &kept[i]
+			if j.Location != "" && !strings.Contains(k.Location, j.Location) && len(k.Location) < 200 {
+				k.Location += " / " + j.Location
+			}
+			if j.Score > k.Score {
+				k.Score, k.Priority, k.Matched = j.Score, j.Priority, j.Matched
+			}
+			continue
+		}
+		byTitle[dk] = len(kept)
 		kept = append(kept, j)
 	}
 	score.Sort(kept)
 	return kept, discarded
-}
-
-func firstPart(s string) string {
-	if i := strings.IndexAny(s, ",/("); i > 0 {
-		return s[:i]
-	}
-	return s
 }
 
 func writeJSON(path string, d report.Data) error {

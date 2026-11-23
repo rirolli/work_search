@@ -60,7 +60,11 @@ type Weighted struct {
 
 // Profile contiene i criteri di filtro e di punteggio.
 type Profile struct {
-	TitleRequiredAny    []string   `json:"title_required_any"`
+	TitleRequiredAny    []string   `json:"title_required_any"`   // termini "core" (ML, CV, EO…): basta uno nel titolo
+	TitleManagerAny     []string   `json:"title_manager_any"`    // ruoli gestionali: accettati solo se…
+	ManagerRequiresAny  []string   `json:"manager_requires_any"` // …titolo o descrizione contengono uno di questi
+	DescriptionMax      int        `json:"description_max"`      // tetto ai punti dalla descrizione (0 = nessuno)
+	ReadmeTop           int        `json:"readme_top"`           // offerte mostrate nel README
 	TitleExclude        []string   `json:"title_exclude"`
 	Keywords            []Weighted `json:"keywords"`
 	Locations           []Weighted `json:"locations"`
@@ -133,6 +137,9 @@ func (p *Profile) defaults() {
 	}
 	if p.DisappearedDays == 0 {
 		p.DisappearedDays = 14
+	}
+	if p.ReadmeTop == 0 {
+		p.ReadmeTop = 40
 	}
 	if p.StateRetentionDays == 0 {
 		p.StateRetentionDays = 90
