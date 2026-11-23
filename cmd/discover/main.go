@@ -68,7 +68,6 @@ func trials(c candidate) []config.Source {
 			config.Source{Type: "personio", ID: s, Domain: "de"},
 			config.Source{Type: "personio", ID: s, Domain: "com"},
 			config.Source{Type: "smartrecruiters", ID: s, Pages: 1},
-			config.Source{Type: "pinpoint", ID: s},
 			config.Source{Type: "teamtailor", Domain: s + ".teamtailor.com"},
 		)
 		if c.Workday {

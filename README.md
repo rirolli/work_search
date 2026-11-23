@@ -104,7 +104,7 @@ Filtri e ordinamento: [`docs/index.html`](docs/index.html) · Excel: [`docs/offe
 
 | Tipo | Campi in `sources` | Note |
 |---|---|---|
-| `greenhouse` | `id` (board token) | es. Planet `planetlabs`, DeepMind `deepmind`, Scandit `scandit` |
+| `greenhouse` | `id` (board token), `region: "eu"` facoltativo | es. Planet `planetlabs`, DeepMind `deepmind`, Scandit `scandit` |
 | `lever` | `id`, `region: "eu"` facoltativo | es. Loft Orbital, Black Shark (EU) |
 | `ashby` | `id` | es. ICEYE, Overstory |
 | `personio` | `id`, `domain: "de"/"com"` | feed XML pubblico, es. LiveEO |
@@ -112,9 +112,21 @@ Filtri e ordinamento: [`docs/index.html`](docs/index.html) · Excel: [`docs/offe
 | `workable` | `id` (account) | |
 | `smartrecruiters` | `id` (company identifier) | |
 | `workday` | `domain`, `tenant`, `site`, `queries` | pagine `*.myworkdayjobs.com` (Airbus, Thales); pubblicazione solo relativa |
+| `teamtailor` | `domain` | feed `/jobs.rss`, es. Open Cosmos, Kuva Space |
+| `pinpoint` | `domain` | es. osapiens |
+| `successfactors` | `domain`, `queries` facoltativo | feed RSS di SAP SuccessFactors, es. ESA (`jobs.esa.int`) |
+| `bamboohr`, `breezy` | `id` | |
 | aggregatori | in `searches.json`: `adzuna`, `jooble`, `arbeitnow`, `remotive` | Adzuna/Jooble con chiave |
 
 Un'azienda senza `sources` viene comunque riconosciuta nei risultati degli aggregatori tramite `name`/`aliases` e riceve settore e rating. `exclude: true` la scarta (è impostato per e-GEOS, il datore di lavoro attuale).
+
+## Aggiungere aziende: scoperta automatica delle fonti
+
+1. Aggiungi l'azienda in `config/candidates.json` (nome, eventuali `slugs` alternativi e `domains` del sito carriere).
+2. Lancia **Actions → Scoperta fonti → Run workflow** (campo facoltativo per filtrare per nome).
+3. Nel riepilogo dell'esecuzione trovi, per ogni azienda, le API che hanno risposto, con il numero di offerte, alcuni titoli di esempio e lo snippet da copiare in `sources` di `config/companies.json`. Controlla i titoli di esempio: un nome generico può corrispondere a un'altra azienda omonima.
+
+Le aziende senza API pubblica (Telespazio, Leonardo, Thales Alenia Space a parte Workday, Eni, Enel, ECMWF, EUMETSAT, DeepMind…) restano in `companies.json` senza `sources`: vengono riconosciute nei risultati di Adzuna e Jooble, che però richiedono le chiavi.
 
 ## Punteggio
 
@@ -150,6 +162,7 @@ Il programma usa solo la libreria standard di Go (1.22+), senza dipendenze ester
 
 ```
 cmd/jobsearch/        comando principale
+cmd/discover/         scoperta delle API delle pagine carriere
 internal/sources/     connettori ATS e aggregatori
 internal/score/       filtro e punteggio
 internal/state/       memoria delle offerte già viste
@@ -158,5 +171,5 @@ internal/xlsx/        writer .xlsx minimale
 config/               aziende, ricerche, profilo
 data/state.json       stato (aggiornato dalla routine)
 docs/                 output (aggiornato dalla routine)
-.github/workflows/    job-search.yml
+.github/workflows/    job-search.yml (8:00/20:00), discover.yml (manuale)
 ```

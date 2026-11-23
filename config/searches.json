@@ -1,30 +1,179 @@
 {
-  "_comment": "Ricerche per parole chiave sugli aggregatori. Adzuna e Jooble richiedono chiavi API gratuite (secret ADZUNA_APP_ID, ADZUNA_APP_KEY, JOOBLE_API_KEY); senza chiavi queste righe vengono saltate. Arbeitnow e Remotive non richiedono chiavi. Per disattivare una riga: \"disabled\": true.",
-  "searches": [
-    {"type": "adzuna", "country": "it", "query": "machine learning", "where": "Roma", "max_days_old": 30, "pages": 2},
-    {"type": "adzuna", "country": "it", "query": "computer vision", "where": "Roma", "max_days_old": 30},
-    {"type": "adzuna", "country": "it", "query": "data scientist", "where": "Roma", "max_days_old": 30},
-    {"type": "adzuna", "country": "it", "query": "intelligenza artificiale", "where": "Roma", "max_days_old": 30},
-    {"type": "adzuna", "country": "it", "query": "AI technical manager", "where": "Roma", "max_days_old": 30},
-    {"type": "adzuna", "country": "it", "query": "earth observation", "max_days_old": 45},
-    {"type": "adzuna", "country": "it", "query": "telerilevamento", "max_days_old": 45},
-    {"type": "adzuna", "country": "it", "query": "remote sensing", "max_days_old": 45},
-    {"type": "adzuna", "country": "it", "query": "Telespazio", "max_days_old": 45, "note": "nessuna API pubblica nota per le pagine carriere Leonardo/Telespazio"},
-    {"type": "adzuna", "country": "it", "query": "Thales Alenia Space", "max_days_old": 45},
-    {"type": "adzuna", "country": "it", "query": "ESA ESRIN", "max_days_old": 45},
-    {"type": "adzuna", "country": "de", "query": "earth observation machine learning", "max_days_old": 30},
-    {"type": "adzuna", "country": "fr", "query": "earth observation", "max_days_old": 30},
-    {"type": "adzuna", "country": "nl", "query": "earth observation", "max_days_old": 30},
-    {"type": "adzuna", "country": "es", "query": "earth observation", "max_days_old": 30},
-    {"type": "adzuna", "country": "gb", "query": "earth observation machine learning", "max_days_old": 30},
-
-    {"type": "jooble", "query": "machine learning", "where": "Roma"},
-    {"type": "jooble", "query": "computer vision", "where": "Roma"},
-    {"type": "jooble", "query": "earth observation", "where": "Italia"},
-    {"type": "jooble", "query": "telerilevamento", "where": "Italia"},
-    {"type": "jooble", "query": "Telespazio", "where": "Roma"},
-
-    {"type": "arbeitnow", "pages": 3, "note": "bacheca soprattutto tedesca; filtrata localmente con il profilo"},
-    {"type": "remotive", "query": "machine learning", "note": "Remotive chiede di non interrogare l'API troppo spesso: una sola ricerca"}
-  ]
+ "_comment": "Ricerche per parole chiave sugli aggregatori. Adzuna e Jooble richiedono chiavi API gratuite (secret ADZUNA_APP_ID, ADZUNA_APP_KEY, JOOBLE_API_KEY); senza chiavi queste righe vengono saltate. Arbeitnow e Remotive non richiedono chiavi. Per disattivare una riga: \"disabled\": true.",
+ "searches": [
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "machine learning",
+   "where": "Roma",
+   "max_days_old": 30,
+   "pages": 2
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "computer vision",
+   "where": "Roma",
+   "max_days_old": 30
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "data scientist",
+   "where": "Roma",
+   "max_days_old": 30
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "intelligenza artificiale",
+   "where": "Roma",
+   "max_days_old": 30
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "AI technical manager",
+   "where": "Roma",
+   "max_days_old": 30
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "earth observation",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "telerilevamento",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "remote sensing",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "Telespazio",
+   "max_days_old": 45,
+   "note": "nessuna API pubblica nota per le pagine carriere Leonardo/Telespazio"
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "Thales Alenia Space",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "ESA ESRIN",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "Leonardo",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "Serco",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "D-Orbit",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "AIKO",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "Planetek",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "Argotec",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "de",
+   "query": "earth observation machine learning",
+   "max_days_old": 30
+  },
+  {
+   "type": "adzuna",
+   "country": "fr",
+   "query": "earth observation",
+   "max_days_old": 30
+  },
+  {
+   "type": "adzuna",
+   "country": "nl",
+   "query": "earth observation",
+   "max_days_old": 30
+  },
+  {
+   "type": "adzuna",
+   "country": "es",
+   "query": "earth observation",
+   "max_days_old": 30
+  },
+  {
+   "type": "adzuna",
+   "country": "gb",
+   "query": "earth observation machine learning",
+   "max_days_old": 30
+  },
+  {
+   "type": "jooble",
+   "query": "machine learning",
+   "where": "Roma"
+  },
+  {
+   "type": "jooble",
+   "query": "computer vision",
+   "where": "Roma"
+  },
+  {
+   "type": "jooble",
+   "query": "earth observation",
+   "where": "Italia"
+  },
+  {
+   "type": "jooble",
+   "query": "telerilevamento",
+   "where": "Italia"
+  },
+  {
+   "type": "jooble",
+   "query": "Telespazio",
+   "where": "Roma"
+  },
+  {
+   "type": "arbeitnow",
+   "pages": 3,
+   "note": "bacheca soprattutto tedesca; filtrata localmente con il profilo"
+  },
+  {
+   "type": "remotive",
+   "query": "machine learning",
+   "note": "Remotive chiede di non interrogare l'API troppo spesso: una sola ricerca"
+  }
+ ]
 }
