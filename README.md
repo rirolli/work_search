@@ -4,13 +4,13 @@ Una GitHub Action esegue la ricerca **alle 8:00 e alle 20:00 (ora di Roma)**. A 
 
 1. scarica le offerte dalle pagine carriere delle aziende in `config/companies.json` e dagli aggregatori in `config/searches.json`;
 2. tiene solo quelle in linea con il profilo (`config/profile.json`) e assegna a ciascuna un punteggio e una priorità;
-3. confronta il risultato con le esecuzioni precedenti (`data/state.json`): segna le offerte **nuove** ed elenca quelle **non più visibili**;
+3. confronta il risultato con le esecuzioni precedenti (`data/state.json`): segna le offerte **nuove** e **rimuove** quelle che le fonti non elencano più;
 4. pubblica in `docs/`:
    - `index.html`: pagina autonoma con filtri (testo, priorità, aerospaziale sì/no, solo nuove, solo Italia/Roma) e ordinamento per colonna;
-   - `offerte.xlsx`: fogli *Offerte*, *Non più visibili*, *Fonti* (esito di ogni fonte) e *Info* (criteri);
+   - `offerte.xlsx`: fogli *Offerte*, *Fonti* (esito di ogni fonte) e *Info* (criteri);
    - `offerte.json`: gli stessi dati in formato JSON.
 
-I file vengono committati nel repository e allegati all'esecuzione come artefatto (`ricerca-lavoro`). Le prime offerte compaiono anche qui sotto, nella sezione **Risultati**, che la routine riscrive a ogni esecuzione (non modificare il testo tra i due marcatori).
+I file vengono committati nel repository e allegati all'esecuzione come artefatto (`ricerca-lavoro`). Tutte le offerte compaiono anche qui sotto, nella sezione **Risultati**, che la routine riscrive a ogni esecuzione (non modificare il testo tra i due marcatori).
 
 ## Risultati
 
@@ -104,6 +104,7 @@ I termini si confrontano come parole intere: `ai` non corrisponde dentro "mainte
 
 ## Limiti
 
+- **Offerte rimosse**: un'offerta che la fonte non elenca più sparisce da README, HTML ed Excel alla prima esecuzione successiva. Se invece la fonte è in errore, le sue offerte non compaiono in quell'esecuzione ma restano in memoria per 7 giorni (`state_retention_days`), così al ritorno non vengono segnate come nuove.
 - **Data di scadenza**: quasi nessuna API la espone, quindi la colonna riporta "non indicata". *Prima vista* indica quando la routine ha trovato l'offerta.
 - **LinkedIn** non viene interrogato: non offre un'API pubblica per le offerte.
 - Il cron di GitHub è in UTC e può partire con qualche minuto di ritardo. Il workflow pianifica entrambi gli orari (ora solare e legale) e tiene solo quello che corrisponde alle 8 o alle 20 a Roma.

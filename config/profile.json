@@ -682,7 +682,5 @@
   "recency_bonus": 5,
   "max_age_days": 120,
   "new_within_hours": 24,
-  "disappeared_days": 14,
-  "state_retention_days": 90,
-  "readme_top": 40
+  "state_retention_days": 7
 }

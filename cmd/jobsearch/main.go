@@ -49,10 +49,14 @@ func main() {
 	kept, discarded := process(raw, cfg, now)
 	log.Printf("offerte scaricate: %d, tenute: %d, scartate: %d", len(raw), len(kept), discarded)
 
-	gone := st.Merge(kept, now,
-		time.Duration(cfg.Profile.NewWithinHours)*time.Hour,
-		time.Duration(cfg.Profile.DisappearedDays)*24*time.Hour)
-	st.Prune(now, time.Duration(cfg.Profile.StateRetentionDays)*24*time.Hour)
+	failed := map[string]bool{}
+	for _, s := range statuses {
+		if !s.OK && !s.Skipped {
+			failed[s.Name] = true
+		}
+	}
+	st.Merge(kept, now, time.Duration(cfg.Profile.NewWithinHours)*time.Hour,
+		failed, time.Duration(cfg.Profile.StateRetentionDays)*24*time.Hour)
 
 	// Conteggio delle offerte tenute per fonte.
 	keptBy := map[string]int{}
@@ -66,7 +70,6 @@ func main() {
 	data := report.Data{
 		Generated: now,
 		Jobs:      kept,
-		Gone:      gone,
 		Sources:   statuses,
 		Profile:   cfg.Profile,
 		Fetched:   len(raw),
@@ -79,16 +82,10 @@ func main() {
 	must(writeJSON(filepath.Join(*outDir, "offerte.json"), data))
 	must(st.Save(*statePath))
 	if *readme != "" {
-		must(report.UpdateReadme(*readme, data, cfg.Profile.ReadmeTop))
+		must(report.UpdateReadme(*readme, data))
 	}
 
-	failed := 0
-	for _, s := range statuses {
-		if !s.OK && !s.Skipped {
-			failed++
-		}
-	}
-	log.Printf("fonti: %d, in errore: %d. Report in %s", len(statuses), failed, *outDir)
+	log.Printf("fonti: %d, in errore: %d. Report in %s", len(statuses), len(failed), *outDir)
 }
 
 func must(err error) {
@@ -273,9 +270,8 @@ func writeJSON(path string, d report.Data) error {
 	b, err := json.MarshalIndent(struct {
 		Generated time.Time            `json:"generated"`
 		Jobs      []model.Job          `json:"jobs"`
-		Gone      []state.Entry        `json:"no_longer_listed"`
 		Sources   []model.SourceStatus `json:"sources"`
-	}{d.Generated, d.Jobs, d.Gone, d.Sources}, "", " ")
+	}{d.Generated, d.Jobs, d.Sources}, "", " ")
 	if err != nil {
 		return err
 	}

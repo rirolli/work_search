@@ -49,7 +49,6 @@ summary{cursor:pointer;font-weight:600}
 <div class="stat"><b>{{count "Media"}}</b>Priorità media</div>
 <div class="stat"><b>{{count "Bassa"}}</b>Priorità bassa</div>
 <div class="stat"><b>{{count "new"}}</b>Nuove</div>
-<div class="stat"><b>{{len .Gone}}</b>Non più visibili</div>
 <div class="stat"><b>{{failed}}</b>Fonti in errore</div>
 </div>
 
@@ -88,15 +87,6 @@ summary{cursor:pointer;font-weight:600}
 </table>
 </div>
 
-{{if .Gone}}
-<h2>Non più visibili (ultimi {{.Profile.DisappearedDays}} giorni)</h2>
-<p class="muted">Offerte viste in passato che la fonte non elenca più: probabilmente chiuse.</p>
-<div class="tablewrap"><table>
-<thead><tr><th>Azienda</th><th>Ruolo</th><th>Sede</th><th>Priorità</th><th>Prima vista</th><th>Ultima vista</th></tr></thead>
-<tbody>{{range .Gone}}<tr><td>{{.Company}}</td><td><a href="{{.URL}}" target="_blank" rel="noopener">{{.Title}}</a></td><td>{{.Location}}</td><td><span class="pill {{.Priority}}">{{.Priority}}</span></td><td>{{day .FirstSeen}}</td><td>{{day .LastSeen}}</td></tr>{{end}}</tbody>
-</table></div>
-{{end}}
-
 <details>
 <summary>Stato delle fonti ({{len .Sources}})</summary>
 <div class="tablewrap" style="margin-top:10px"><table>
@@ -113,7 +103,7 @@ summary{cursor:pointer;font-weight:600}
 <summary>Come viene calcolato il punteggio</summary>
 <p>Parola chiave nel titolo: peso × 2; nella descrizione: peso. Si aggiungono il peso della sede (Roma più alto), il rating dell'azienda × {{.Profile.CompanyRatingFactor}} e {{.Profile.RecencyBonus}} punti se pubblicata negli ultimi {{.Profile.RecencyDays}} giorni.
 Priorità alta ≥ {{.Profile.PriorityHigh}}, media ≥ {{.Profile.PriorityMedium}}. Restano fuori le offerte sotto {{.Profile.MinScore}} punti, i titoli esclusi (stage, internship…) e le sedi fuori area.
-La data di scadenza non è esposta dalle API: va controllata sull'annuncio. "Prima vista" indica quando questa routine ha trovato l'offerta.</p>
+La data di scadenza non è esposta dalle API: va controllata sull'annuncio. "Prima vista" indica quando questa routine ha trovato l'offerta. Le offerte che le fonti non elencano più vengono rimosse.</p>
 <p>Tutto è configurabile in <code>config/profile.json</code>, <code>config/companies.json</code> e <code>config/searches.json</code>.</p>
 </details>
 </main>

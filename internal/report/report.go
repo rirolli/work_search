@@ -12,7 +12,6 @@ import (
 
 	"github.com/rirolli/work_search/internal/config"
 	"github.com/rirolli/work_search/internal/model"
-	"github.com/rirolli/work_search/internal/state"
 	"github.com/rirolli/work_search/internal/xlsx"
 )
 
@@ -20,7 +19,6 @@ import (
 type Data struct {
 	Generated time.Time
 	Jobs      []model.Job
-	Gone      []state.Entry
 	Sources   []model.SourceStatus
 	Profile   config.Profile
 	Fetched   int
@@ -117,7 +115,7 @@ func prioStyle(p string) int {
 	return xlsx.Low
 }
 
-// WriteXLSX scrive il file Excel con i fogli Offerte, Non più visibili, Fonti, Info.
+// WriteXLSX scrive il file Excel con i fogli Offerte, Fonti, Info.
 func WriteXLSX(path string, d Data) error {
 	h := func(cols ...string) []xlsx.Cell {
 		row := make([]xlsx.Cell, len(cols))
@@ -168,18 +166,6 @@ func WriteXLSX(path string, d Data) error {
 		})
 	}
 
-	gone := xlsx.Sheet{Name: "Non più visibili", FreezeRow: true, AutoFilter: true,
-		Widths: []float64{24, 44, 26, 9, 7, 14, 14, 16}}
-	gone.Rows = append(gone.Rows, h("Azienda", "Ruolo", "Sede", "Priorità", "Score", "Prima vista", "Ultima vista", "Link"))
-	for _, e := range d.Gone {
-		gone.Rows = append(gone.Rows, []xlsx.Cell{
-			xlsx.T(e.Company, xlsx.Bold), xlsx.T(e.Title, xlsx.Wrap), xlsx.T(e.Location, xlsx.Wrap),
-			xlsx.T(e.Priority, prioStyle(e.Priority)), xlsx.N(float64(e.Score), xlsx.Default),
-			xlsx.T(day(e.FirstSeen), xlsx.Default), xlsx.T(day(e.LastSeen), xlsx.Default),
-			xlsx.L("Apri (potrebbe essere chiuso)", e.URL),
-		})
-	}
-
 	src := xlsx.Sheet{Name: "Fonti", FreezeRow: true, AutoFilter: true, Widths: []float64{50, 16, 12, 10, 10, 12, 60}}
 	src.Rows = append(src.Rows, h("Fonte", "Tipo", "Esito", "Scaricate", "Tenute", "Verificata a mano", "Errore / nota"))
 	for _, s := range d.Sources {
@@ -212,5 +198,5 @@ func WriteXLSX(path string, d Data) error {
 		kv("Data scadenza", "quasi nessuna API la espone: va controllata sulla pagina dell'annuncio."),
 		kv("Configurazione", "config/companies.json (aziende e fonti), config/searches.json (ricerche sugli aggregatori), config/profile.json (parole chiave, sedi, soglie)."),
 	}
-	return xlsx.Write(path, []xlsx.Sheet{jobs, gone, src, info})
+	return xlsx.Write(path, []xlsx.Sheet{jobs, src, info})
 }

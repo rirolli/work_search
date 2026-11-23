@@ -7,7 +7,6 @@ import (
 	"io/fs"
 	"os"
 	"path/filepath"
-	"sort"
 	"time"
 
 	"github.com/rirolli/work_search/internal/model"
@@ -19,6 +18,7 @@ type Entry struct {
 	Title     string    `json:"title"`
 	Location  string    `json:"location"`
 	URL       string    `json:"url"`
+	Origin    string    `json:"origin"`
 	Priority  string    `json:"priority"`
 	Score     int       `json:"score"`
 	FirstSeen time.Time `json:"first_seen"`
@@ -50,9 +50,13 @@ func Load(path string) (*State, error) {
 	return s, nil
 }
 
-// Merge aggiorna lo stato con le offerte di questa esecuzione, imposta
-// FirstSeen/New su ciascuna e restituisce le offerte non più visibili di recente.
-func (s *State) Merge(jobs []model.Job, now time.Time, newWithin, disappearedWithin time.Duration) []Entry {
+// Merge aggiorna lo stato con le offerte di questa esecuzione e imposta
+// FirstSeen/New su ciascuna. Le offerte non più presenti vengono rimosse.
+// Fanno eccezione quelle di una fonte che in questa esecuzione è andata in
+// errore (failed): restano in memoria, così quando la fonte torna a rispondere
+// non vengono segnate di nuovo come nuove. Anche loro vengono rimosse se la
+// fonte non le restituisce per più di retention.
+func (s *State) Merge(jobs []model.Job, now time.Time, newWithin time.Duration, failed map[string]bool, retention time.Duration) {
 	current := make(map[string]bool, len(jobs))
 	for i := range jobs {
 		j := &jobs[i]
@@ -62,32 +66,21 @@ func (s *State) Merge(jobs []model.Job, now time.Time, newWithin, disappearedWit
 			e = &Entry{FirstSeen: now}
 			s.Jobs[j.Key] = e
 		}
-		e.Company, e.Title, e.Location, e.URL = j.Company, j.Title, j.Location, j.URL
+		e.Company, e.Title, e.Location, e.URL, e.Origin = j.Company, j.Title, j.Location, j.URL, j.Origin
 		e.Priority, e.Score, e.LastSeen = j.Priority, j.Score, now
 		j.FirstSeen = e.FirstSeen
 		j.New = now.Sub(e.FirstSeen) <= newWithin
 	}
-	var gone []Entry
 	for k, e := range s.Jobs {
 		if current[k] {
 			continue
 		}
-		if now.Sub(e.LastSeen) <= disappearedWithin {
-			gone = append(gone, *e)
+		if failed[e.Origin] && now.Sub(e.LastSeen) <= retention {
+			continue
 		}
+		delete(s.Jobs, k)
 	}
-	sort.Slice(gone, func(a, b int) bool { return gone[a].LastSeen.After(gone[b].LastSeen) })
 	s.LastRun = now
-	return gone
-}
-
-// Prune elimina le voci non viste da più di retention.
-func (s *State) Prune(now time.Time, retention time.Duration) {
-	for k, e := range s.Jobs {
-		if now.Sub(e.LastSeen) > retention {
-			delete(s.Jobs, k)
-		}
-	}
 }
 
 // Save scrive lo stato in modo atomico.

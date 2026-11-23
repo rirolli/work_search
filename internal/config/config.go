@@ -64,7 +64,6 @@ type Profile struct {
 	TitleManagerAny     []string   `json:"title_manager_any"`    // ruoli gestionali: accettati solo se…
 	ManagerRequiresAny  []string   `json:"manager_requires_any"` // …titolo o descrizione contengono uno di questi
 	DescriptionMax      int        `json:"description_max"`      // tetto ai punti dalla descrizione (0 = nessuno)
-	ReadmeTop           int        `json:"readme_top"`           // offerte mostrate nel README
 	TitleExclude        []string   `json:"title_exclude"`
 	Keywords            []Weighted `json:"keywords"`
 	Locations           []Weighted `json:"locations"`
@@ -78,8 +77,7 @@ type Profile struct {
 	RecencyBonus        int        `json:"recency_bonus"`
 	MaxAgeDays          int        `json:"max_age_days"` // scarta offerte con data nota più vecchia di così (0 = nessun limite)
 	NewWithinHours      int        `json:"new_within_hours"`
-	DisappearedDays     int        `json:"disappeared_days"`
-	StateRetentionDays  int        `json:"state_retention_days"`
+	StateRetentionDays  int        `json:"state_retention_days"` // memoria per le offerte di fonti temporaneamente in errore
 }
 
 // Config raccoglie tutti i file di configurazione.
@@ -134,12 +132,6 @@ func (p *Profile) defaults() {
 	}
 	if p.NewWithinHours == 0 {
 		p.NewWithinHours = 24
-	}
-	if p.DisappearedDays == 0 {
-		p.DisappearedDays = 14
-	}
-	if p.ReadmeTop == 0 {
-		p.ReadmeTop = 40
 	}
 	if p.StateRetentionDays == 0 {
 		p.StateRetentionDays = 90

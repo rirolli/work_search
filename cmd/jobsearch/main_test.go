@@ -59,18 +59,25 @@ func TestEndToEnd(t *testing.T) {
 	}
 
 	st := &state.State{Jobs: map[string]*state.Entry{
-		"old": {Company: "Vecchia", Title: "AI Engineer", LastSeen: now.Add(-48 * time.Hour), FirstSeen: now.Add(-240 * time.Hour), Priority: "Media"},
+		"sparita":  {Company: "Vecchia", Title: "AI Engineer", Origin: "Acme Space · Greenhouse", LastSeen: now.Add(-12 * time.Hour)},
+		"in-pausa": {Company: "Altra", Title: "ML Engineer", Origin: "Altra · Lever", LastSeen: now.Add(-12 * time.Hour)},
 	}}
-	gone := st.Merge(kept, now, 24*time.Hour, 14*24*time.Hour)
-	if len(gone) != 1 || !kept[0].New {
-		t.Fatalf("merge: gone=%d new=%v", len(gone), kept[0].New)
+	st.Merge(kept, now, 24*time.Hour, map[string]bool{"Altra · Lever": true}, 7*24*time.Hour)
+	if _, ok := st.Jobs["sparita"]; ok {
+		t.Error("un'offerta non più presente deve essere rimossa dallo stato")
+	}
+	if _, ok := st.Jobs["in-pausa"]; !ok {
+		t.Error("le offerte di una fonte in errore devono restare in memoria")
+	}
+	if !kept[0].New || len(st.Jobs) != 3 {
+		t.Fatalf("merge: new=%v voci=%d", kept[0].New, len(st.Jobs))
 	}
 
 	out := os.Getenv("WS_SAMPLE_OUT")
 	if out == "" {
 		out = t.TempDir()
 	}
-	d := report.Data{Generated: now, Jobs: kept, Gone: gone, Sources: statuses, Profile: cfg.Profile, Fetched: len(raw)}
+	d := report.Data{Generated: now, Jobs: kept, Sources: statuses, Profile: cfg.Profile, Fetched: len(raw)}
 	if err := report.WriteHTML(filepath.Join(out, "index.html"), d); err != nil {
 		t.Fatal(err)
 	}
@@ -102,7 +109,7 @@ func TestEndToEnd(t *testing.T) {
 	readme := filepath.Join(out, "README.md")
 	os.WriteFile(readme, []byte("# Titolo\n\nprima\n"+report.ReadmeStart+"\nvecchio\n"+report.ReadmeEnd+"\n\ndopo\n"), 0o644)
 	for i := 0; i < 2; i++ { // due volte: la sezione va sostituita, non duplicata
-		if err := report.UpdateReadme(readme, d, 40); err != nil {
+		if err := report.UpdateReadme(readme, d); err != nil {
 			t.Fatal(err)
 		}
 	}
