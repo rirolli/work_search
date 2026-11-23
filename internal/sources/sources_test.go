@@ -25,7 +25,7 @@ func server(t *testing.T, routes map[string]string) *httptest.Server {
 						return
 					}
 				}
-				io.WriteString(w, body)
+				io.WriteString(w, strings.ReplaceAll(body, "%HOST%", "http://"+r.Host))
 				return
 			}
 		}
@@ -102,7 +102,7 @@ func TestFeeds(t *testing.T) {
 			</channel></rss>`,
 		"/services/rss/job/": `<?xml version="1.0"?><rss version="2.0"><channel><item><title>Machine Learning Engineer (Frascati, IT)</title>
 			<link>https://jobs/x/1</link><pubDate>Thu, 19 Nov 2026 10:00:00 GMT</pubDate><description>AI</description></item></channel></rss>`,
-		"/postings.json": `{"data":[{"id":7,"title":"ML Engineer","url":"https://p/7","workplace_type":"remote","location":{"name":"Hamburg"},"description":"<p>geospatial</p>"}]}`,
+		"/postings.json": `{"data":[{"id":8,"title":"Head of DEI","url":"https://demo.pinpointhq.com/8"},{"id":7,"title":"ML Engineer","url":"` + "%HOST%" + `/7","workplace_type":"remote","location":{"name":"Hamburg"},"description":"<p>geospatial</p>"}]}`,
 	})
 	c := fetch.New(5 * time.Second)
 	ctx := context.Background()

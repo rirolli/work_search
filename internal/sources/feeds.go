@@ -20,6 +20,79 @@ func init() {
 	ATS["teamtailor"] = teamtailor
 	ATS["pinpoint"] = pinpoint
 	ATS["successfactors"] = successFactors
+	ATS["bamboohr"] = bambooHR
+	ATS["breezy"] = breezy
+}
+
+// --- BambooHR (JSON /careers/list) --------------------------------------------
+
+func bambooHR(ctx context.Context, c *fetch.Client, s config.Source, company string) ([]model.Job, error) {
+	h := base(s, "https://"+s.ID+".bamboohr.com")
+	var resp struct {
+		Result []struct {
+			ID              json64 `json:"id"`
+			JobOpeningName  string `json:"jobOpeningName"`
+			DepartmentLabel string `json:"departmentLabel"`
+			IsRemote        *bool  `json:"isRemote"`
+			LocationType    string `json:"locationType"`
+			Location        struct {
+				City  string `json:"city"`
+				State string `json:"state"`
+			} `json:"location"`
+		} `json:"result"`
+	}
+	if err := c.GetJSON(ctx, h+"/careers/list", &resp); err != nil {
+		return nil, err
+	}
+	out := make([]model.Job, 0, len(resp.Result))
+	for _, r := range resp.Result {
+		out = append(out, model.Job{
+			Key:        key("bamboohr", s.ID, string(r.ID)),
+			Company:    company,
+			Title:      strings.TrimSpace(r.JobOpeningName),
+			Location:   strings.Trim(r.Location.City+", "+r.Location.State, ", "),
+			Remote:     (r.IsRemote != nil && *r.IsRemote) || r.LocationType == "1",
+			Department: r.DepartmentLabel,
+			URL:        h + "/careers/" + string(r.ID),
+			Source:     "BambooHR",
+		})
+	}
+	return out, nil
+}
+
+// --- Breezy HR (JSON /json) -----------------------------------------------------
+
+func breezy(ctx context.Context, c *fetch.Client, s config.Source, company string) ([]model.Job, error) {
+	h := base(s, "https://"+s.ID+".breezy.hr")
+	var resp []struct {
+		ID            string `json:"id"`
+		Name          string `json:"name"`
+		URL           string `json:"url"`
+		PublishedDate string `json:"published_date"`
+		Department    string `json:"department"`
+		Location      struct {
+			Name     string `json:"name"`
+			IsRemote bool   `json:"is_remote"`
+		} `json:"location"`
+	}
+	if err := c.GetJSON(ctx, h+"/json", &resp); err != nil {
+		return nil, err
+	}
+	out := make([]model.Job, 0, len(resp))
+	for _, r := range resp {
+		out = append(out, model.Job{
+			Key:        key("breezy", s.ID, r.ID),
+			Company:    company,
+			Title:      strings.TrimSpace(r.Name),
+			Location:   r.Location.Name,
+			Remote:     r.Location.IsRemote,
+			Department: r.Department,
+			URL:        r.URL,
+			Source:     "Breezy",
+			Published:  fetch.ParseTime(r.PublishedDate),
+		})
+	}
+	return out, nil
 }
 
 // host restituisce l'URL base di una fonte che vive su un dominio proprio.
@@ -148,8 +221,14 @@ func pinpoint(ctx context.Context, c *fetch.Client, s config.Source, company str
 	if err := json.Unmarshal(b, &resp); err != nil {
 		return nil, fmt.Errorf("JSON non valido: %w", err)
 	}
+	// Per un account inesistente Pinpoint risponde con una board dimostrativa:
+	// teniamo solo gli annunci il cui link è sul dominio richiesto.
+	reqHost := strings.TrimPrefix(strings.TrimPrefix(h, "https://"), "http://")
 	out := make([]model.Job, 0, len(resp.Data))
 	for _, p := range resp.Data {
+		if u, err := url.Parse(p.URL); err == nil && u.Host != "" && !strings.EqualFold(u.Host, reqHost) {
+			continue
+		}
 		loc := p.Location.Name
 		if loc == "" {
 			loc = strings.Trim(p.Location.City+", "+p.Location.Province, ", ")

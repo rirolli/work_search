@@ -62,7 +62,11 @@ func greenhouse(ctx context.Context, c *fetch.Client, s config.Source, company s
 			} `json:"departments"`
 		} `json:"jobs"`
 	}
-	u := base(s, "https://boards-api.greenhouse.io") + "/v1/boards/" + url.PathEscape(s.ID) + "/jobs?content=true"
+	api := "https://boards-api.greenhouse.io"
+	if strings.EqualFold(s.Region, "eu") { // istanza europea (job-boards.eu.greenhouse.io)
+		api = "https://boards-api.eu.greenhouse.io"
+	}
+	u := base(s, api) + "/v1/boards/" + url.PathEscape(s.ID) + "/jobs?content=true"
 	if err := c.GetJSON(ctx, u, &resp); err != nil {
 		return nil, err
 	}

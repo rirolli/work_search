@@ -57,6 +57,9 @@ func trials(c candidate) []config.Source {
 	for _, s := range slugs(c) {
 		out = append(out,
 			config.Source{Type: "greenhouse", ID: s},
+			config.Source{Type: "greenhouse", ID: s, Region: "eu"},
+			config.Source{Type: "bamboohr", ID: s},
+			config.Source{Type: "breezy", ID: s},
 			config.Source{Type: "lever", ID: s},
 			config.Source{Type: "lever", ID: s, Region: "eu"},
 			config.Source{Type: "ashby", ID: s},
@@ -76,7 +79,13 @@ func trials(c candidate) []config.Source {
 			}
 		}
 	}
-	for _, d := range c.Domains {
+	domains := append([]string{}, c.Domains...)
+	for _, s := range slugs(c) {
+		if !strings.Contains(s, "-") {
+			domains = append(domains, "careers."+s+".com", "jobs."+s+".com")
+		}
+	}
+	for _, d := range domains {
 		out = append(out,
 			config.Source{Type: "teamtailor", Domain: d},
 			config.Source{Type: "pinpoint", Domain: d},
