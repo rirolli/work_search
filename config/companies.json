@@ -262,7 +262,17 @@
     {
      "type": "successfactors",
      "domain": "jobs.esa.int",
-     "verified": true
+     "verified": true,
+     "queries": [
+      "",
+      "earth observation",
+      "data",
+      "machine learning",
+      "artificial intelligence",
+      "software",
+      "engineer",
+      "scientist"
+     ]
     }
    ]
   },
@@ -944,7 +954,8 @@
    "country": "Italia (Torino)",
    "aliases": [
     "Altec S.p.A."
-   ]
+   ],
+   "notes": "la scoperta ha trovato solo aziende omonime: riconosciuta negli aggregatori"
   },
   {
    "name": "Leaf Space",
@@ -952,7 +963,14 @@
    "macro_sector": "Aerospazio",
    "aerospace": true,
    "rating": 7,
-   "country": "Italia (Lomazzo)"
+   "country": "Italia (Lomazzo)",
+   "sources": [
+    {
+     "type": "teamtailor",
+     "domain": "leafspace.teamtailor.com",
+     "verified": true
+    }
+   ]
   },
   {
    "name": "Sidereus Space Dynamics",
@@ -1017,7 +1035,8 @@
    "country": "Italia (Capua)",
    "aliases": [
     "Centro Italiano Ricerche Aerospaziali"
-   ]
+   ],
+   "notes": "la scoperta ha trovato solo aziende omonime: riconosciuta negli aggregatori"
   },
   {
    "name": "ASI",
@@ -1028,7 +1047,8 @@
    "country": "Italia (Roma)",
    "aliases": [
     "Agenzia Spaziale Italiana"
-   ]
+   ],
+   "notes": "la scoperta ha trovato solo aziende omonime: riconosciuta negli aggregatori"
   },
   {
    "name": "Piaggio Aerospace",
@@ -1052,7 +1072,23 @@
    "macro_sector": "Aerospazio e difesa",
    "aerospace": true,
    "rating": 7,
-   "country": "USA / Italia"
+   "country": "USA / Italia",
+   "sources": [
+    {
+     "type": "successfactors",
+     "domain": "careers.leonardodrs.com",
+     "verified": true,
+     "queries": [
+      "machine learning",
+      "artificial intelligence",
+      "computer vision",
+      "earth observation",
+      "image processing",
+      "data scientist",
+      "remote sensing"
+     ]
+    }
+   ]
   },
   {
    "name": "Safran",
@@ -1094,6 +1130,25 @@
    "country": "UK / Germania",
    "aliases": [
     "Rolls Royce"
+   ],
+   "sources": [
+    {
+     "type": "workday",
+     "domain": "rollsroyce.wd3.myworkdayjobs.com",
+     "tenant": "rollsroyce",
+     "site": "professional",
+     "verified": true,
+     "queries": [
+      "machine learning",
+      "artificial intelligence",
+      "computer vision",
+      "earth observation",
+      "image processing",
+      "data scientist",
+      "remote sensing"
+     ],
+     "pages": 2
+    }
    ]
   },
   {
@@ -1123,7 +1178,15 @@
     "Kongsberg Defence & Aerospace",
     "KSAT",
     "Kongsberg Satellite Services"
-   ]
+   ],
+   "sources": [
+    {
+     "type": "teamtailor",
+     "domain": "ksat.teamtailor.com",
+     "verified": true
+    }
+   ],
+   "notes": "fonte: KSAT (Kongsberg Satellite Services, stazioni di terra ed EO)"
   },
   {
    "name": "Hensoldt",
@@ -1184,7 +1247,23 @@
    "macro_sector": "Aerospazio e difesa",
    "aerospace": true,
    "rating": 7,
-   "country": "UK / Belgio"
+   "country": "UK / Belgio",
+   "sources": [
+    {
+     "type": "successfactors",
+     "domain": "careers.qinetiq.com",
+     "verified": true,
+     "queries": [
+      "machine learning",
+      "artificial intelligence",
+      "computer vision",
+      "earth observation",
+      "image processing",
+      "data scientist",
+      "remote sensing"
+     ]
+    }
+   ]
   },
   {
    "name": "Surrey Satellite Technology",
@@ -1206,6 +1285,22 @@
    "country": "Lussemburgo",
    "aliases": [
     "SES S.A."
+   ],
+   "sources": [
+    {
+     "type": "successfactors",
+     "domain": "careers.ses.com",
+     "verified": true,
+     "queries": [
+      "machine learning",
+      "artificial intelligence",
+      "computer vision",
+      "earth observation",
+      "image processing",
+      "data scientist",
+      "remote sensing"
+     ]
+    }
    ]
   },
   {
@@ -1218,6 +1313,22 @@
    "aliases": [
     "Eutelsat",
     "OneWeb"
+   ],
+   "sources": [
+    {
+     "type": "successfactors",
+     "domain": "careers.eutelsat.com",
+     "verified": true,
+     "queries": [
+      "machine learning",
+      "artificial intelligence",
+      "computer vision",
+      "earth observation",
+      "image processing",
+      "data scientist",
+      "remote sensing"
+     ]
+    }
    ]
   },
   {
@@ -1226,7 +1337,14 @@
    "macro_sector": "Aerospazio",
    "aerospace": true,
    "rating": 7,
-   "country": "Germania"
+   "country": "Germania",
+   "sources": [
+    {
+     "type": "greenhouse",
+     "id": "isaraerospace",
+     "verified": true
+    }
+   ]
   },
   {
    "name": "Rocket Factory Augsburg",
@@ -1242,7 +1360,14 @@
    "macro_sector": "Aerospazio",
    "aerospace": true,
    "rating": 7,
-   "country": "Germania / Francia"
+   "country": "Germania / Francia",
+   "sources": [
+    {
+     "type": "ashby",
+     "id": "the-exploration-company",
+     "verified": true
+    }
+   ]
   },
   {
    "name": "Reflex Aerospace",
@@ -1258,7 +1383,14 @@
    "macro_sector": "Aerospazio",
    "aerospace": true,
    "rating": 6,
-   "country": "Svizzera / UK"
+   "country": "Svizzera / UK",
+   "sources": [
+    {
+     "type": "bamboohr",
+     "id": "clearspace",
+     "verified": true
+    }
+   ]
   },
   {
    "name": "Aerospacelab",
@@ -1278,6 +1410,13 @@
    "aliases": [
     "Redwire",
     "Space Applications Services"
+   ],
+   "sources": [
+    {
+     "type": "greenhouse",
+     "id": "redwirespaceeurope",
+     "verified": true
+    }
    ]
   },
   {
@@ -1286,7 +1425,15 @@
    "macro_sector": "Aerospazio",
    "aerospace": true,
    "rating": 5,
-   "country": "Germania"
+   "country": "Germania",
+   "sources": [
+    {
+     "type": "personio",
+     "id": "exolaunch",
+     "domain": "com",
+     "verified": true
+    }
+   ]
   },
   {
    "name": "Astroscale",
@@ -1294,7 +1441,14 @@
    "macro_sector": "Aerospazio",
    "aerospace": true,
    "rating": 7,
-   "country": "UK / Giappone"
+   "country": "UK / Giappone",
+   "sources": [
+    {
+     "type": "bamboohr",
+     "id": "astroscale",
+     "verified": true
+    }
+   ]
   },
   {
    "name": "Satellogic",
@@ -1302,7 +1456,14 @@
    "macro_sector": "Aerospazio",
    "aerospace": true,
    "rating": 7,
-   "country": "Spagna / globale"
+   "country": "Spagna / globale",
+   "sources": [
+    {
+     "type": "bamboohr",
+     "id": "satellogic",
+     "verified": true
+    }
+   ]
   },
   {
    "name": "GE Aerospace",
@@ -1313,6 +1474,25 @@
    "country": "USA / Europa / Italia",
    "aliases": [
     "GE Aviation"
+   ],
+   "sources": [
+    {
+     "type": "workday",
+     "domain": "geaerospace.wd5.myworkdayjobs.com",
+     "tenant": "geaerospace",
+     "site": "GE_ExternalSite",
+     "verified": true,
+     "queries": [
+      "machine learning",
+      "artificial intelligence",
+      "computer vision",
+      "earth observation",
+      "image processing",
+      "data scientist",
+      "remote sensing"
+     ],
+     "pages": 2
+    }
    ]
   },
   {
@@ -1321,7 +1501,26 @@
    "macro_sector": "Aerospazio",
    "aerospace": true,
    "rating": 8,
-   "country": "USA / Europa"
+   "country": "USA / Europa",
+   "sources": [
+    {
+     "type": "workday",
+     "domain": "boeing.wd1.myworkdayjobs.com",
+     "tenant": "boeing",
+     "site": "EXTERNAL_CAREERS",
+     "verified": true,
+     "queries": [
+      "machine learning",
+      "artificial intelligence",
+      "computer vision",
+      "earth observation",
+      "image processing",
+      "data scientist",
+      "remote sensing"
+     ],
+     "pages": 2
+    }
+   ]
   },
   {
    "name": "Lockheed Martin",
@@ -1337,7 +1536,26 @@
    "macro_sector": "Aerospazio e difesa",
    "aerospace": true,
    "rating": 8,
-   "country": "USA / Europa"
+   "country": "USA / Europa",
+   "sources": [
+    {
+     "type": "workday",
+     "domain": "ngc.wd1.myworkdayjobs.com",
+     "tenant": "ngc",
+     "site": "Northrop_Grumman_External_Site",
+     "verified": true,
+     "queries": [
+      "machine learning",
+      "artificial intelligence",
+      "computer vision",
+      "earth observation",
+      "image processing",
+      "data scientist",
+      "remote sensing"
+     ],
+     "pages": 2
+    }
+   ]
   },
   {
    "name": "RTX",
@@ -1350,6 +1568,25 @@
     "Collins Aerospace",
     "Pratt & Whitney",
     "Raytheon"
+   ],
+   "sources": [
+    {
+     "type": "workday",
+     "domain": "globalhr.wd5.myworkdayjobs.com",
+     "tenant": "globalhr",
+     "site": "REC_RTX_Ext_Gateway",
+     "verified": true,
+     "queries": [
+      "machine learning",
+      "artificial intelligence",
+      "computer vision",
+      "earth observation",
+      "image processing",
+      "data scientist",
+      "remote sensing"
+     ],
+     "pages": 2
+    }
    ]
   },
   {
@@ -1369,7 +1606,23 @@
    "macro_sector": "Aerospazio e difesa",
    "aerospace": true,
    "rating": 7,
-   "country": "USA / UK"
+   "country": "USA / UK",
+   "sources": [
+    {
+     "type": "successfactors",
+     "domain": "jobs.l3harris.com",
+     "verified": true,
+     "queries": [
+      "machine learning",
+      "artificial intelligence",
+      "computer vision",
+      "earth observation",
+      "image processing",
+      "data scientist",
+      "remote sensing"
+     ]
+    }
+   ]
   },
   {
    "name": "Vantor",
@@ -1389,7 +1642,26 @@
    "macro_sector": "Aerospazio",
    "aerospace": true,
    "rating": 7,
-   "country": "USA"
+   "country": "USA",
+   "sources": [
+    {
+     "type": "workday",
+     "domain": "blueorigin.wd5.myworkdayjobs.com",
+     "tenant": "blueorigin",
+     "site": "BlueOrigin",
+     "verified": true,
+     "queries": [
+      "machine learning",
+      "artificial intelligence",
+      "computer vision",
+      "earth observation",
+      "image processing",
+      "data scientist",
+      "remote sensing"
+     ],
+     "pages": 2
+    }
+   ]
   },
   {
    "name": "SpaceX",
@@ -1397,7 +1669,14 @@
    "macro_sector": "Aerospazio",
    "aerospace": true,
    "rating": 9,
-   "country": "USA"
+   "country": "USA",
+   "sources": [
+    {
+     "type": "greenhouse",
+     "id": "spacex",
+     "verified": true
+    }
+   ]
   },
   {
    "name": "Rocket Lab",
@@ -1405,7 +1684,14 @@
    "macro_sector": "Aerospazio",
    "aerospace": true,
    "rating": 7,
-   "country": "USA / Nuova Zelanda"
+   "country": "USA / Nuova Zelanda",
+   "sources": [
+    {
+     "type": "greenhouse",
+     "id": "rocketlab",
+     "verified": true
+    }
+   ]
   },
   {
    "name": "Capella Space",
@@ -1413,7 +1699,14 @@
    "macro_sector": "Aerospazio",
    "aerospace": true,
    "rating": 8,
-   "country": "USA"
+   "country": "USA",
+   "sources": [
+    {
+     "type": "greenhouse",
+     "id": "capellaspace",
+     "verified": true
+    }
+   ]
   },
   {
    "name": "Umbra",
@@ -1435,6 +1728,13 @@
    "country": "USA",
    "aliases": [
     "BlackSky Technology"
+   ],
+   "sources": [
+    {
+     "type": "greenhouse",
+     "id": "blacksky",
+     "verified": true
+    }
    ]
   },
   {
@@ -1443,7 +1743,14 @@
    "macro_sector": "Aerospazio",
    "aerospace": true,
    "rating": 7,
-   "country": "Brasile / Portogallo"
+   "country": "Brasile / Portogallo",
+   "sources": [
+    {
+     "type": "breezy",
+     "id": "embraer",
+     "verified": true
+    }
+   ]
   },
   {
    "name": "e-GEOS",

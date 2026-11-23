@@ -112,6 +112,66 @@
   },
   {
    "type": "adzuna",
+   "country": "it",
+   "query": "Avio Colleferro",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "Avio Aero",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "Elettronica ELT",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "MBDA",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "Rheinmetall Italia",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "Sitael",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "OHB Italia",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "GMV",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "Indra",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
+   "country": "it",
+   "query": "Space Engineering",
+   "max_days_old": 45
+  },
+  {
+   "type": "adzuna",
    "country": "de",
    "query": "earth observation machine learning",
    "max_days_old": 30
