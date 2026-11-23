@@ -26,7 +26,10 @@ jobs:
       - name: Scoperta
         env:
           ONLY: ${{ inputs.only }}
-        run: go run ./cmd/discover -candidates config/candidates.json -only "$ONLY" | tee discover.md >> "$GITHUB_STEP_SUMMARY"
+        run: |
+          go run ./cmd/discover -candidates config/candidates.json -only "$ONLY" > discover.md
+          cat discover.md
+          cat discover.md >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         with:
           name: scoperta-fonti
