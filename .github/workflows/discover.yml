@@ -1,0 +1,34 @@
+name: Scoperta fonti
+
+# Avvio manuale: prova i nomi probabili delle aziende in config/candidates.json
+# su tutti gli ATS supportati e mostra nel riepilogo dell'esecuzione le fonti
+# funzionanti, con lo snippet da copiare in config/companies.json.
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Solo le aziende il cui nome contiene questo testo (vuoto = tutte)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+      - name: Scoperta
+        env:
+          ONLY: ${{ inputs.only }}
+        run: go run ./cmd/discover -candidates config/candidates.json -only "$ONLY" | tee discover.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: scoperta-fonti
+          path: discover.md
+          retention-days: 14

@@ -92,3 +92,30 @@ func TestMissingKey(t *testing.T) {
 		t.Fatalf("atteso ErrMissingKey, ottenuto %v", err)
 	}
 }
+
+func TestFeeds(t *testing.T) {
+	s := server(t, map[string]string{
+		"/jobs.rss": `<?xml version="1.0"?><rss version="2.0" xmlns:tt="https://teamtailor.com/locations"><channel><title>x</title>
+			<item><title>Applied AI Engineer</title><description>&lt;p&gt;Earth observation&lt;/p&gt;</description>
+			<pubDate>Mon, 16 Nov 2026 22:22:03 +0000</pubDate><link>https://c/jobs/1</link><guid>g1</guid><remoteStatus>hybrid</remoteStatus>
+			<tt:department>DATA</tt:department><tt:locations><tt:location><tt:name>Harwell</tt:name><tt:city>Didcot</tt:city><tt:country>United Kingdom</tt:country></tt:location></tt:locations></item>
+			</channel></rss>`,
+		"/services/rss/job/": `<?xml version="1.0"?><rss version="2.0"><channel><item><title>Machine Learning Engineer (Frascati, IT)</title>
+			<link>https://jobs/x/1</link><pubDate>Thu, 19 Nov 2026 10:00:00 GMT</pubDate><description>AI</description></item></channel></rss>`,
+		"/postings.json": `{"data":[{"id":7,"title":"ML Engineer","url":"https://p/7","workplace_type":"remote","location":{"name":"Hamburg"},"description":"<p>geospatial</p>"}]}`,
+	})
+	c := fetch.New(5 * time.Second)
+	ctx := context.Background()
+	tt, err := ATS["teamtailor"](ctx, c, config.Source{BaseURL: s.URL}, "X")
+	if err != nil || len(tt) != 1 || tt[0].Location != "Didcot, United Kingdom" || tt[0].Published.Day() != 16 || tt[0].Department != "DATA" {
+		t.Fatalf("teamtailor: %v %+v", err, tt)
+	}
+	sf, err := ATS["successfactors"](ctx, c, config.Source{BaseURL: s.URL}, "X")
+	if err != nil || len(sf) != 1 || sf[0].Title != "Machine Learning Engineer" || sf[0].Location != "Frascati, IT" || sf[0].Published.IsZero() {
+		t.Fatalf("successfactors: %v %+v", err, sf)
+	}
+	pp, err := ATS["pinpoint"](ctx, c, config.Source{BaseURL: s.URL}, "X")
+	if err != nil || len(pp) != 1 || !pp[0].Remote || pp[0].Location != "Hamburg" {
+		t.Fatalf("pinpoint: %v %+v", err, pp)
+	}
+}
