@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T11:28:37.376858881Z",
+ "generated": "2026-11-23T11:58:55.019238847Z",
  "jobs": [
   {
    "key": "ashby:iceye:e5082d17-b132-4106-b70d-2a08cdeeb405",
@@ -1811,7 +1811,6 @@
    "new": true
   }
  ],
- "no_longer_listed": null,
  "sources": [
   {
    "name": "ICEYE · Ashby",
@@ -1821,7 +1820,7 @@
    "fetched": 192,
    "kept": 13,
    "verified": true,
-   "millis": 227
+   "millis": 288
   },
   {
    "name": "Planet · Greenhouse",
@@ -1831,7 +1830,7 @@
    "fetched": 110,
    "kept": 4,
    "verified": true,
-   "millis": 191
+   "millis": 270
   },
   {
    "name": "Loft Orbital · Lever",
@@ -1841,7 +1840,7 @@
    "fetched": 86,
    "kept": 3,
    "verified": true,
-   "millis": 411
+   "millis": 327
   },
   {
    "name": "Overstory · Ashby",
@@ -1851,7 +1850,7 @@
    "fetched": 7,
    "kept": 0,
    "verified": true,
-   "millis": 186
+   "millis": 139
   },
   {
    "name": "Scandit · Greenhouse",
@@ -1861,7 +1860,7 @@
    "fetched": 11,
    "kept": 0,
    "verified": true,
-   "millis": 87
+   "millis": 58
   },
   {
    "name": "LiveEO · Personio",
@@ -1871,7 +1870,7 @@
    "fetched": 23,
    "kept": 2,
    "verified": true,
-   "millis": 129
+   "millis": 100
   },
   {
    "name": "Black Shark · Lever",
@@ -1881,7 +1880,7 @@
    "fetched": 5,
    "kept": 2,
    "verified": true,
-   "millis": 919
+   "millis": 950
   },
   {
    "name": "Airbus · Workday",
@@ -1891,7 +1890,7 @@
    "fetched": 130,
    "kept": 5,
    "verified": false,
-   "millis": 12056
+   "millis": 11721
   },
   {
    "name": "Thales · Workday",
@@ -1901,17 +1900,17 @@
    "fetched": 155,
    "kept": 4,
    "verified": false,
-   "millis": 12622
+   "millis": 12231
   },
   {
    "name": "Jobgether · Lever",
    "type": "lever",
    "ok": true,
    "skipped": false,
-   "fetched": 4454,
+   "fetched": 4532,
    "kept": 11,
    "verified": true,
-   "millis": 23303
+   "millis": 32714
   },
   {
    "name": "Adzuna: machine learning @ Roma it",
@@ -2152,7 +2151,7 @@
    "fetched": 900,
    "kept": 24,
    "verified": true,
-   "millis": 1127
+   "millis": 1259
   },
   {
    "name": "Remotive: machine learning @",
@@ -2162,7 +2161,7 @@
    "fetched": 16,
    "kept": 0,
    "verified": true,
-   "millis": 139
+   "millis": 156
   }
  ]
 }

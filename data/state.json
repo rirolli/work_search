@@ -1,685 +1,753 @@
 {
- "last_run": "2026-11-23T11:28:37.376858881Z",
+ "last_run": "2026-11-23T11:58:55.019238847Z",
  "jobs": {
   "arbeitnow:ai-forward-deployed-engineer-netherlands-amsterdam-113124": {
    "company": "databricks",
    "title": "AI Forward Deployed Engineer - Netherlands",
    "location": "Amsterdam",
    "url": "https://www.arbeitnow.nl/jobs/companies/databricks/ai-forward-deployed-engineer-netherlands-amsterdam-113124",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 31,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:data-scientist-trust-safety-amsterdam-87460": {
    "company": "Vinteden",
    "title": "Data Scientist, Trust \u0026 Safety",
    "location": "Amsterdam",
    "url": "https://www.arbeitnow.nl/jobs/companies/vinteden/data-scientist-trust-safety-amsterdam-87460",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 41,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:engineering-manager-ai-native-email-app-london-444103": {
    "company": "Bjak",
    "title": "Engineering Manager - AI-Native Email App",
    "location": "United Kingdom",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-ai-native-email-app-london-444103",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 33,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:engineering-manager-ai-payments-app-london-489211": {
    "company": "Bjak",
    "title": "Engineering Manager - AI Payments App",
    "location": "United Kingdom",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-ai-payments-app-london-489211",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 33,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:engineering-manager-ai-platform-paris-la-defense-312019": {
    "company": "DiliTrust",
    "title": "Engineering Manager - AI platform",
    "location": "Paris - La Défense",
    "url": "https://www.arbeitnow.fr/jobs/companies/dilitrust/engineering-manager-ai-platform-paris-la-defense-312019",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 48,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:engineering-manager-cloud-security-munich-236210": {
    "company": "FINN",
    "title": "Engineering Manager - Cloud \u0026 Security (m/f/x)",
    "location": "Munich",
    "url": "https://www.arbeitnow.com/jobs/companies/finn/engineering-manager-cloud-security-munich-236210",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 48,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:engineering-manager-customs-amsterdam-328631": {
    "company": "Flexport",
    "title": "Engineering Manager, Customs",
    "location": "Amsterdam",
    "url": "https://www.arbeitnow.nl/jobs/companies/flexport/engineering-manager-customs-amsterdam-328631",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 35,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:engineering-manager-london-377260": {
    "company": "Bjak",
    "title": "Engineering Manager",
    "location": "United Kingdom",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-london-377260",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 33,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:engineering-manager-stock-trading-app-london-6781": {
    "company": "Bjak",
    "title": "Engineering Manager - Stock Trading App",
    "location": "United Kingdom",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-stock-trading-app-london-6781",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 33,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:engineering-manager-travel-fx-app-london-213505": {
    "company": "Bjak",
    "title": "Engineering Manager - Travel FX App",
    "location": "United Kingdom",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-travel-fx-app-london-213505",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 33,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:engineering-manager-wealth-management-app-london-99649": {
    "company": "Bjak",
    "title": "Engineering Manager - Wealth Management App",
    "location": "United Kingdom",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-wealth-management-app-london-99649",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 33,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:forward-deployed-engineer-cdi-paris-theodo-ai-modernisation-389755": {
    "company": "Theodo",
    "title": "Forward Deployed Engineer - CDI Paris - Theodo AI-Modernisation",
    "location": "Paris",
    "url": "https://www.arbeitnow.fr/jobs/companies/theodo/forward-deployed-engineer-cdi-paris-theodo-ai-modernisation-389755",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 36,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:mlops-engineer-cdi-paris-386846": {
    "company": "mirakllabs",
    "title": "MLOps Engineer (CDI)",
    "location": "Paris / Bordeaux",
    "url": "https://www.arbeitnow.fr/jobs/companies/mirakllabs/mlops-engineer-cdi-paris-386846",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 49,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:remote-senior-data-scientist-research-eu-uk-berlin-88725": {
    "company": "Makersite GmbH",
    "title": "Senior Data Scientist - Research EU/UK (m/f/x)",
    "location": "Remote job",
    "url": "https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-senior-data-scientist-research-eu-uk-berlin-88725",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:research-scientist-foundation-model-world-model-site-memory-zurich-448097": {
    "company": "Laelaps",
    "title": "Research Scientist, Foundation Model (World Model \u0026 Site Memory)",
    "location": "Zürich, Switzerland",
    "url": "https://www.arbeitnow.ch/jobs/companies/laelaps/research-scientist-foundation-model-world-model-site-memory-zurich-448097",
+   "origin": "Arbeitnow: @",
    "priority": "Media",
    "score": 52,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:senior-ai-engineer-freelance-product-paris-35952": {
    "company": "mirakllabs",
    "title": "Senior AI Engineer Freelance - Product",
    "location": "Paris",
    "url": "https://www.arbeitnow.fr/jobs/companies/mirakllabs/senior-ai-engineer-freelance-product-paris-35952",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 30,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:senior-ai-engineer-product-paris-100724": {
    "company": "mirakllabs",
    "title": "Senior AI Engineer - Product",
    "location": "Paris",
    "url": "https://www.arbeitnow.fr/jobs/companies/mirakllabs/senior-ai-engineer-product-paris-100724",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 30,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:senior-applied-ai-manager-f-h-puteaux-474357": {
    "company": "ILLUIN Technology",
    "title": "Senior Applied AI Manager (F/H)",
    "location": "Paris La Défense",
    "url": "https://www.arbeitnow.fr/jobs/companies/illuin-technology/senior-applied-ai-manager-f-h-puteaux-474357",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 33,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:senior-data-scientist-applied-scientist-berlin-487392": {
    "company": "Vestiairecollective",
    "title": "Senior Data Scientist - Applied Scientist",
    "location": "Berlin",
    "url": "https://www.arbeitnow.com/jobs/companies/vestiairecollective/senior-data-scientist-applied-scientist-berlin-487392",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 49,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:senior-engineering-manager-amsterdam-485449": {
    "company": "Mytomorrows",
    "title": "Senior Engineering Manager",
    "location": "Amsterdam HQ",
    "url": "https://www.arbeitnow.nl/jobs/companies/mytomorrows/senior-engineering-manager-amsterdam-485449",
+   "origin": "Arbeitnow: @",
    "priority": "Media",
    "score": 64,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:senior-staff-ml-scientist-bidding-optimization-berlin-248715": {
    "company": "adjoe",
    "title": "Senior/Staff ML Scientist - Bidding \u0026 Optimization (f/m/d)",
    "location": "Berlin",
    "url": "https://www.arbeitnow.com/jobs/companies/adjoe/senior-staff-ml-scientist-bidding-optimization-berlin-248715",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 35,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:sr-engineering-manager-amsterdam-167050": {
    "company": "Mytomorrows",
    "title": "Sr. Engineering Manager",
    "location": "Amsterdam HQ",
    "url": "https://www.arbeitnow.nl/jobs/companies/mytomorrows/sr-engineering-manager-amsterdam-167050",
+   "origin": "Arbeitnow: @",
    "priority": "Media",
    "score": 60,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:tech-lead-grower-experience-berlin-336126": {
    "company": "Bridgemaker GmbH",
    "title": "Tech Lead Grower Experience (m/w/d)",
    "location": "Berlin",
    "url": "https://www.arbeitnow.com/jobs/companies/bridgemaker-gmbh/tech-lead-grower-experience-berlin-336126",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 39,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "arbeitnow:tech-lead-marketplace-experience-berlin-278949": {
    "company": "Bridgemaker GmbH",
    "title": "Tech Lead Marketplace Experience (m/w/d)",
    "location": "Berlin",
    "url": "https://www.arbeitnow.com/jobs/companies/bridgemaker-gmbh/tech-lead-marketplace-experience-berlin-278949",
+   "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 39,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "ashby:iceye:2b6f4ed5-daee-4c4e-aa8f-1a441b600c45": {
    "company": "ICEYE",
    "title": "Engineering Team Lead, Flood Observation",
    "location": "Espoo",
    "url": "https://jobs.ashbyhq.com/iceye/2b6f4ed5-daee-4c4e-aa8f-1a441b600c45",
+   "origin": "ICEYE · Ashby",
    "priority": "Alta",
    "score": 78,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "ashby:iceye:2ef68fcc-6ce8-476e-8c94-6e7b099842e9": {
    "company": "ICEYE",
    "title": "Forward Deployed AI Engineer, Portugal",
    "location": "Lisbon / Portugal",
    "url": "https://jobs.ashbyhq.com/iceye/2ef68fcc-6ce8-476e-8c94-6e7b099842e9",
+   "origin": "ICEYE · Ashby",
    "priority": "Bassa",
    "score": 49,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "ashby:iceye:3662acb4-316e-4b9b-aa2d-71ba9f84a85d": {
    "company": "ICEYE",
    "title": "Senior Software Engineer - SAR Processing Platform",
    "location": "Espoo",
    "url": "https://jobs.ashbyhq.com/iceye/3662acb4-316e-4b9b-aa2d-71ba9f84a85d",
+   "origin": "ICEYE · Ashby",
    "priority": "Alta",
    "score": 81,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "ashby:iceye:4470b416-a308-41a3-a967-293389b62beb": {
    "company": "ICEYE",
    "title": "Program Manager - Germany",
    "location": "Berlin / Munich",
    "url": "https://jobs.ashbyhq.com/iceye/4470b416-a308-41a3-a967-293389b62beb",
+   "origin": "ICEYE · Ashby",
    "priority": "Media",
    "score": 55,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "ashby:iceye:471cf438-9c29-4167-9c18-be4cc5f4e115": {
    "company": "ICEYE",
    "title": "AIT Engineering Team Lead",
    "location": "Lisbon / Warsaw",
    "url": "https://jobs.ashbyhq.com/iceye/471cf438-9c29-4167-9c18-be4cc5f4e115",
+   "origin": "ICEYE · Ashby",
    "priority": "Media",
    "score": 73,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "ashby:iceye:4b5957fb-dd07-424f-b1b0-59bbd2864a0f": {
    "company": "ICEYE",
    "title": "Senior Geospatial Software Engineer",
    "location": "Espoo",
    "url": "https://jobs.ashbyhq.com/iceye/4b5957fb-dd07-424f-b1b0-59bbd2864a0f",
+   "origin": "ICEYE · Ashby",
    "priority": "Alta",
    "score": 77,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "ashby:iceye:7270373f-9e9c-4608-b492-39afa380fb48": {
    "company": "ICEYE",
    "title": "Lead, AI Hardware Design Skunkworks",
    "location": "Valencia",
    "url": "https://jobs.ashbyhq.com/iceye/7270373f-9e9c-4608-b492-39afa380fb48",
+   "origin": "ICEYE · Ashby",
    "priority": "Media",
    "score": 52,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "ashby:iceye:89154c8e-6501-4012-b71b-8c6711588ffb": {
    "company": "ICEYE",
    "title": "Senior MLOps Engineer, ISR",
    "location": "Berlin",
    "url": "https://jobs.ashbyhq.com/iceye/89154c8e-6501-4012-b71b-8c6711588ffb",
+   "origin": "ICEYE · Ashby",
    "priority": "Media",
    "score": 61,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "ashby:iceye:9dc49b37-2a22-4e94-9af3-d4312f366cd8": {
    "company": "ICEYE",
    "title": "AI Solutions Engineer",
    "location": "Espoo",
    "url": "https://jobs.ashbyhq.com/iceye/9dc49b37-2a22-4e94-9af3-d4312f366cd8",
+   "origin": "ICEYE · Ashby",
    "priority": "Bassa",
    "score": 49,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "ashby:iceye:bcb9940b-58cd-4c23-8671-7b67f011d07d": {
    "company": "ICEYE",
    "title": "Mission Management Team Lead",
    "location": "Espoo",
    "url": "https://jobs.ashbyhq.com/iceye/bcb9940b-58cd-4c23-8671-7b67f011d07d",
+   "origin": "ICEYE · Ashby",
    "priority": "Media",
    "score": 73,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "ashby:iceye:de792d17-acf3-4c8a-bf3f-f582ad84ea0a": {
    "company": "ICEYE",
    "title": "Software Engineer - SAR Processing Platform",
    "location": "Espoo",
    "url": "https://jobs.ashbyhq.com/iceye/de792d17-acf3-4c8a-bf3f-f582ad84ea0a",
+   "origin": "ICEYE · Ashby",
    "priority": "Media",
    "score": 73,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "ashby:iceye:e5082d17-b132-4106-b70d-2a08cdeeb405": {
    "company": "ICEYE",
    "title": "Engineering Team Lead (Geospatial Analytics)",
    "location": "Espoo",
    "url": "https://jobs.ashbyhq.com/iceye/e5082d17-b132-4106-b70d-2a08cdeeb405",
+   "origin": "ICEYE · Ashby",
    "priority": "Alta",
    "score": 93,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "ashby:iceye:f1923306-9ffa-4b2f-bee3-c7472c711167": {
    "company": "ICEYE",
    "title": "Forward Deployed AI Engineer, Germany",
    "location": "Munich / Neuss / Berlin",
    "url": "https://jobs.ashbyhq.com/iceye/f1923306-9ffa-4b2f-bee3-c7472c711167",
+   "origin": "ICEYE · Ashby",
    "priority": "Bassa",
    "score": 49,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "greenhouse:planetlabs:8221607": {
    "company": "Planet",
    "title": "Senior Engineering Program Manager",
    "location": "Berlin, Germany",
    "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8221607",
+   "origin": "Planet · Greenhouse",
    "priority": "Bassa",
    "score": 49,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "greenhouse:planetlabs:8226128": {
    "company": "Planet",
    "title": "Program Manager, German Civil Government",
    "location": "Berlin, Germany",
    "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8226128",
+   "origin": "Planet · Greenhouse",
    "priority": "Bassa",
    "score": 39,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "greenhouse:planetlabs:8306456": {
    "company": "Planet",
    "title": "Senior Technical Program Manager, Solutions",
    "location": "Berlin, Germany",
    "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8306456",
+   "origin": "Planet · Greenhouse",
    "priority": "Media",
    "score": 59,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "greenhouse:planetlabs:8324235": {
    "company": "Planet",
    "title": "Senior Director of Engineering - Civil Government and Commercial",
    "location": "Haarlem, Netherlands / Ljubljana, Slovenia / Berlin, Germany",
    "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8324235",
+   "origin": "Planet · Greenhouse",
    "priority": "Media",
    "score": 51,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:blackshark:023ce5b4-3800-4b87-ac17-bdc30a6ddbd1": {
    "company": "Black Shark",
    "title": "Software Engineering Manager - Data Plane",
    "location": "Graz",
    "url": "https://jobs.eu.lever.co/blackshark/023ce5b4-3800-4b87-ac17-bdc30a6ddbd1",
+   "origin": "Black Shark · Lever",
    "priority": "Media",
    "score": 62,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:blackshark:7c292d32-b2d9-429e-94b5-a7907920429d": {
    "company": "Black Shark",
    "title": "Software Engineering Manager - Control Plane",
    "location": "Graz",
    "url": "https://jobs.eu.lever.co/blackshark/7c292d32-b2d9-429e-94b5-a7907920429d",
+   "origin": "Black Shark · Lever",
    "priority": "Media",
    "score": 61,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:jobgether:007bcb66-ef92-4294-be42-f9f9ca6c5b1b": {
    "company": "Jobgether",
    "title": "Java Tech Lead",
    "location": "UK / Germany / France / Switzerland / Ireland / Netherlands / Spain",
    "url": "https://jobs.lever.co/jobgether/007bcb66-ef92-4294-be42-f9f9ca6c5b1b",
+   "origin": "Jobgether · Lever",
    "priority": "Bassa",
    "score": 47,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:jobgether:050b324e-7524-4fc8-9bd7-9a40da81e38b": {
    "company": "Jobgether",
    "title": "Senior Artificial Intelligence Specialist",
    "location": "Italy / Ireland / Switzerland / Spain / Portugal / Netherlands / Romania / UK / Germany / France",
    "url": "https://jobs.lever.co/jobgether/050b324e-7524-4fc8-9bd7-9a40da81e38b",
+   "origin": "Jobgether · Lever",
    "priority": "Bassa",
    "score": 35,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:jobgether:0b7492c8-2270-4764-9185-da7c1176ea81": {
    "company": "Jobgether",
    "title": "Senior AI Engineer (Internal Tools \u0026 Agents)",
    "location": "Chile / Belgium / South Africa / Croatia / Spain / Germany / Argentina / Switzerland / Romania / Slovenia / Norway / Finland / Poland / Italy / Kenya / Portugal / Denmark / New Zealand / Sweden / Estonia",
    "url": "https://jobs.lever.co/jobgether/0b7492c8-2270-4764-9185-da7c1176ea81",
+   "origin": "Jobgether · Lever",
    "priority": "Bassa",
    "score": 35,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:jobgether:0c4b28f6-a430-488a-9dc0-2f5d6dbce8bd": {
    "company": "Jobgether",
    "title": "Forward Deployed Engineer (AI \u0026 Digital Experience Platforms)",
    "location": "UK / France / Netherlands / Switzerland / Ireland / Germany / Spain",
    "url": "https://jobs.lever.co/jobgether/0c4b28f6-a430-488a-9dc0-2f5d6dbce8bd",
+   "origin": "Jobgether · Lever",
    "priority": "Bassa",
    "score": 30,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:jobgether:0cecd754-7572-48d0-b427-b372c02225c6": {
    "company": "Jobgether",
    "title": "ML Engineer",
    "location": "Greece / UK / Spain / France / Belgium / Kenya / Portugal / Luxembourg / New Zealand / Denmark / Czechia / Chile / Nigeria / South Africa / Colombia / Estonia / Croatia / Netherlands / Austria / Argentina",
    "url": "https://jobs.lever.co/jobgether/0cecd754-7572-48d0-b427-b372c02225c6",
+   "origin": "Jobgether · Lever",
    "priority": "Bassa",
    "score": 39,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:jobgether:0d3e06d5-2b41-451e-a5f5-293dbababd00": {
    "company": "Jobgether",
    "title": "Lead Engineer - AI Platform",
    "location": "Ireland / Germany / Spain / Switzerland / UK / Netherlands / France",
    "url": "https://jobs.lever.co/jobgether/0d3e06d5-2b41-451e-a5f5-293dbababd00",
+   "origin": "Jobgether · Lever",
    "priority": "Bassa",
    "score": 30,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:jobgether:10fd133e-d0a2-43db-bb9d-9f61bfa27550": {
    "company": "Jobgether",
    "title": "Senior ML Engineer",
    "location": "Germany / Spain / UK / Netherlands / Italy / France / Ireland / Switzerland",
    "url": "https://jobs.lever.co/jobgether/10fd133e-d0a2-43db-bb9d-9f61bfa27550",
+   "origin": "Jobgether · Lever",
    "priority": "Bassa",
    "score": 47,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:jobgether:15d4c9c5-9434-4f11-b44d-182b593664c1": {
    "company": "Jobgether",
    "title": "Machine Learning Engineer",
    "location": "Poland / Netherlands / Sweden / UK / Romania / Austria / Belgium / Portugal / France / Spain / Germany / South Africa / Switzerland / Ireland / Italy",
    "url": "https://jobs.lever.co/jobgether/15d4c9c5-9434-4f11-b44d-182b593664c1",
+   "origin": "Jobgether · Lever",
    "priority": "Media",
    "score": 55,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:jobgether:1f07ccda-6d36-464d-91f3-656a88eabb72": {
    "company": "Jobgether",
    "title": "Director of Engineering",
    "location": "Germany / Switzerland / France / UK / Spain / Ireland / Netherlands",
    "url": "https://jobs.lever.co/jobgether/1f07ccda-6d36-464d-91f3-656a88eabb72",
+   "origin": "Jobgether · Lever",
    "priority": "Bassa",
    "score": 43,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:jobgether:4581e1e7-fe7c-44f6-9f9f-f6fd688c0b91": {
    "company": "Jobgether",
    "title": "Hands-on Engineering Manager DevOps (GCP/Kubernetes)",
    "location": "Netherlands / UK / Romania / Switzerland / France / Spain / Portugal / South Africa / Germany / Ireland / Italy",
    "url": "https://jobs.lever.co/jobgether/4581e1e7-fe7c-44f6-9f9f-f6fd688c0b91",
+   "origin": "Jobgether · Lever",
    "priority": "Media",
    "score": 64,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:jobgether:ee0c58b3-e91b-451f-ae67-6e734c6ecf0f": {
    "company": "Jobgether",
    "title": "Senior Data Scientist – Applied ML \u0026 GenAI",
    "location": "Italy",
    "url": "https://jobs.lever.co/jobgether/ee0c58b3-e91b-451f-ae67-6e734c6ecf0f",
+   "origin": "Jobgether · Lever",
    "priority": "Bassa",
    "score": 32,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:loftorbital:9182f41f-2d8c-48ff-b914-49a408426e9e": {
    "company": "Loft Orbital",
    "title": "Onboard Software Engineer - Hyperdrive",
    "location": "Toulouse, Occitanie",
    "url": "https://jobs.lever.co/loftorbital/9182f41f-2d8c-48ff-b914-49a408426e9e",
+   "origin": "Loft Orbital · Lever",
    "priority": "Media",
    "score": 64,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:loftorbital:e2428032-ee1a-4e34-a331-914aea52a93f": {
    "company": "Loft Orbital",
    "title": "Onboard Software Engineer - Peripheral Services",
    "location": "Toulouse, Occitanie",
    "url": "https://jobs.lever.co/loftorbital/e2428032-ee1a-4e34-a331-914aea52a93f",
+   "origin": "Loft Orbital · Lever",
    "priority": "Media",
    "score": 64,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "lever:loftorbital:f5f9edbc-3e8c-4eb3-b757-25cfcbf8e7fa": {
    "company": "Loft Orbital",
    "title": "Full Stack Engineer - AI Marketplace",
    "location": "Toulouse, Occitanie",
    "url": "https://jobs.lever.co/loftorbital/f5f9edbc-3e8c-4eb3-b757-25cfcbf8e7fa",
+   "origin": "Loft Orbital · Lever",
    "priority": "Bassa",
    "score": 44,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "personio:liveeo-gmbh:2864893": {
    "company": "LiveEO",
    "title": "Geospatial Software Engineer (f/m/x)",
    "location": "LiveEO GmbH Berlin Office (Hybrid)",
    "url": "https://liveeo-gmbh.jobs.personio.com/job/2864893",
+   "origin": "LiveEO · Personio",
    "priority": "Media",
    "score": 64,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "personio:liveeo-gmbh:2873911": {
    "company": "LiveEO",
    "title": "Senior Project Manager (f/m/x)",
    "location": "LiveEO GmbH Berlin (Onsite)",
    "url": "https://liveeo-gmbh.jobs.personio.com/job/2873911",
+   "origin": "LiveEO · Personio",
    "priority": "Media",
    "score": 58,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "workday:ag:/job/Albacete/Machine-Learning-Engineer--MLOps---AI-Integration-_JR10454310": {
    "company": "Airbus",
    "title": "Machine Learning Engineer (MLOps \u0026 AI Integration)",
    "location": "Albacete",
    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Albacete/Machine-Learning-Engineer--MLOps---AI-Integration-_JR10454310",
+   "origin": "Airbus · Workday",
    "priority": "Bassa",
    "score": 33,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "workday:ag:/job/Barcelona/Geospatial-Commercial---Bid-Manager_JR10350385": {
    "company": "Airbus",
    "title": "Geospatial Commercial \u0026 Bid Manager",
    "location": "Barcelona",
    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Barcelona/Geospatial-Commercial---Bid-Manager_JR10350385",
+   "origin": "Airbus · Workday",
    "priority": "Bassa",
    "score": 34,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "workday:ag:/job/Getafe-Area/Earth-Observation-Satellite-System-Engineer_JR10423783": {
    "company": "Airbus",
    "title": "Earth Observation Satellite System Engineer",
    "location": "Getafe Area",
    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Getafe-Area/Earth-Observation-Satellite-System-Engineer_JR10423783",
+   "origin": "Airbus · Workday",
    "priority": "Media",
    "score": 60,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "workday:ag:/job/Getafe-Area/Synthetic-Aperture-Radar--SAR--Performance-Engineer_JR10448575-1": {
    "company": "Airbus",
    "title": "Synthetic Aperture Radar (SAR) Performance Engineer",
    "location": "Getafe Area",
    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Getafe-Area/Synthetic-Aperture-Radar--SAR--Performance-Engineer_JR10448575-1",
+   "origin": "Airbus · Workday",
    "priority": "Media",
    "score": 62,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "workday:ag:/job/Stuttgart-Area/Senior-Machine-Learning-Engineer--d-m-w-_JR10459155": {
    "company": "Airbus",
    "title": "Senior Machine Learning Engineer (d/m/w)",
    "location": "Stuttgart Area",
    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Stuttgart-Area/Senior-Machine-Learning-Engineer--d-m-w-_JR10459155",
+   "origin": "Airbus · Workday",
    "priority": "Bassa",
    "score": 38,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "workday:thales:/job/Elancourt/Ingnieur-Docteur-en-traitement-du-signal-RADAR-SAR-H-F_R0324957-1": {
    "company": "Thales",
    "title": "Ingénieur Docteur en traitement du signal RADAR-SAR H/F",
    "location": "Elancourt",
    "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Elancourt/Ingnieur-Docteur-en-traitement-du-signal-RADAR-SAR-H-F_R0324957-1",
+   "origin": "Thales · Workday",
    "priority": "Bassa",
    "score": 37,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "workday:thales:/job/Roma/Artificial-Intelligence-Space-Engineer_R0210027": {
    "company": "Thales",
    "title": "Artificial Intelligence Space Engineer",
    "location": "Roma",
    "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Roma/Artificial-Intelligence-Space-Engineer_R0210027",
+   "origin": "Thales · Workday",
    "priority": "Bassa",
    "score": 38,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "workday:thales:/job/Toulouse/Digital-Ground-Architect-for-Earth-Observation_R0322925-1": {
    "company": "Thales",
    "title": "Digital Ground Architect for Earth Observation",
    "location": "Toulouse",
    "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Toulouse/Digital-Ground-Architect-for-Earth-Observation_R0322925-1",
+   "origin": "Thales · Workday",
    "priority": "Bassa",
    "score": 45,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   },
   "workday:thales:/job/Vlizy-Villacoublay/Tech-Lead-IA-F-H_R0344884-1": {
    "company": "Thales",
    "title": "Tech Lead IA F/H",
    "location": "Vélizy-Villacoublay",
    "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Vlizy-Villacoublay/Tech-Lead-IA-F-H_R0344884-1",
+   "origin": "Thales · Workday",
    "priority": "Bassa",
    "score": 37,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-23T11:28:37.376858881Z"
+   "last_seen": "2026-11-23T11:58:55.019238847Z"
   }
  }
 }

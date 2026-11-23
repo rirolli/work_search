@@ -15,9 +15,9 @@ I file vengono committati nel repository e allegati all'esecuzione come artefatt
 ## Risultati
 
 <!-- RISULTATI:INIZIO -->
-_Aggiornato il 23/11/2026 12:28 (ora di Roma) · 68 offerte in linea con il profilo su 6089 scaricate · **4 alta**, 21 media, 43 bassa · **68 nuove** · 0 non più visibili_
+_Aggiornato il 23/11/2026 12:58 (ora di Roma) · 68 offerte in linea con il profilo su 6167 scaricate · **4 alta**, 21 media, 43 bassa · **68 nuove**_
 
-Elenco completo, filtri e ordinamento: [`docs/index.html`](docs/index.html) · Excel: [`docs/offerte.xlsx`](docs/offerte.xlsx)
+Filtri e ordinamento: [`docs/index.html`](docs/index.html) · Excel: [`docs/offerte.xlsx`](docs/offerte.xlsx)
 
 | Priorità | Score | | Azienda | Ruolo | Sede | Pubblicata |
 |---|---:|---|---|---|---|---|
@@ -61,8 +61,34 @@ Elenco completo, filtri e ordinamento: [`docs/index.html`](docs/index.html) · E
 | Bassa | 43 | 🆕 | Jobgether | [Director of Engineering](https://jobs.lever.co/jobgether/1f07ccda-6d36-464d-91f3-656a88eabb72) | Germany / Switzerland / France / UK / Spain / Ireland / Netherlands | 2026-11-23 |
 | Bassa | 42 | 🆕 | Makersite GmbH | [Senior Data Scientist - Research EU/UK (m/f/x)](https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-senior-data-scientist-research-eu-uk-berlin-88725) | Remote job | 2026-11-22 |
 | Bassa | 41 | 🆕 | Vinteden | [Data Scientist, Trust & Safety](https://www.arbeitnow.nl/jobs/companies/vinteden/data-scientist-trust-safety-amsterdam-87460) | Amsterdam | 2026-11-19 |
-
-_…e altre 28 offerte nell'HTML e nell'Excel._
+| Bassa | 39 | 🆕 | Bridgemaker GmbH | [Tech Lead Marketplace Experience (m/w/d)](https://www.arbeitnow.com/jobs/companies/bridgemaker-gmbh/tech-lead-marketplace-experience-berlin-278949) | Berlin | 2026-11-23 |
+| Bassa | 39 | 🆕 | Bridgemaker GmbH | [Tech Lead Grower Experience (m/w/d)](https://www.arbeitnow.com/jobs/companies/bridgemaker-gmbh/tech-lead-grower-experience-berlin-336126) | Berlin | 2026-11-23 |
+| Bassa | 39 | 🆕 | Jobgether | [ML Engineer](https://jobs.lever.co/jobgether/0cecd754-7572-48d0-b427-b372c02225c6) | Greece / UK / Spain / France / Belgium / Kenya / Portugal / Luxembour… | 2026-11-18 |
+| Bassa | 39 | 🆕 | Planet | [Program Manager, German Civil Government](https://job-boards.greenhouse.io/planetlabs/jobs/8226128) | Berlin, Germany | 2026-09-30 |
+| Bassa | 38 | 🆕 | Airbus | [Senior Machine Learning Engineer (d/m/w)](https://ag.wd3.myworkdayjobs.com/Airbus/job/Stuttgart-Area/Senior-Machine-Learning-Engineer--d-m-w-_JR10459155) | Stuttgart Area | 2026-11-18 |
+| Bassa | 38 | 🆕 | Thales | [Artificial Intelligence Space Engineer](https://thales.wd3.myworkdayjobs.com/Careers/job/Roma/Artificial-Intelligence-Space-Engineer_R0210027) | Roma | Posted 30+ Days Ago |
+| Bassa | 37 | 🆕 | Thales | [Tech Lead IA F/H](https://thales.wd3.myworkdayjobs.com/Careers/job/Vlizy-Villacoublay/Tech-Lead-IA-F-H_R0344884-1) | Vélizy-Villacoublay | 2026-11-18 |
+| Bassa | 37 | 🆕 | Thales | [Ingénieur Docteur en traitement du signal RADAR-SAR H/F](https://thales.wd3.myworkdayjobs.com/Careers/job/Elancourt/Ingnieur-Docteur-en-traitement-du-signal-RADAR-SAR-H-F_R0324957-1) | Elancourt | Posted 30+ Days Ago |
+| Bassa | 36 | 🆕 | Theodo | [Forward Deployed Engineer - CDI Paris - Theodo AI-Modernisation](https://www.arbeitnow.fr/jobs/companies/theodo/forward-deployed-engineer-cdi-paris-theodo-ai-modernisation-389755) | Paris | 2026-11-23 |
+| Bassa | 35 | 🆕 | Jobgether | [Senior Artificial Intelligence Specialist](https://jobs.lever.co/jobgether/050b324e-7524-4fc8-9bd7-9a40da81e38b) | Italy / Ireland / Switzerland / Spain / Portugal / Netherlands / Roma… | 2026-11-23 |
+| Bassa | 35 | 🆕 | adjoe | [Senior/Staff ML Scientist - Bidding & Optimization (f/m/d)](https://www.arbeitnow.com/jobs/companies/adjoe/senior-staff-ml-scientist-bidding-optimization-berlin-248715) | Berlin | 2026-11-22 |
+| Bassa | 35 | 🆕 | Jobgether | [Senior AI Engineer (Internal Tools & Agents)](https://jobs.lever.co/jobgether/0b7492c8-2270-4764-9185-da7c1176ea81) | Chile / Belgium / South Africa / Croatia / Spain / Germany / Argentin… | 2026-11-20 |
+| Bassa | 35 | 🆕 | Flexport | [Engineering Manager, Customs](https://www.arbeitnow.nl/jobs/companies/flexport/engineering-manager-customs-amsterdam-328631) | Amsterdam | 2026-11-18 |
+| Bassa | 34 | 🆕 | Airbus | [Geospatial Commercial & Bid Manager](https://ag.wd3.myworkdayjobs.com/Airbus/job/Barcelona/Geospatial-Commercial---Bid-Manager_JR10350385) | Barcelona | Posted 30+ Days Ago |
+| Bassa | 33 | 🆕 | Bjak | [Engineering Manager - AI-Native Email App](https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-ai-native-email-app-london-444103) | United Kingdom | 2026-11-23 |
+| Bassa | 33 | 🆕 | Bjak | [Engineering Manager - Stock Trading App](https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-stock-trading-app-london-6781) | United Kingdom | 2026-11-23 |
+| Bassa | 33 | 🆕 | Bjak | [Engineering Manager - Wealth Management App](https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-wealth-management-app-london-99649) | United Kingdom | 2026-11-23 |
+| Bassa | 33 | 🆕 | Bjak | [Engineering Manager - Travel FX App](https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-travel-fx-app-london-213505) | United Kingdom | 2026-11-23 |
+| Bassa | 33 | 🆕 | Bjak | [Engineering Manager - AI Payments App](https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-ai-payments-app-london-489211) | United Kingdom | 2026-11-23 |
+| Bassa | 33 | 🆕 | Bjak | [Engineering Manager](https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-london-377260) | United Kingdom | 2026-11-23 |
+| Bassa | 33 | 🆕 | ILLUIN Technology | [Senior Applied AI Manager (F/H)](https://www.arbeitnow.fr/jobs/companies/illuin-technology/senior-applied-ai-manager-f-h-puteaux-474357) | Paris La Défense | 2026-11-23 |
+| Bassa | 33 | 🆕 | Airbus | [Machine Learning Engineer (MLOps & AI Integration)](https://ag.wd3.myworkdayjobs.com/Airbus/job/Albacete/Machine-Learning-Engineer--MLOps---AI-Integration-_JR10454310) | Albacete | 2026-11-05 |
+| Bassa | 32 | 🆕 | Jobgether | [Senior Data Scientist – Applied ML & GenAI](https://jobs.lever.co/jobgether/ee0c58b3-e91b-451f-ae67-6e734c6ecf0f) | Italy | 2026-11-18 |
+| Bassa | 31 | 🆕 | databricks | [AI Forward Deployed Engineer - Netherlands](https://www.arbeitnow.nl/jobs/companies/databricks/ai-forward-deployed-engineer-netherlands-amsterdam-113124) | Amsterdam | 2026-11-20 |
+| Bassa | 30 | 🆕 | Jobgether | [Forward Deployed Engineer (AI & Digital Experience Platforms)](https://jobs.lever.co/jobgether/0c4b28f6-a430-488a-9dc0-2f5d6dbce8bd) | UK / France / Netherlands / Switzerland / Ireland / Germany / Spain | 2026-11-23 |
+| Bassa | 30 | 🆕 | mirakllabs | [Senior AI Engineer - Product](https://www.arbeitnow.fr/jobs/companies/mirakllabs/senior-ai-engineer-product-paris-100724) | Paris | 2026-11-21 |
+| Bassa | 30 | 🆕 | mirakllabs | [Senior AI Engineer Freelance - Product](https://www.arbeitnow.fr/jobs/companies/mirakllabs/senior-ai-engineer-freelance-product-paris-35952) | Paris | 2026-11-21 |
+| Bassa | 30 | 🆕 | Jobgether | [Lead Engineer - AI Platform](https://jobs.lever.co/jobgether/0d3e06d5-2b41-451e-a5f5-293dbababd00) | Ireland / Germany / Spain / Switzerland / UK / Netherlands / France | 2026-11-17 |
 <!-- RISULTATI:FINE -->
 
 ## Primo avvio
