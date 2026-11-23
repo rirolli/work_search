@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T11:58:55.019238847Z",
+ "generated": "2026-11-23T12:13:49.266005784Z",
  "jobs": [
   {
    "key": "ashby:iceye:e5082d17-b132-4106-b70d-2a08cdeeb405",
@@ -36,6 +36,38 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": true
+  },
+  {
+   "key": "successfactors:https://jobs.esa.int:https://jobs.esa.int/job/Noordwijk-Earth-Observation-Campaign-Scientist/1458757833/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
+   "company": "ESA",
+   "title": "Earth Observation Campaign Scientist",
+   "location": "Noordwijk, NL",
+   "remote": false,
+   "url": "https://jobs.esa.int/job/Noordwijk-Earth-Observation-Campaign-Scientist/1458757833/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
+   "source": "SuccessFactors",
+   "published": "2026-11-19T00:00:00Z",
+   "sector": "Agenzia spaziale",
+   "macro_sector": "Aerospazio",
+   "aerospace": "Sì",
+   "company_rating": 10,
+   "country": "Italia / Europa",
+   "score": 83,
+   "priority": "Alta",
+   "matched": [
+    "earth observation",
+    "remote sensing",
+    "satellite",
+    "machine learning",
+    "copernicus",
+    "esa",
+    "eo",
+    "head",
+    "lead",
+    "sede: noordwijk"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
    "new": true
   },
   {
@@ -105,6 +137,33 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": true
+  },
+  {
+   "key": "successfactors:https://jobs.esa.int:https://jobs.esa.int/job/Frascati-ERS-EODownstream-Ground-System-Engineer/1458807533/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
+   "company": "ESA",
+   "title": "ERS-EO/Downstream Ground System Engineer",
+   "location": "Frascati, IT",
+   "remote": false,
+   "url": "https://jobs.esa.int/job/Frascati-ERS-EODownstream-Ground-System-Engineer/1458807533/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
+   "source": "SuccessFactors",
+   "published": "2026-11-19T00:00:00Z",
+   "sector": "Agenzia spaziale",
+   "macro_sector": "Aerospazio",
+   "aerospace": "Sì",
+   "company_rating": 10,
+   "country": "Italia / Europa",
+   "score": 78,
+   "priority": "Alta",
+   "matched": [
+    "earth observation",
+    "esa",
+    "eo",
+    "lead",
+    "sede: frascati"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
    "new": true
   },
   {
@@ -235,6 +294,195 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": true
+  },
+  {
+   "key": "teamtailor:https://careers.open-cosmos.com:133cc451-e336-47f7-9aae-7c455e414442",
+   "company": "Open Cosmos",
+   "title": "Edge Computing Software Engineer, Earth Observation",
+   "location": "Didcot, United Kingdom",
+   "remote": false,
+   "department": "DATA",
+   "url": "https://careers.open-cosmos.com/jobs/8478374-edge-computing-software-engineer-earth-observation",
+   "source": "Teamtailor",
+   "published": "2026-09-30T10:09:08Z",
+   "sector": "Spazio – satelliti e dati EO",
+   "macro_sector": "Aerospazio",
+   "aerospace": "Sì",
+   "company_rating": 7,
+   "country": "Spagna / Portogallo / UK",
+   "score": 71,
+   "priority": "Media",
+   "matched": [
+    "earth observation",
+    "geospatial",
+    "on board",
+    "satellite",
+    "satellites",
+    "image processing",
+    "python",
+    "sede: united kingdom"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "lever:safran-ai:f272d7d4-d63f-4d13-947f-b572fd974d80",
+   "company": "Safran.AI",
+   "title": "Senior Deep Learning Scientist (H/F)",
+   "location": "Paris",
+   "remote": false,
+   "department": "AI Production",
+   "url": "https://jobs.lever.co/safran-ai/f272d7d4-d63f-4d13-947f-b572fd974d80",
+   "source": "Lever",
+   "published": "2026-11-13T15:26:52.328Z",
+   "sector": "Geospatial AI per la difesa",
+   "macro_sector": "Difesa",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "Francia",
+   "score": 68,
+   "priority": "Media",
+   "matched": [
+    "sar",
+    "computer vision",
+    "satellite",
+    "deep learning",
+    "senior",
+    "mlops",
+    "python",
+    "sede: paris"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "ashby:wayve:e781b706-4494-472d-8831-74140ad1a10e",
+   "company": "Wayve",
+   "title": "Principal Machine Learning Engineer GAIA",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "Simulation, Evaluation, Validation",
+   "url": "https://jobs.ashbyhq.com/wayve/e781b706-4494-472d-8831-74140ad1a10e",
+   "source": "Ashby",
+   "published": "2026-10-06T14:55:08.852Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 68,
+   "priority": "Media",
+   "matched": [
+    "machine learning",
+    "pytorch",
+    "tech lead",
+    "foundation models",
+    "lead",
+    "principal",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "lever:safran-ai:5875c7a8-54f8-4e6f-bc6e-1e3a5a3e8ae8",
+   "company": "Safran.AI",
+   "title": "Senior Deep Learning Scientist - IMINT (H/F)",
+   "location": "Paris",
+   "remote": false,
+   "department": "AI Production",
+   "url": "https://jobs.lever.co/safran-ai/5875c7a8-54f8-4e6f-bc6e-1e3a5a3e8ae8",
+   "source": "Lever",
+   "published": "2026-09-14T09:36:29.666Z",
+   "sector": "Geospatial AI per la difesa",
+   "macro_sector": "Difesa",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "Francia",
+   "score": 68,
+   "priority": "Media",
+   "matched": [
+    "sar",
+    "satellite",
+    "satellites",
+    "deep learning",
+    "machine learning",
+    "senior",
+    "mlops",
+    "python",
+    "sede: paris"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "recruitee:hydrosat:2823161",
+   "company": "Hydrosat",
+   "title": "Engineering Manager, Applied Analytics",
+   "location": "Remote job",
+   "remote": true,
+   "department": "Ground Segment Engineering",
+   "url": "https://careers.hydrosat.com/o/engineering-manager-applied-analytics",
+   "source": "Recruitee",
+   "published": "2026-11-11T15:06:57Z",
+   "sector": "Spazio – EO termico per agri-food",
+   "macro_sector": "Aerospazio",
+   "aerospace": "Sì",
+   "company_rating": 7,
+   "country": "Lussemburgo / Francia",
+   "score": 67,
+   "priority": "Media",
+   "matched": [
+    "earth observation",
+    "remote sensing",
+    "geospatial",
+    "onboard",
+    "engineering manager",
+    "satellite",
+    "image processing",
+    "machine learning",
+    "technical lead",
+    "multispectral",
+    "lead",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "ashby:wayve:e43c1c44-787e-471b-89fb-ff986c3ab588",
+   "company": "Wayve",
+   "title": "Senior Machine Learning Engineer, ADAS",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "AV Engineering",
+   "url": "https://jobs.ashbyhq.com/wayve/e43c1c44-787e-471b-89fb-ff986c3ab588",
+   "source": "Ashby",
+   "published": "2026-10-16T10:57:09.295Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 67,
+   "priority": "Media",
+   "matched": [
+    "computer vision",
+    "deep learning",
+    "machine learning",
+    "segmentation",
+    "senior",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
    "new": true
   },
   {
@@ -555,6 +803,36 @@
    "new": true
   },
   {
+   "key": "successfactors:https://jobs.esa.int:https://jobs.esa.int/job/Noordwijk-FORUM-Project-Manager/1458816433/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
+   "company": "ESA",
+   "title": "FORUM Project Manager",
+   "location": "Noordwijk, NL",
+   "remote": false,
+   "url": "https://jobs.esa.int/job/Noordwijk-FORUM-Project-Manager/1458816433/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
+   "source": "SuccessFactors",
+   "published": "2026-11-19T00:00:00Z",
+   "sector": "Agenzia spaziale",
+   "macro_sector": "Aerospazio",
+   "aerospace": "Sì",
+   "company_rating": 10,
+   "country": "Italia / Europa",
+   "score": 59,
+   "priority": "Media",
+   "matched": [
+    "earth observation",
+    "satellite",
+    "esa",
+    "eo",
+    "lead",
+    "senior",
+    "project manager",
+    "sede: noordwijk"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
    "key": "greenhouse:planetlabs:8306456",
    "company": "Planet",
    "title": "Senior Technical Program Manager, Solutions",
@@ -619,6 +897,153 @@
    "new": true
   },
   {
+   "key": "greenhouse:helsing:5028718101",
+   "company": "Helsing",
+   "title": "Staff AI Research Engineer -  3D Computer Vision",
+   "location": "Munich - Berlin - London - Paris",
+   "remote": false,
+   "department": "AI \u0026 Engineering",
+   "url": "https://helsing.ai/jobs/5028718101?gh_jid=5028718101",
+   "source": "Greenhouse",
+   "published": "2026-11-06T20:17:49Z",
+   "sector": "AI per la difesa (incluso ISR da satellite)",
+   "macro_sector": "Difesa",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "Germania / UK / Francia",
+   "score": 57,
+   "priority": "Media",
+   "matched": [
+    "computer vision",
+    "deep learning",
+    "machine learning",
+    "python",
+    "sede: munich"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "ashby:wayve:c65879b5-065c-4c29-87ae-3b74f4be2f98",
+   "company": "Wayve",
+   "title": "Senior Machine Learning Engineer, AV Core",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "AV Engineering",
+   "url": "https://jobs.ashbyhq.com/wayve/c65879b5-065c-4c29-87ae-3b74f4be2f98",
+   "source": "Ashby",
+   "published": "2026-10-02T15:40:03.349Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 57,
+   "priority": "Media",
+   "matched": [
+    "machine learning",
+    "pytorch",
+    "lead",
+    "senior",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "lever:safran-ai:04678422-8092-44ca-ab22-fa82bc09946c",
+   "company": "Safran.AI",
+   "title": "Engineering Manager Frontend (H/F)",
+   "location": "Paris / Rennes",
+   "remote": false,
+   "department": "SW Production",
+   "url": "https://jobs.lever.co/safran-ai/04678422-8092-44ca-ab22-fa82bc09946c",
+   "source": "Lever",
+   "published": "2026-09-09T15:30:58.833Z",
+   "sector": "Geospatial AI per la difesa",
+   "macro_sector": "Difesa",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "Francia",
+   "score": 57,
+   "priority": "Media",
+   "matched": [
+    "engineering manager",
+    "satellite",
+    "tech lead",
+    "lead",
+    "python",
+    "sede: paris"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "ashby:wayve:a4bd512b-36de-4a28-96b4-80e6b056ee4b",
+   "company": "Wayve",
+   "title": "Principal Research Scientist – Multimodal Reasoning \u0026 Embodied AI",
+   "location": "Sunnyvale, California USA / London, United Kingdom",
+   "remote": true,
+   "department": "Wayve Labs",
+   "url": "https://jobs.ashbyhq.com/wayve/a4bd512b-36de-4a28-96b4-80e6b056ee4b",
+   "source": "Ashby",
+   "published": "2026-11-10T17:54:54.784Z",
+   "salary": "$407,330 – $460,020",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 56,
+   "priority": "Media",
+   "matched": [
+    "deep learning",
+    "machine learning",
+    "pytorch",
+    "foundation model",
+    "foundation models",
+    "lead",
+    "principal",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "ashby:wayve:34758430-ea52-4ebd-a850-0ea518a41385",
+   "company": "Wayve",
+   "title": "Engineering Manager, Runtime Platform, Robot Software",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "Vehicle SW Engineering",
+   "url": "https://jobs.ashbyhq.com/wayve/34758430-ea52-4ebd-a850-0ea518a41385",
+   "source": "Ashby",
+   "published": "2026-10-02T20:42:51.781Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 56,
+   "priority": "Media",
+   "matched": [
+    "onboard",
+    "engineering manager",
+    "lead",
+    "senior",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
    "key": "lever:jobgether:15d4c9c5-9434-4f11-b44d-182b593664c1",
    "company": "Jobgether",
    "title": "Machine Learning Engineer",
@@ -644,6 +1069,34 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": true
+  },
+  {
+   "key": "ashby:wayve:438bc870-6abc-42a2-be78-1bc746a56a90",
+   "company": "Wayve",
+   "title": "Engineering Manager, Experiment Platform, Robot Software",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "Vehicle SW Engineering",
+   "url": "https://jobs.ashbyhq.com/wayve/438bc870-6abc-42a2-be78-1bc746a56a90",
+   "source": "Ashby",
+   "published": "2026-10-19T21:31:10.655Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 55,
+   "priority": "Media",
+   "matched": [
+    "onboard",
+    "engineering manager",
+    "lead",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
    "new": true
   },
   {
@@ -733,6 +1186,33 @@
    "new": true
   },
   {
+   "key": "ashby:wayve:bdf6686e-52e9-45b6-9cf3-3de9645a9b04",
+   "company": "Wayve",
+   "title": "Tech Lead - Remote Assist, Robotaxi",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "Vehicle SW Engineering",
+   "url": "https://jobs.ashbyhq.com/wayve/bdf6686e-52e9-45b6-9cf3-3de9645a9b04",
+   "source": "Ashby",
+   "published": "2026-10-04T08:39:27.829Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 52,
+   "priority": "Media",
+   "matched": [
+    "onboard",
+    "tech lead",
+    "lead",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
    "key": "greenhouse:planetlabs:8324235",
    "company": "Planet",
    "title": "Senior Director of Engineering - Civil Government and Commercial",
@@ -759,6 +1239,33 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": true
+  },
+  {
+   "key": "ashby:wayve:6ac4d9d0-f0e2-47a1-b0ef-712c9bde1d4d",
+   "company": "Wayve",
+   "title": "Engineering Manager - Compute and Data Platform",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "AI Platform",
+   "url": "https://jobs.ashbyhq.com/wayve/6ac4d9d0-f0e2-47a1-b0ef-712c9bde1d4d",
+   "source": "Ashby",
+   "published": "2026-11-04T13:31:15.469Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 50,
+   "priority": "Media",
+   "matched": [
+    "engineering manager",
+    "machine learning",
+    "lead",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
    "new": true
   },
   {
@@ -874,6 +1381,34 @@
    "new": true
   },
   {
+   "key": "ashby:wayve:9e02479e-88c0-4e01-bb43-993d9ad5d5c7",
+   "company": "Wayve",
+   "title": "Principal Machine Learning Engineer, Driving Product",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "AV Engineering",
+   "url": "https://jobs.ashbyhq.com/wayve/9e02479e-88c0-4e01-bb43-993d9ad5d5c7",
+   "source": "Ashby",
+   "published": "2026-10-15T13:32:09.184Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 49,
+   "priority": "Bassa",
+   "matched": [
+    "machine learning",
+    "lead",
+    "principal",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
    "key": "greenhouse:planetlabs:8221607",
    "company": "Planet",
    "title": "Senior Engineering Program Manager",
@@ -979,6 +1514,29 @@
    "new": true
   },
   {
+   "key": "arbeitnow:senior-robotics-vision-perception-engineer-munich-314299",
+   "company": "Batch Robotics GmbH",
+   "title": "(Senior) Robotics Vision \u0026 Perception Engineer (m/f/d)",
+   "location": "Munich",
+   "remote": false,
+   "url": "https://www.arbeitnow.com/jobs/companies/batch-robotics-gmbh/senior-robotics-vision-perception-engineer-munich-314299",
+   "source": "Arbeitnow",
+   "published": "2026-11-23T11:30:45Z",
+   "score": 47,
+   "priority": "Bassa",
+   "matched": [
+    "computer vision",
+    "edge ai",
+    "segmentation",
+    "senior",
+    "python",
+    "sede: munich"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
    "key": "lever:jobgether:007bcb66-ef92-4294-be42-f9f9ca6c5b1b",
    "company": "Jobgether",
    "title": "Java Tech Lead",
@@ -1060,6 +1618,60 @@
    "new": true
   },
   {
+   "key": "ashby:wayve:b52585d5-ed8a-4ec8-90f5-2cd06b766e73",
+   "company": "Wayve",
+   "title": "Machine Learning Engineer, Synthetic Data",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "Simulation, Evaluation, Validation",
+   "url": "https://jobs.ashbyhq.com/wayve/b52585d5-ed8a-4ec8-90f5-2cd06b766e73",
+   "source": "Ashby",
+   "published": "2026-10-28T18:56:59.829Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 45,
+   "priority": "Bassa",
+   "matched": [
+    "machine learning",
+    "pytorch",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "ashby:wayve:e457992b-17a7-44eb-8e08-0482a5632386",
+   "company": "Wayve",
+   "title": "Tech Lead - Autonomy Performance, Robotaxi",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "Vehicle SW Engineering",
+   "url": "https://jobs.ashbyhq.com/wayve/e457992b-17a7-44eb-8e08-0482a5632386",
+   "source": "Ashby",
+   "published": "2026-10-09T13:05:43.151Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 45,
+   "priority": "Bassa",
+   "matched": [
+    "tech lead",
+    "lead",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
    "key": "lever:loftorbital:f5f9edbc-3e8c-4eb3-b757-25cfcbf8e7fa",
    "company": "Loft Orbital",
    "title": "Full Stack Engineer - AI Marketplace",
@@ -1117,6 +1729,63 @@
    "new": true
   },
   {
+   "key": "ashby:wayve:002821a8-dd53-4737-be19-dc3270f4d39b",
+   "company": "Wayve",
+   "title": "Lead Technical Program Manager, AI Platform",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "Engineering Operations and Programs",
+   "url": "https://jobs.ashbyhq.com/wayve/002821a8-dd53-4737-be19-dc3270f4d39b",
+   "source": "Ashby",
+   "published": "2026-10-05T08:26:09.154Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 43,
+   "priority": "Bassa",
+   "matched": [
+    "machine learning",
+    "lead",
+    "python",
+    "program manager",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "ashby:wayve:192550ad-e0f6-42d1-a704-414671527a05",
+   "company": "Wayve",
+   "title": "Lead Technical Program Manager, Data",
+   "location": "Sunnyvale, California USA / London, United Kingdom",
+   "remote": true,
+   "department": "Engineering Operations and Programs",
+   "url": "https://jobs.ashbyhq.com/wayve/192550ad-e0f6-42d1-a704-414671527a05",
+   "source": "Ashby",
+   "published": "2026-10-02T17:47:57.497Z",
+   "salary": "$259K – $312K • Offers Equity",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 43,
+   "priority": "Bassa",
+   "matched": [
+    "machine learning",
+    "lead",
+    "python",
+    "program manager",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
    "key": "arbeitnow:remote-senior-data-scientist-research-eu-uk-berlin-88725",
    "company": "Makersite GmbH",
    "title": "Senior Data Scientist - Research EU/UK (m/f/x)",
@@ -1136,6 +1805,62 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": true
+  },
+  {
+   "key": "ashby:wayve:929b2cb4-a3da-4038-ab3c-62cf6f220adb",
+   "company": "Wayve",
+   "title": "Staff Machine Learning Engineer - Ops",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "AV Engineering",
+   "url": "https://jobs.ashbyhq.com/wayve/929b2cb4-a3da-4038-ab3c-62cf6f220adb",
+   "source": "Ashby",
+   "published": "2026-10-02T15:40:40.603Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 42,
+   "priority": "Bassa",
+   "matched": [
+    "machine learning",
+    "pytorch",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "recruitee:hydrosat:2701208",
+   "company": "Hydrosat",
+   "title": "AI Native Product Delivery Manager",
+   "location": "Luxembourg, Luxembourg, Luxembourg",
+   "remote": false,
+   "department": "Product",
+   "url": "https://careers.hydrosat.com/o/ai-native-product-delivery-manager",
+   "source": "Recruitee",
+   "published": "2026-08-05T12:49:31Z",
+   "sector": "Spazio – EO termico per agri-food",
+   "macro_sector": "Aerospazio",
+   "aerospace": "Sì",
+   "company_rating": 7,
+   "country": "Lussemburgo / Francia",
+   "score": 42,
+   "priority": "Bassa",
+   "matched": [
+    "earth observation",
+    "remote sensing",
+    "geospatial",
+    "satellite",
+    "head",
+    "lead",
+    "sede: luxembourg"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
    "new": true
   },
   {
@@ -1330,6 +2055,115 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": true
+  },
+  {
+   "key": "ashby:wayve:000a7973-cec6-401c-818a-06781f1f6644",
+   "company": "Wayve",
+   "title": "Staff Software Engineer, AI Libraries",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "AI Platform",
+   "url": "https://jobs.ashbyhq.com/wayve/000a7973-cec6-401c-818a-06781f1f6644",
+   "source": "Ashby",
+   "published": "2026-10-14T05:52:12.272Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 37,
+   "priority": "Bassa",
+   "matched": [
+    "machine learning",
+    "pytorch",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "lever:safran-ai:3eedd99a-7f79-4bff-8b8c-46b195ead6c3",
+   "company": "Safran.AI",
+   "title": "AI Engineer (H/F)",
+   "location": "Paris",
+   "remote": false,
+   "department": "AI Platform",
+   "url": "https://jobs.lever.co/safran-ai/3eedd99a-7f79-4bff-8b8c-46b195ead6c3",
+   "source": "Lever",
+   "published": "2026-10-13T19:39:44.072Z",
+   "sector": "Geospatial AI per la difesa",
+   "macro_sector": "Difesa",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "Francia",
+   "score": 37,
+   "priority": "Bassa",
+   "matched": [
+    "satellite",
+    "deep learning",
+    "mlops",
+    "python",
+    "sede: paris"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "ashby:wayve:82f389e1-b856-4157-ab24-f83f467329e5",
+   "company": "Wayve",
+   "title": "Software Engineer, AI Libraries",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "AI Platform",
+   "url": "https://jobs.ashbyhq.com/wayve/82f389e1-b856-4157-ab24-f83f467329e5",
+   "source": "Ashby",
+   "published": "2026-10-05T11:01:31.711Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 37,
+   "priority": "Bassa",
+   "matched": [
+    "machine learning",
+    "pytorch",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
+   "key": "ashby:wayve:eef6a32a-f223-4072-8db0-6bf1ca03f3c7",
+   "company": "Wayve",
+   "title": "Staff Validation Systems Engineer, AI Validation",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "Simulation, Evaluation, Validation",
+   "url": "https://jobs.ashbyhq.com/wayve/eef6a32a-f223-4072-8db0-6bf1ca03f3c7",
+   "source": "Ashby",
+   "published": "2026-10-02T23:18:02.195Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 37,
+   "priority": "Bassa",
+   "matched": [
+    "computer vision",
+    "senior",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
    "new": true
   },
   {
@@ -1695,6 +2529,32 @@
    "new": true
   },
   {
+   "key": "ashby:wayve:c8056c08-472a-4d64-8d69-a6520083bf80",
+   "company": "Wayve",
+   "title": "Release Manager - AI Models",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "AV Engineering",
+   "url": "https://jobs.ashbyhq.com/wayve/c8056c08-472a-4d64-8d69-a6520083bf80",
+   "source": "Ashby",
+   "published": "2026-10-21T09:07:44.662Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 32,
+   "priority": "Bassa",
+   "matched": [
+    "onboard",
+    "mlops",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
+  },
+  {
    "key": "arbeitnow:ai-forward-deployed-engineer-netherlands-amsterdam-113124",
    "company": "databricks",
    "title": "AI Forward Deployed Engineer - Netherlands",
@@ -1809,6 +2669,33 @@
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
    "new": true
+  },
+  {
+   "key": "ashby:wayve:5d3baafc-4af6-47db-91a0-ee5cb2cf3e04",
+   "company": "Wayve",
+   "title": "Applied Scientist/Machine Learning Engineer, Gaia",
+   "location": "London, United Kingdom",
+   "remote": true,
+   "department": "Simulation, Evaluation, Validation",
+   "url": "https://jobs.ashbyhq.com/wayve/5d3baafc-4af6-47db-91a0-ee5cb2cf3e04",
+   "source": "Ashby",
+   "published": "2026-10-02T16:04:39.093Z",
+   "sector": "Guida autonoma end-to-end (computer vision)",
+   "macro_sector": "Automotive",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "UK / Germania",
+   "score": 30,
+   "priority": "Bassa",
+   "matched": [
+    "machine learning",
+    "pytorch",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": true
   }
  ],
  "sources": [
@@ -1820,7 +2707,7 @@
    "fetched": 192,
    "kept": 13,
    "verified": true,
-   "millis": 288
+   "millis": 139
   },
   {
    "name": "Planet · Greenhouse",
@@ -1830,7 +2717,7 @@
    "fetched": 110,
    "kept": 4,
    "verified": true,
-   "millis": 270
+   "millis": 175
   },
   {
    "name": "Loft Orbital · Lever",
@@ -1840,7 +2727,7 @@
    "fetched": 86,
    "kept": 3,
    "verified": true,
-   "millis": 327
+   "millis": 653
   },
   {
    "name": "Overstory · Ashby",
@@ -1850,7 +2737,7 @@
    "fetched": 7,
    "kept": 0,
    "verified": true,
-   "millis": 139
+   "millis": 78
   },
   {
    "name": "Scandit · Greenhouse",
@@ -1860,7 +2747,7 @@
    "fetched": 11,
    "kept": 0,
    "verified": true,
-   "millis": 58
+   "millis": 61
   },
   {
    "name": "LiveEO · Personio",
@@ -1870,7 +2757,7 @@
    "fetched": 23,
    "kept": 2,
    "verified": true,
-   "millis": 100
+   "millis": 179
   },
   {
    "name": "Black Shark · Lever",
@@ -1880,7 +2767,17 @@
    "fetched": 5,
    "kept": 2,
    "verified": true,
-   "millis": 950
+   "millis": 925
+  },
+  {
+   "name": "osapiens · Pinpoint",
+   "type": "pinpoint",
+   "ok": true,
+   "skipped": false,
+   "fetched": 76,
+   "kept": 0,
+   "verified": true,
+   "millis": 1603
   },
   {
    "name": "Airbus · Workday",
@@ -1890,7 +2787,7 @@
    "fetched": 130,
    "kept": 5,
    "verified": false,
-   "millis": 11721
+   "millis": 12193
   },
   {
    "name": "Thales · Workday",
@@ -1900,17 +2797,117 @@
    "fetched": 155,
    "kept": 4,
    "verified": false,
-   "millis": 12231
+   "millis": 12612
   },
   {
    "name": "Jobgether · Lever",
    "type": "lever",
    "ok": true,
    "skipped": false,
-   "fetched": 4532,
+   "fetched": 4549,
    "kept": 11,
    "verified": true,
-   "millis": 32714
+   "millis": 27614
+  },
+  {
+   "name": "ESA · Successfactors",
+   "type": "successfactors",
+   "ok": true,
+   "skipped": false,
+   "fetched": 20,
+   "kept": 3,
+   "verified": true,
+   "millis": 2051
+  },
+  {
+   "name": "Open Cosmos · Teamtailor",
+   "type": "teamtailor",
+   "ok": true,
+   "skipped": false,
+   "fetched": 54,
+   "kept": 1,
+   "verified": true,
+   "millis": 161
+  },
+  {
+   "name": "Development Seed · Greenhouse",
+   "type": "greenhouse",
+   "ok": true,
+   "skipped": false,
+   "fetched": 1,
+   "kept": 0,
+   "verified": true,
+   "millis": 53
+  },
+  {
+   "name": "Hydrosat · Recruitee",
+   "type": "recruitee",
+   "ok": true,
+   "skipped": false,
+   "fetched": 14,
+   "kept": 2,
+   "verified": true,
+   "millis": 328
+  },
+  {
+   "name": "Safran.AI · Lever",
+   "type": "lever",
+   "ok": true,
+   "skipped": false,
+   "fetched": 16,
+   "kept": 4,
+   "verified": true,
+   "millis": 22126
+  },
+  {
+   "name": "Helsing · Greenhouse",
+   "type": "greenhouse",
+   "ok": true,
+   "skipped": false,
+   "fetched": 176,
+   "kept": 1,
+   "verified": true,
+   "millis": 257
+  },
+  {
+   "name": "Wayve · Ashby",
+   "type": "ashby",
+   "ok": true,
+   "skipped": false,
+   "fetched": 151,
+   "kept": 19,
+   "verified": true,
+   "millis": 189
+  },
+  {
+   "name": "Spire Global · Greenhouse",
+   "type": "greenhouse",
+   "ok": true,
+   "skipped": false,
+   "fetched": 25,
+   "kept": 0,
+   "verified": true,
+   "millis": 164
+  },
+  {
+   "name": "Kuva Space · Teamtailor",
+   "type": "teamtailor",
+   "ok": true,
+   "skipped": false,
+   "fetched": 2,
+   "kept": 0,
+   "verified": true,
+   "millis": 372
+  },
+  {
+   "name": "OroraTech · Personio",
+   "type": "personio",
+   "ok": true,
+   "skipped": false,
+   "fetched": 1,
+   "kept": 0,
+   "verified": true,
+   "millis": 798
   },
   {
    "name": "Adzuna: machine learning @ Roma it",
@@ -2024,6 +3021,72 @@
   },
   {
    "name": "Adzuna: ESA ESRIN @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: Leonardo @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: Serco @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: D-Orbit @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: AIKO @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: Planetek @  it",
+   "type": "adzuna",
+   "ok": false,
+   "skipped": true,
+   "fetched": 0,
+   "kept": 0,
+   "error": "chiave API non configurata",
+   "verified": true,
+   "millis": 0
+  },
+  {
+   "name": "Adzuna: Argotec @  it",
    "type": "adzuna",
    "ok": false,
    "skipped": true,
@@ -2149,9 +3212,9 @@
    "ok": true,
    "skipped": false,
    "fetched": 900,
-   "kept": 24,
+   "kept": 25,
    "verified": true,
-   "millis": 1259
+   "millis": 1437
   },
   {
    "name": "Remotive: machine learning @",
@@ -2161,7 +3224,7 @@
    "fetched": 16,
    "kept": 0,
    "verified": true,
-   "millis": 156
+   "millis": 154
   }
  ]
 }
