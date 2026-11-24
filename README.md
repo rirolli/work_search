@@ -15,125 +15,132 @@ I file vengono committati nel repository e allegati all'esecuzione come artefatt
 ## Risultati
 
 <!-- RISULTATI:INIZIO -->
-_Aggiornato il 24/11/2026 05:10 (ora di Roma) · 113 offerte in linea con il profilo su 11189 scaricate · **4 alta**, 38 media, 71 bassa · **113 nuove**_
+_Aggiornato il 24/11/2026 19:47 (ora di Roma) · 120 offerte in linea con il profilo su 11624 scaricate · **4 alta**, 42 media, 74 bassa · **39 nuove**_
 
 Filtri e ordinamento: [`docs/index.html`](docs/index.html) · Excel: [`docs/offerte.xlsx`](docs/offerte.xlsx)
 
 | Priorità | Score | | Azienda | Ruolo | Sede | Pubblicata |
 |---|---:|---|---|---|---|---|
-| Alta | 83 | 🆕 | ESA | [Earth Observation Campaign Scientist](https://jobs.esa.int/job/Noordwijk-Earth-Observation-Campaign-Scientist/1458757833/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Noordwijk, NL | 2026-11-19 |
-| Alta | 81 | 🆕 | ICEYE | [Senior Software Engineer - SAR Processing Platform](https://jobs.ashbyhq.com/iceye/3662acb4-316e-4b9b-aa2d-71ba9f84a85d) | Espoo | 2026-11-13 |
-| Alta | 78 | 🆕 | ICEYE | [Engineering Team Lead, Flood Observation](https://jobs.ashbyhq.com/iceye/2b6f4ed5-daee-4c4e-aa8f-1a441b600c45) | Espoo | 2026-11-23 |
-| Alta | 78 | 🆕 | ESA | [ERS-EO/Downstream Ground System Engineer](https://jobs.esa.int/job/Frascati-ERS-EODownstream-Ground-System-Engineer/1458807533/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Frascati, IT | 2026-11-19 |
-| Media | 73 | 🆕 | ICEYE | [Software Engineer - SAR Processing Platform](https://jobs.ashbyhq.com/iceye/de792d17-acf3-4c8a-bf3f-f582ad84ea0a) | Espoo | 2026-11-13 |
-| Media | 73 | 🆕 | ICEYE | [Mission Management Team Lead](https://jobs.ashbyhq.com/iceye/bcb9940b-58cd-4c23-8671-7b67f011d07d) | Espoo | 2026-11-11 |
-| Media | 73 | 🆕 | ICEYE | [AIT Engineering Team Lead](https://jobs.ashbyhq.com/iceye/471cf438-9c29-4167-9c18-be4cc5f4e115) | Lisbon / Warsaw | 2026-08-14 |
-| Media | 71 | 🆕 | Open Cosmos | [Edge Computing Software Engineer, Earth Observation](https://careers.open-cosmos.com/jobs/8478374-edge-computing-software-engineer-earth-observation) | Didcot, United Kingdom | 2026-09-30 |
-| Media | 70 | 🆕 | Leaf Space | [Project Manager – ESA/EU/ASI Space Projects](https://leafspace.teamtailor.com/jobs/8638002-project-manager-esa-eu-asi-space-projects) | Lomazzo, Italy | 2026-10-29 |
-| Media | 68 | 🆕 | Safran.AI | [Senior Deep Learning Scientist (H/F)](https://jobs.lever.co/safran-ai/f272d7d4-d63f-4d13-947f-b572fd974d80) | Paris | 2026-11-13 |
-| Media | 68 | 🆕 | Wayve | [Principal Machine Learning Engineer GAIA](https://jobs.ashbyhq.com/wayve/e781b706-4494-472d-8831-74140ad1a10e) | London, United Kingdom | 2026-10-06 |
-| Media | 68 | 🆕 | Safran.AI | [Senior Deep Learning Scientist - IMINT (H/F)](https://jobs.lever.co/safran-ai/5875c7a8-54f8-4e6f-bc6e-1e3a5a3e8ae8) | Paris | 2026-09-14 |
-| Media | 67 | 🆕 | Hydrosat | [Engineering Manager, Applied Analytics](https://careers.hydrosat.com/o/engineering-manager-applied-analytics) | Remote job | 2026-11-11 |
-| Media | 67 | 🆕 | Wayve | [Senior Machine Learning Engineer, ADAS](https://jobs.ashbyhq.com/wayve/e43c1c44-787e-471b-89fb-ff986c3ab588) | London, United Kingdom | 2026-10-16 |
-| Media | 64 | 🆕 | Jobgether | [Hands-on Engineering Manager DevOps (GCP/Kubernetes)](https://jobs.lever.co/jobgether/4581e1e7-fe7c-44f6-9f9f-f6fd688c0b91) | Netherlands / UK / Romania / Switzerland / France / Spain / Portugal … | 2026-11-20 |
-| Media | 64 | 🆕 | LiveEO | [Geospatial Software Engineer (f/m/x)](https://liveeo-gmbh.jobs.personio.com/job/2864893) | LiveEO GmbH Berlin Office (Hybrid) | 2026-10-28 |
-| Media | 64 | 🆕 | Loft Orbital | [Onboard Software Engineer - Peripheral Services](https://jobs.lever.co/loftorbital/e2428032-ee1a-4e34-a331-914aea52a93f) | Toulouse, Occitanie | 2026-09-22 |
-| Media | 64 | 🆕 | Loft Orbital | [Onboard Software Engineer - Hyperdrive](https://jobs.lever.co/loftorbital/9182f41f-2d8c-48ff-b914-49a408426e9e) | Toulouse, Occitanie | 2026-09-22 |
-| Media | 62 | 🆕 | Airbus | [Synthetic Aperture Radar (SAR) Performance Engineer](https://ag.wd3.myworkdayjobs.com/Airbus/job/Getafe-Area/Synthetic-Aperture-Radar--SAR--Performance-Engineer_JR10448575-1) | Getafe Area | 2026-11-05 |
-| Media | 62 | 🆕 | Black Shark | [Software Engineering Manager - Data Plane](https://jobs.eu.lever.co/blackshark/023ce5b4-3800-4b87-ac17-bdc30a6ddbd1) | Graz | 2026-09-24 |
-| Media | 61 | 🆕 | ICEYE | [Senior MLOps Engineer, ISR](https://jobs.ashbyhq.com/iceye/89154c8e-6501-4012-b71b-8c6711588ffb) | Berlin | 2026-10-05 |
-| Media | 61 | 🆕 | Black Shark | [Software Engineering Manager - Control Plane](https://jobs.eu.lever.co/blackshark/7c292d32-b2d9-429e-94b5-a7907920429d) | Graz | 2026-09-24 |
+| Alta | 83 |  | ESA | [Earth Observation Campaign Scientist](https://jobs.esa.int/job/Noordwijk-Earth-Observation-Campaign-Scientist/1458757833/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Noordwijk, NL | 2026-11-19 |
+| Alta | 81 |  | ICEYE | [Senior Software Engineer - SAR Processing Platform](https://jobs.ashbyhq.com/iceye/3662acb4-316e-4b9b-aa2d-71ba9f84a85d) | Espoo | 2026-11-13 |
+| Alta | 78 |  | ICEYE | [Engineering Team Lead, Flood Observation](https://jobs.ashbyhq.com/iceye/2b6f4ed5-daee-4c4e-aa8f-1a441b600c45) | Espoo | 2026-11-23 |
+| Alta | 78 |  | ESA | [ERS-EO/Downstream Ground System Engineer](https://jobs.esa.int/job/Frascati-ERS-EODownstream-Ground-System-Engineer/1458807533/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Frascati, IT | 2026-11-19 |
+| Media | 73 |  | ICEYE | [Software Engineer - SAR Processing Platform](https://jobs.ashbyhq.com/iceye/de792d17-acf3-4c8a-bf3f-f582ad84ea0a) | Espoo | 2026-11-13 |
+| Media | 73 |  | ICEYE | [Mission Management Team Lead](https://jobs.ashbyhq.com/iceye/bcb9940b-58cd-4c23-8671-7b67f011d07d) | Espoo | 2026-11-11 |
+| Media | 73 |  | ICEYE | [AIT Engineering Team Lead](https://jobs.ashbyhq.com/iceye/471cf438-9c29-4167-9c18-be4cc5f4e115) | Lisbon / Warsaw | 2026-08-14 |
+| Media | 71 |  | Open Cosmos | [Edge Computing Software Engineer, Earth Observation](https://careers.open-cosmos.com/jobs/8478374-edge-computing-software-engineer-earth-observation) | Didcot, United Kingdom | 2026-09-30 |
+| Media | 70 | 🆕 | ICEYE | [Staff Image Processing Engineer](https://jobs.ashbyhq.com/iceye/5613d6f6-24be-4ebf-9b0e-a2284fd21650) | Warsaw | 2026-11-24 |
+| Media | 70 |  | Leaf Space | [Project Manager – ESA/EU/ASI Space Projects](https://leafspace.teamtailor.com/jobs/8638002-project-manager-esa-eu-asi-space-projects) | Lomazzo, Italy | 2026-10-29 |
+| Media | 68 |  | Safran.AI | [Senior Deep Learning Scientist (H/F)](https://jobs.lever.co/safran-ai/f272d7d4-d63f-4d13-947f-b572fd974d80) | Paris | 2026-11-13 |
+| Media | 68 |  | Wayve | [Principal Machine Learning Engineer GAIA](https://jobs.ashbyhq.com/wayve/e781b706-4494-472d-8831-74140ad1a10e) | London, United Kingdom | 2026-10-06 |
+| Media | 68 |  | Safran.AI | [Senior Deep Learning Scientist - IMINT (H/F)](https://jobs.lever.co/safran-ai/5875c7a8-54f8-4e6f-bc6e-1e3a5a3e8ae8) | Paris | 2026-09-14 |
+| Media | 67 |  | Hydrosat | [Engineering Manager, Applied Analytics](https://careers.hydrosat.com/o/engineering-manager-applied-analytics) | Remote job | 2026-11-11 |
+| Media | 67 |  | Wayve | [Senior Machine Learning Engineer, ADAS](https://jobs.ashbyhq.com/wayve/e43c1c44-787e-471b-89fb-ff986c3ab588) | London, United Kingdom | 2026-10-16 |
+| Media | 64 |  | Jobgether | [Hands-on Engineering Manager DevOps (GCP/Kubernetes)](https://jobs.lever.co/jobgether/4581e1e7-fe7c-44f6-9f9f-f6fd688c0b91) | Netherlands / UK / Romania / Switzerland / France / Spain / Portugal … | 2026-11-20 |
+| Media | 64 |  | LiveEO | [Geospatial Software Engineer (f/m/x)](https://liveeo-gmbh.jobs.personio.com/job/2864893) | LiveEO GmbH Berlin Office (Hybrid) | 2026-10-28 |
+| Media | 64 |  | Loft Orbital | [Onboard Software Engineer - Peripheral Services](https://jobs.lever.co/loftorbital/e2428032-ee1a-4e34-a331-914aea52a93f) | Toulouse, Occitanie | 2026-09-22 |
+| Media | 64 |  | Loft Orbital | [Onboard Software Engineer - Hyperdrive](https://jobs.lever.co/loftorbital/9182f41f-2d8c-48ff-b914-49a408426e9e) | Toulouse, Occitanie | 2026-09-22 |
+| Media | 62 | 🆕 | Qonto | [Tech Lead - ML Engineering](https://www.arbeitnow.fr/jobs/companies/qonto/tech-lead-ml-engineering-paris-451067) | Paris, France | 2026-11-24 |
+| Media | 62 |  | Airbus | [Synthetic Aperture Radar (SAR) Performance Engineer](https://ag.wd3.myworkdayjobs.com/Airbus/job/Getafe-Area/Synthetic-Aperture-Radar--SAR--Performance-Engineer_JR10448575-1) | Getafe Area | 2026-11-04 |
+| Media | 62 |  | Black Shark | [Software Engineering Manager - Data Plane](https://jobs.eu.lever.co/blackshark/023ce5b4-3800-4b87-ac17-bdc30a6ddbd1) | Graz | 2026-09-24 |
+| Media | 61 |  | ICEYE | [Senior MLOps Engineer, ISR](https://jobs.ashbyhq.com/iceye/89154c8e-6501-4012-b71b-8c6711588ffb) | Berlin | 2026-10-05 |
+| Media | 61 |  | Black Shark | [Software Engineering Manager - Control Plane](https://jobs.eu.lever.co/blackshark/7c292d32-b2d9-429e-94b5-a7907920429d) | Graz | 2026-09-24 |
 | Media | 60 | 🆕 | Snke | [(Senior) Machine Learning Engineer – Medical Imaging](https://www.arbeitnow.com/jobs/companies/snke/senior-machine-learning-engineer-medical-imaging-munchen-128727) | München | 2026-11-24 |
-| Media | 60 | 🆕 | Airbus | [Earth Observation Satellite System Engineer](https://ag.wd3.myworkdayjobs.com/Airbus/job/Getafe-Area/Earth-Observation-Satellite-System-Engineer_JR10423783) | Getafe Area | Posted 30+ Days Ago |
-| Media | 59 | 🆕 | ESA | [FORUM Project Manager](https://jobs.esa.int/job/Noordwijk-FORUM-Project-Manager/1458816433/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Noordwijk, NL | 2026-11-19 |
-| Media | 59 | 🆕 | Planet | [Senior Technical Program Manager, Solutions](https://job-boards.greenhouse.io/planetlabs/jobs/8306456) | Berlin, Germany | 2026-10-27 |
-| Media | 58 | 🆕 | LiveEO | [Senior Project Manager (f/m/x)](https://liveeo-gmbh.jobs.personio.com/job/2873911) | LiveEO GmbH Berlin (Onsite) | 2026-11-03 |
-| Media | 57 | 🆕 | Helsing | [Staff AI Research Engineer -  3D Computer Vision](https://helsing.ai/jobs/5028718101?gh_jid=5028718101) | Munich - Berlin - London - Paris | 2026-11-06 |
-| Media | 57 | 🆕 | Wayve | [Senior Machine Learning Engineer, AV Core](https://jobs.ashbyhq.com/wayve/c65879b5-065c-4c29-87ae-3b74f4be2f98) | London, United Kingdom | 2026-10-02 |
-| Media | 57 | 🆕 | Safran.AI | [Engineering Manager Frontend (H/F)](https://jobs.lever.co/safran-ai/04678422-8092-44ca-ab22-fa82bc09946c) | Paris / Rennes | 2026-09-09 |
-| Media | 56 | 🆕 | Wayve | [Principal Research Scientist – Multimodal Reasoning & Embodied AI](https://jobs.ashbyhq.com/wayve/a4bd512b-36de-4a28-96b4-80e6b056ee4b) | Sunnyvale, California USA / London, United Kingdom | 2026-11-10 |
-| Media | 56 | 🆕 | Wayve | [Engineering Manager, Runtime Platform, Robot Software](https://jobs.ashbyhq.com/wayve/34758430-ea52-4ebd-a850-0ea518a41385) | London, United Kingdom | 2026-10-02 |
-| Media | 55 | 🆕 | Jobgether | [Machine Learning Engineer](https://jobs.lever.co/jobgether/15d4c9c5-9434-4f11-b44d-182b593664c1) | Poland / Netherlands / Sweden / UK / Romania / Austria / Belgium / Po… | 2026-11-17 |
-| Media | 55 | 🆕 | Wayve | [Engineering Manager, Experiment Platform, Robot Software](https://jobs.ashbyhq.com/wayve/438bc870-6abc-42a2-be78-1bc746a56a90) | London, United Kingdom | 2026-10-19 |
-| Media | 55 | 🆕 | ICEYE | [Program Manager - Germany](https://jobs.ashbyhq.com/iceye/4470b416-a308-41a3-a967-293389b62beb) | Berlin / Munich | 2026-10-06 |
+| Media | 60 | 🆕 | Mytomorrows | [Sr. Engineering Manager](https://www.arbeitnow.nl/jobs/companies/mytomorrows/sr-engineering-manager-amsterdam-167050) | Amsterdam HQ | 2026-11-21 |
+| Media | 60 |  | Airbus | [Earth Observation Satellite System Engineer](https://ag.wd3.myworkdayjobs.com/Airbus/job/Getafe-Area/Earth-Observation-Satellite-System-Engineer_JR10423783) | Getafe Area | Posted 30+ Days Ago |
+| Media | 59 |  | ESA | [FORUM Project Manager](https://jobs.esa.int/job/Noordwijk-FORUM-Project-Manager/1458816433/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Noordwijk, NL | 2026-11-19 |
+| Media | 59 |  | Planet | [Senior Technical Program Manager, Solutions](https://job-boards.greenhouse.io/planetlabs/jobs/8306456) | Berlin, Germany | 2026-10-27 |
+| Media | 58 |  | LiveEO | [Senior Project Manager (f/m/x)](https://liveeo-gmbh.jobs.personio.com/job/2873911) | LiveEO GmbH Berlin (Onsite) | 2026-11-03 |
+| Media | 57 |  | Helsing | [Staff AI Research Engineer -  3D Computer Vision](https://helsing.ai/jobs/5028718101?gh_jid=5028718101) | Munich - Berlin - London - Paris | 2026-11-06 |
+| Media | 57 |  | Wayve | [Senior Machine Learning Engineer, AV Core](https://jobs.ashbyhq.com/wayve/c65879b5-065c-4c29-87ae-3b74f4be2f98) | London, United Kingdom | 2026-10-02 |
+| Media | 57 |  | Safran.AI | [Engineering Manager Frontend (H/F)](https://jobs.lever.co/safran-ai/04678422-8092-44ca-ab22-fa82bc09946c) | Paris / Rennes | 2026-09-09 |
+| Media | 56 | 🆕 | Auterion | [Forward Deployed Engineering Manager](https://www.arbeitnow.com/jobs/companies/auterion/forward-deployed-engineering-manager-munich-48680) | Munich | 2026-11-24 |
+| Media | 56 |  | Wayve | [Principal Research Scientist – Multimodal Reasoning & Embodied AI](https://jobs.ashbyhq.com/wayve/a4bd512b-36de-4a28-96b4-80e6b056ee4b) | Sunnyvale, California USA / London, United Kingdom | 2026-11-10 |
+| Media | 56 |  | Wayve | [Engineering Manager, Runtime Platform, Robot Software](https://jobs.ashbyhq.com/wayve/34758430-ea52-4ebd-a850-0ea518a41385) | London, United Kingdom | 2026-10-02 |
+| Media | 55 |  | Wayve | [Engineering Manager, Experiment Platform, Robot Software](https://jobs.ashbyhq.com/wayve/438bc870-6abc-42a2-be78-1bc746a56a90) | London, United Kingdom | 2026-10-19 |
+| Media | 55 |  | ICEYE | [Program Manager - Germany](https://jobs.ashbyhq.com/iceye/4470b416-a308-41a3-a967-293389b62beb) | Berlin / Munich | 2026-10-06 |
 | Media | 53 | 🆕 | Lilt Corporate | [Senior Technical Program Manager, Applied AI](https://www.arbeitnow.co.uk/jobs/companies/lilt-corporate/senior-technical-program-manager-applied-ai-london-272541) | London, UK | 2026-11-24 |
-| Media | 53 | 🆕 | Cohere | [Staff Technical Program Manager, Machine Learning](https://www.arbeitnow.co.uk/jobs/companies/cohere/staff-technical-program-manager-machine-learning-london-252286) | London | 2026-11-23 |
-| Media | 52 | 🆕 | Laelaps | [Research Scientist, Foundation Model (World Model & Site Memory)](https://www.arbeitnow.ch/jobs/companies/laelaps/research-scientist-foundation-model-world-model-site-memory-zurich-448097) | Zürich, Switzerland | 2026-11-22 |
-| Media | 52 | 🆕 | ICEYE | [Lead, AI Hardware Design Skunkworks](https://jobs.ashbyhq.com/iceye/7270373f-9e9c-4608-b492-39afa380fb48) | Valencia | 2026-11-11 |
-| Media | 52 | 🆕 | Wayve | [Tech Lead - Remote Assist, Robotaxi](https://jobs.ashbyhq.com/wayve/bdf6686e-52e9-45b6-9cf3-3de9645a9b04) | London, United Kingdom | 2026-10-04 |
-| Media | 51 | 🆕 | Planet | [Senior Director of Engineering - Civil Government and Commercial](https://job-boards.greenhouse.io/planetlabs/jobs/8324235) | Haarlem, Netherlands / Berlin, Germany / Ljubljana, Slovenia | 2026-10-27 |
-| Media | 50 | 🆕 | Wayve | [Engineering Manager - Compute and Data Platform](https://jobs.ashbyhq.com/wayve/6ac4d9d0-f0e2-47a1-b0ef-712c9bde1d4d) | London, United Kingdom | 2026-11-04 |
-| Bassa | 49 | 🆕 | Vestiairecollective | [Senior Data Scientist - Applied Scientist](https://www.arbeitnow.com/jobs/companies/vestiairecollective/senior-data-scientist-applied-scientist-berlin-487392) | Berlin | 2026-11-23 |
-| Bassa | 49 | 🆕 | ICEYE | [AI Solutions Engineer](https://jobs.ashbyhq.com/iceye/9dc49b37-2a22-4e94-9af3-d4312f366cd8) | Espoo | 2026-10-28 |
-| Bassa | 49 | 🆕 | ICEYE | [Forward Deployed AI Engineer, Portugal](https://jobs.ashbyhq.com/iceye/2ef68fcc-6ce8-476e-8c94-6e7b099842e9) | Lisbon / Portugal | 2026-10-15 |
-| Bassa | 49 | 🆕 | Wayve | [Principal Machine Learning Engineer, Driving Product](https://jobs.ashbyhq.com/wayve/9e02479e-88c0-4e01-bb43-993d9ad5d5c7) | London, United Kingdom | 2026-10-15 |
-| Bassa | 49 | 🆕 | Planet | [Senior Engineering Program Manager](https://job-boards.greenhouse.io/planetlabs/jobs/8221607) | Berlin, Germany | 2026-09-23 |
-| Bassa | 49 | 🆕 | ICEYE | [Forward Deployed AI Engineer, Germany](https://jobs.ashbyhq.com/iceye/f1923306-9ffa-4b2f-bee3-c7472c711167) | Munich / Neuss / Berlin | 2026-08-21 |
-| Bassa | 48 | 🆕 | DiliTrust | [Engineering Manager - AI platform](https://www.arbeitnow.fr/jobs/companies/dilitrust/engineering-manager-ai-platform-paris-la-defense-312019) | Paris - La Défense | 2026-11-23 |
-| Bassa | 48 | 🆕 | FINN | [Engineering Manager - Cloud & Security (m/f/x)](https://www.arbeitnow.com/jobs/companies/finn/engineering-manager-cloud-security-munich-236210) | Munich | 2026-11-23 |
-| Bassa | 47 | 🆕 | Batch Robotics GmbH | [(Senior) Robotics Vision & Perception Engineer (m/f/d)](https://www.arbeitnow.com/jobs/companies/batch-robotics-gmbh/senior-robotics-vision-perception-engineer-munich-314299) | Munich | 2026-11-23 |
-| Bassa | 47 | 🆕 | Jobgether | [Java Tech Lead](https://jobs.lever.co/jobgether/007bcb66-ef92-4294-be42-f9f9ca6c5b1b) | UK / Germany / France / Switzerland / Ireland / Netherlands / Spain | 2026-11-21 |
-| Bassa | 45 | 🆕 | Faculty | [Lead Machine Learning Engineer](https://www.arbeitnow.co.uk/jobs/companies/faculty/lead-machine-learning-engineer-london-189898) | London | 2026-11-23 |
-| Bassa | 45 | 🆕 | Thales | [Digital Ground Architect for Earth Observation](https://thales.wd3.myworkdayjobs.com/Careers/job/Toulouse/Digital-Ground-Architect-for-Earth-Observation_R0322925-1) | Toulouse | 2026-10-30 |
-| Bassa | 45 | 🆕 | Wayve | [Machine Learning Engineer, Synthetic Data](https://jobs.ashbyhq.com/wayve/b52585d5-ed8a-4ec8-90f5-2cd06b766e73) | London, United Kingdom | 2026-10-28 |
-| Bassa | 45 | 🆕 | Wayve | [Tech Lead - Autonomy Performance, Robotaxi](https://jobs.ashbyhq.com/wayve/e457992b-17a7-44eb-8e08-0482a5632386) | London, United Kingdom | 2026-10-09 |
+| Media | 52 |  | Laelaps | [Research Scientist, Foundation Model (World Model & Site Memory)](https://www.arbeitnow.ch/jobs/companies/laelaps/research-scientist-foundation-model-world-model-site-memory-zurich-448097) | Zürich, Switzerland | 2026-11-22 |
+| Media | 52 |  | ICEYE | [Lead, AI Hardware Design Skunkworks](https://jobs.ashbyhq.com/iceye/7270373f-9e9c-4608-b492-39afa380fb48) | Valencia | 2026-11-11 |
+| Media | 52 |  | Wayve | [Tech Lead - Remote Assist, Robotaxi](https://jobs.ashbyhq.com/wayve/bdf6686e-52e9-45b6-9cf3-3de9645a9b04) | London, United Kingdom | 2026-10-04 |
+| Media | 51 |  | Planet | [Senior Director of Engineering - Civil Government and Commercial](https://job-boards.greenhouse.io/planetlabs/jobs/8324235) | Haarlem, Netherlands / Berlin, Germany / Ljubljana, Slovenia | 2026-10-27 |
+| Media | 50 | 🆕 | Planet | [Technical Program Manager, Solutions](https://job-boards.greenhouse.io/planetlabs/jobs/8396499) | Ljubljana, Slovenia | 2026-11-24 |
+| Media | 50 |  | Jobgether | [Machine Learning Engineer](https://jobs.lever.co/jobgether/15d4c9c5-9434-4f11-b44d-182b593664c1) | Poland / Netherlands / Sweden / UK / Romania / Austria / Belgium / Po… | 2026-11-17 |
+| Media | 50 |  | Wayve | [Engineering Manager - Compute and Data Platform](https://jobs.ashbyhq.com/wayve/6ac4d9d0-f0e2-47a1-b0ef-712c9bde1d4d) | London, United Kingdom | 2026-11-04 |
+| Bassa | 49 | 🆕 | Marsorobotics | [Senior AI Engineer H/F](https://www.arbeitnow.fr/jobs/companies/marsorobotics/senior-ai-engineer-h-f-paris-204994) | Paris | 2026-11-24 |
+| Bassa | 49 |  | ICEYE | [AI Solutions Engineer](https://jobs.ashbyhq.com/iceye/9dc49b37-2a22-4e94-9af3-d4312f366cd8) | Espoo | 2026-10-28 |
+| Bassa | 49 |  | ICEYE | [Forward Deployed AI Engineer, Portugal](https://jobs.ashbyhq.com/iceye/2ef68fcc-6ce8-476e-8c94-6e7b099842e9) | Lisbon / Portugal | 2026-10-15 |
+| Bassa | 49 |  | Wayve | [Principal Machine Learning Engineer, Driving Product](https://jobs.ashbyhq.com/wayve/9e02479e-88c0-4e01-bb43-993d9ad5d5c7) | London, United Kingdom | 2026-10-15 |
+| Bassa | 49 |  | Planet | [Senior Engineering Program Manager](https://job-boards.greenhouse.io/planetlabs/jobs/8221607) | Berlin, Germany | 2026-09-23 |
+| Bassa | 49 |  | ICEYE | [Forward Deployed AI Engineer, Germany](https://jobs.ashbyhq.com/iceye/f1923306-9ffa-4b2f-bee3-c7472c711167) | Munich / Neuss / Berlin | 2026-08-21 |
+| Bassa | 48 | 🆕 | scaleai | [Machine Learning Fellow - Human Frontier Collective](https://www.arbeitnow.co.uk/jobs/companies/scaleai/machine-learning-fellow-human-frontier-collective-368940) |  | 2026-11-24 |
+| Bassa | 48 |  | DiliTrust | [Engineering Manager - AI platform](https://www.arbeitnow.fr/jobs/companies/dilitrust/engineering-manager-ai-platform-paris-la-defense-312019) | Paris - La Défense | 2026-11-23 |
+| Bassa | 47 | 🆕 | Safran.AI | [Engineering Manager DevOps (H/F)](https://jobs.lever.co/safran-ai/9304b7d7-69c2-4e54-80cf-8cdd47fdb007) | Paris | 2026-11-24 |
+| Bassa | 47 |  | Jobgether | [Java Tech Lead](https://jobs.lever.co/jobgether/007bcb66-ef92-4294-be42-f9f9ca6c5b1b) | UK / Germany / France / Switzerland / Ireland / Netherlands / Spain | 2026-11-21 |
+| Bassa | 45 |  | Thales | [Digital Ground Architect for Earth Observation](https://thales.wd3.myworkdayjobs.com/Careers/job/Toulouse/Digital-Ground-Architect-for-Earth-Observation_R0322925-1) | Toulouse | 2026-10-29 |
+| Bassa | 45 |  | Wayve | [Machine Learning Engineer, Synthetic Data](https://jobs.ashbyhq.com/wayve/b52585d5-ed8a-4ec8-90f5-2cd06b766e73) | London, United Kingdom | 2026-10-28 |
+| Bassa | 45 |  | Wayve | [Tech Lead - Autonomy Performance, Robotaxi](https://jobs.ashbyhq.com/wayve/e457992b-17a7-44eb-8e08-0482a5632386) | London, United Kingdom | 2026-10-09 |
 | Bassa | 44 | 🆕 | Decathlontechnology | [Lead AI Governance (f/m/d)](https://www.arbeitnow.fr/jobs/companies/decathlontechnology/lead-ai-governance-paris-paris-villeneuve-dascq-nord-384921) | Paris, Paris; Villeneuve-d'Ascq, Nord | 2026-11-23 |
-| Bassa | 44 | 🆕 | Open Cosmos | [Project Manager, Software Engineering](https://careers.open-cosmos.com/jobs/8751178-project-manager-software-engineering) | Didcot, United Kingdom / Pallini, Greece / Barcelona, Spain / Coimbra… | 2026-11-16 |
-| Bassa | 44 | 🆕 | QinetiQ | [Naimuri - Technical Lead Defence](https://careers.qinetiq.com/job/Manchester-Naimuri-Technical-Lead-Defence-Engl/1452198533/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Manchester, England, United Kingdom | 2026-10-28 |
-| Bassa | 44 | 🆕 | Loft Orbital | [Full Stack Engineer - AI Marketplace](https://jobs.lever.co/loftorbital/f5f9edbc-3e8c-4eb3-b757-25cfcbf8e7fa) | Toulouse, Occitanie | 2026-09-07 |
-| Bassa | 43 | 🆕 | Jobgether | [Director of Engineering](https://jobs.lever.co/jobgether/1f07ccda-6d36-464d-91f3-656a88eabb72) | Germany / Switzerland / France / UK / Spain / Ireland / Netherlands | 2026-11-23 |
-| Bassa | 43 | 🆕 | Wayve | [Lead Technical Program Manager, AI Platform](https://jobs.ashbyhq.com/wayve/002821a8-dd53-4737-be19-dc3270f4d39b) | London, United Kingdom | 2026-10-05 |
-| Bassa | 43 | 🆕 | Wayve | [Lead Technical Program Manager, Data](https://jobs.ashbyhq.com/wayve/192550ad-e0f6-42d1-a704-414671527a05) | Sunnyvale, California USA / London, United Kingdom | 2026-10-02 |
-| Bassa | 43 | 🆕 | Astroscale | [Senior Computer Vision Engineer](https://astroscale.bamboohr.com/careers/689) | Oxfordshire UK, Didcot | non indicata |
-| Bassa | 42 | 🆕 | Trainline | [Machine Learning Engineer](https://www.arbeitnow.co.uk/jobs/companies/trainline/machine-learning-engineer-london-417945) | London | 2026-11-23 |
-| Bassa | 42 | 🆕 | Makersite GmbH | [Senior Data Scientist - Research EU/UK (m/f/x)](https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-senior-data-scientist-research-eu-uk-berlin-88725) | Remote job | 2026-11-22 |
-| Bassa | 42 | 🆕 | Wayve | [Staff Machine Learning Engineer - Ops](https://jobs.ashbyhq.com/wayve/929b2cb4-a3da-4038-ab3c-62cf6f220adb) | London, United Kingdom | 2026-10-02 |
-| Bassa | 42 | 🆕 | Hydrosat | [AI Native Product Delivery Manager](https://careers.hydrosat.com/o/ai-native-product-delivery-manager) | Luxembourg, Luxembourg, Luxembourg | 2026-08-05 |
-| Bassa | 41 | 🆕 | Faculty | [Senior Machine Learning Engineer](https://www.arbeitnow.co.uk/jobs/companies/faculty/senior-machine-learning-engineer-london-388261) | London | 2026-11-23 |
-| Bassa | 41 | 🆕 | Vinteden | [Data Scientist, Trust & Safety](https://www.arbeitnow.nl/jobs/companies/vinteden/data-scientist-trust-safety-amsterdam-87460) | Amsterdam | 2026-11-19 |
-| Bassa | 39 | 🆕 | Bridgemaker GmbH | [Tech Lead Marketplace Experience (m/w/d)](https://www.arbeitnow.com/jobs/companies/bridgemaker-gmbh/tech-lead-marketplace-experience-berlin-278949) | Berlin | 2026-11-23 |
-| Bassa | 39 | 🆕 | Bridgemaker GmbH | [Tech Lead Grower Experience (m/w/d)](https://www.arbeitnow.com/jobs/companies/bridgemaker-gmbh/tech-lead-grower-experience-berlin-336126) | Berlin | 2026-11-23 |
-| Bassa | 39 | 🆕 | Jobgether | [ML Engineer](https://jobs.lever.co/jobgether/0cecd754-7572-48d0-b427-b372c02225c6) | Greece / UK / France / Kenya / Luxembourg / Chile / Nigeria / Colombi… | 2026-11-18 |
-| Bassa | 39 | 🆕 | Planet | [Program Manager, German Civil Government](https://job-boards.greenhouse.io/planetlabs/jobs/8226128) | Berlin, Germany | 2026-09-30 |
-| Bassa | 38 | 🆕 | Airbus | [Senior Machine Learning Engineer (d/m/w)](https://ag.wd3.myworkdayjobs.com/Airbus/job/Stuttgart-Area/Senior-Machine-Learning-Engineer--d-m-w-_JR10459155) | Stuttgart Area | 2026-11-19 |
-| Bassa | 38 | 🆕 | QinetiQ | [Technical Lead](https://careers.qinetiq.com/job/Manchester-Technical-Lead-Engl/1266596701/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Manchester, England, United Kingdom | 2026-11-08 |
-| Bassa | 38 | 🆕 | Thales | [Artificial Intelligence Space Engineer](https://thales.wd3.myworkdayjobs.com/Careers/job/Roma/Artificial-Intelligence-Space-Engineer_R0210027) | Roma | Posted 30+ Days Ago |
+| Bassa | 44 |  | Open Cosmos | [Project Manager, Software Engineering](https://careers.open-cosmos.com/jobs/8751178-project-manager-software-engineering) | Didcot, United Kingdom / Pallini, Greece / Barcelona, Spain / Coimbra… | 2026-11-16 |
+| Bassa | 44 |  | QinetiQ | [Naimuri - Technical Lead Defence](https://careers.qinetiq.com/job/Manchester-Naimuri-Technical-Lead-Defence-Engl/1452198533/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Manchester, England, United Kingdom | 2026-10-28 |
+| Bassa | 44 |  | Loft Orbital | [Full Stack Engineer - AI Marketplace](https://jobs.lever.co/loftorbital/f5f9edbc-3e8c-4eb3-b757-25cfcbf8e7fa) | Toulouse, Occitanie | 2026-09-07 |
+| Bassa | 43 | 🆕 | Proton | [Senior Engineering Manager](https://www.arbeitnow.ch/jobs/companies/proton/senior-engineering-manager-geneva-paris-france-16972) | Geneva, Paris, France | 2026-11-24 |
+| Bassa | 43 | 🆕 | Lendable | [Customer Service Team Lead](https://www.arbeitnow.co.uk/jobs/companies/lendable/customer-service-team-lead-chatham-277782) | Chatham | 2026-11-23 |
+| Bassa | 43 |  | Jobgether | [Director of Engineering](https://jobs.lever.co/jobgether/1f07ccda-6d36-464d-91f3-656a88eabb72) | Germany / Switzerland / France / UK / Spain / Ireland / Netherlands | 2026-11-23 |
+| Bassa | 43 |  | Wayve | [Lead Technical Program Manager, AI Platform](https://jobs.ashbyhq.com/wayve/002821a8-dd53-4737-be19-dc3270f4d39b) | London, United Kingdom | 2026-10-05 |
+| Bassa | 43 |  | Wayve | [Lead Technical Program Manager, Data](https://jobs.ashbyhq.com/wayve/192550ad-e0f6-42d1-a704-414671527a05) | Sunnyvale, California USA / London, United Kingdom | 2026-10-02 |
+| Bassa | 43 |  | Astroscale | [Senior Computer Vision Engineer](https://astroscale.bamboohr.com/careers/689) | Oxfordshire UK, Didcot | non indicata |
+| Bassa | 42 | 🆕 | Jobgether | [Principal Data Center & Cloud Engineering Lead and Strategist - Remot…](https://jobs.lever.co/jobgether/124c99a8-505d-469c-9362-fd7e4445b670) | Portland | 2026-11-24 |
+| Bassa | 42 | 🆕 | Jobgether | [Principal Data Center & Cloud Engineering Lead and Strategist - Remot…](https://jobs.lever.co/jobgether/dd000db9-8a8b-4403-8354-5bbe5ee1da9c) | Raleigh | 2026-11-24 |
+| Bassa | 42 | 🆕 | Jobgether | [Principal Data Center & Cloud Engineering Lead and Strategist - Remot…](https://jobs.lever.co/jobgether/e62d0897-4c4f-4ccd-9da3-d92490289d4a) | Indianapolis | 2026-11-24 |
+| Bassa | 42 | 🆕 | Jobgether | [Principal Data Center & Cloud Engineering Lead and Strategist - Remot…](https://jobs.lever.co/jobgether/eae75fd8-8d6d-4df1-9ac4-9804945e9a48) | Dallas | 2026-11-24 |
+| Bassa | 42 | 🆕 | Jobgether | [Principal Data Center & Cloud Engineering Lead and Strategist - Remot…](https://jobs.lever.co/jobgether/a812c7ad-af52-4de5-8a44-7670d6a5c1a4) | Phoenix | 2026-11-24 |
+| Bassa | 42 | 🆕 | Jobgether | [Principal Data Center & Cloud Engineering Lead and Strategist - Remot…](https://jobs.lever.co/jobgether/7c7ec6e1-463c-4cf9-aa41-fa259f275682) | Philadelphia | 2026-11-24 |
+| Bassa | 42 | 🆕 | Jobgether | [Principal Data Center & Cloud Engineering Lead and Strategist - Remot…](https://jobs.lever.co/jobgether/a448cf4d-21e5-4c36-b870-50885cc7a959) | Miami | 2026-11-24 |
+| Bassa | 42 | 🆕 | Jobgether | [Principal Data Center & Cloud Engineering Lead and Strategist - Remot…](https://jobs.lever.co/jobgether/c79eadc8-daa6-4c5d-be05-8766c5ebe49e) | San Diego | 2026-11-24 |
+| Bassa | 42 | 🆕 | Jobgether | [Principal Data Center & Cloud Engineering Lead and Strategist - Remot…](https://jobs.lever.co/jobgether/72c5f735-3252-48aa-b27c-a7f960b3339b) | Atlanta | 2026-11-24 |
+| Bassa | 42 | 🆕 | Jobgether | [Principal Data Center & Cloud Engineering Lead and Strategist - Remot…](https://jobs.lever.co/jobgether/22770a24-38e2-433e-a851-20c871ccc812) | Chicago | 2026-11-24 |
+| Bassa | 42 | 🆕 | Jobgether | [Senior Project Manager](https://jobs.lever.co/jobgether/1a7fedb0-00cb-4157-bb8e-93646a8300ea) | Romania / Ireland / Germany / Portugal / Spain / Switzerland / Italy … | 2026-11-24 |
+| Bassa | 42 |  | Wayve | [Staff Machine Learning Engineer - Ops](https://jobs.ashbyhq.com/wayve/929b2cb4-a3da-4038-ab3c-62cf6f220adb) | London, United Kingdom | 2026-10-02 |
+| Bassa | 42 |  | Hydrosat | [AI Native Product Delivery Manager](https://careers.hydrosat.com/o/ai-native-product-delivery-manager) | Luxembourg, Luxembourg, Luxembourg | 2026-08-05 |
+| Bassa | 41 | 🆕 | Marsorobotics | [AI Engineer H/F](https://www.arbeitnow.fr/jobs/companies/marsorobotics/ai-engineer-h-f-paris-261054) | Paris | 2026-11-24 |
+| Bassa | 39 |  | Jobgether | [ML Engineer](https://jobs.lever.co/jobgether/0cecd754-7572-48d0-b427-b372c02225c6) | Greece / UK / France / Kenya / Luxembourg / Chile / Nigeria / Colombi… | 2026-11-18 |
+| Bassa | 39 |  | Planet | [Program Manager, German Civil Government](https://job-boards.greenhouse.io/planetlabs/jobs/8226128) | Berlin, Germany | 2026-09-30 |
+| Bassa | 38 | 🆕 | Airbus | [Senior Artificial Intelligence/Machine Learning Engineer (d/f/m)](https://ag.wd3.myworkdayjobs.com/Airbus/job/Ulm-Area/Senior-Artificial-Intelligence-Machine-Learning-Engineer--d-f-m-_JR10443053-1) | Ulm Area | 2026-11-24 |
+| Bassa | 38 |  | QinetiQ | [Technical Lead](https://careers.qinetiq.com/job/Manchester-Technical-Lead-Engl/1266596701/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Manchester, England, United Kingdom | 2026-11-08 |
+| Bassa | 38 |  | Thales | [Artificial Intelligence Space Engineer](https://thales.wd3.myworkdayjobs.com/Careers/job/Roma/Artificial-Intelligence-Space-Engineer_R0210027) | Roma | Posted 30+ Days Ago |
 | Bassa | 37 | 🆕 | Jobgether | [Senior Project Manager (French Speaker)](https://jobs.lever.co/jobgether/26d91a34-f86b-498f-a367-b2bff5439841) | France | 2026-11-23 |
-| Bassa | 37 | 🆕 | Thales | [Tech Lead IA F/H](https://thales.wd3.myworkdayjobs.com/Careers/job/Vlizy-Villacoublay/Tech-Lead-IA-F-H_R0344884-1) | Vélizy-Villacoublay | 2026-11-19 |
-| Bassa | 37 | 🆕 | Wayve | [Staff Software Engineer, AI Libraries](https://jobs.ashbyhq.com/wayve/000a7973-cec6-401c-818a-06781f1f6644) | London, United Kingdom | 2026-10-14 |
-| Bassa | 37 | 🆕 | Safran.AI | [AI Engineer (H/F)](https://jobs.lever.co/safran-ai/3eedd99a-7f79-4bff-8b8c-46b195ead6c3) | Paris | 2026-10-13 |
-| Bassa | 37 | 🆕 | Wayve | [Software Engineer, AI Libraries](https://jobs.ashbyhq.com/wayve/82f389e1-b856-4157-ab24-f83f467329e5) | London, United Kingdom | 2026-10-05 |
-| Bassa | 37 | 🆕 | Wayve | [Staff Validation Systems Engineer, AI Validation](https://jobs.ashbyhq.com/wayve/eef6a32a-f223-4072-8db0-6bf1ca03f3c7) | London, United Kingdom | 2026-10-03 |
-| Bassa | 37 | 🆕 | Thales | [Ingénieur Docteur en traitement du signal RADAR-SAR H/F](https://thales.wd3.myworkdayjobs.com/Careers/job/Elancourt/Ingnieur-Docteur-en-traitement-du-signal-RADAR-SAR-H-F_R0324957-1) | Elancourt | Posted 30+ Days Ago |
-| Bassa | 36 | 🆕 | Theodo | [Forward Deployed Engineer - CDI Paris - Theodo AI-Modernisation](https://www.arbeitnow.fr/jobs/companies/theodo/forward-deployed-engineer-cdi-paris-theodo-ai-modernisation-389755) | Paris | 2026-11-23 |
-| Bassa | 36 | 🆕 | QinetiQ | [Naimuri - Senior Data Scientist](https://careers.qinetiq.com/job/Manchester-Naimuri-Senior-Data-Scientist-Engl/1280625801/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Manchester, England, United Kingdom | 2026-11-17 |
-| Bassa | 35 | 🆕 | Jobgether | [Senior Artificial Intelligence Specialist](https://jobs.lever.co/jobgether/050b324e-7524-4fc8-9bd7-9a40da81e38b) | Italy / Ireland / Switzerland / Spain / Portugal / Netherlands / Roma… | 2026-11-23 |
-| Bassa | 35 | 🆕 | adjoe | [Senior/Staff ML Scientist - Bidding & Optimization (f/m/d)](https://www.arbeitnow.com/jobs/companies/adjoe/senior-staff-ml-scientist-bidding-optimization-berlin-248715) | Berlin | 2026-11-22 |
-| Bassa | 35 | 🆕 | Jobgether | [Senior AI Engineer (Internal Tools & Agents)](https://jobs.lever.co/jobgether/0b7492c8-2270-4764-9185-da7c1176ea81) | Chile / Belgium / South Africa / Croatia / Spain / Germany / Argentin… | 2026-11-20 |
-| Bassa | 35 | 🆕 | Flexport | [Engineering Manager, Customs](https://www.arbeitnow.nl/jobs/companies/flexport/engineering-manager-customs-amsterdam-328631) | Amsterdam | 2026-11-18 |
-| Bassa | 34 | 🆕 | Airbus | [Geospatial Commercial & Bid Manager](https://ag.wd3.myworkdayjobs.com/Airbus/job/Barcelona/Geospatial-Commercial---Bid-Manager_JR10350385) | Barcelona | Posted 30+ Days Ago |
+| Bassa | 37 |  | Thales | [Tech Lead IA F/H](https://thales.wd3.myworkdayjobs.com/Careers/job/Vlizy-Villacoublay/Tech-Lead-IA-F-H_R0344884-1) | Vélizy-Villacoublay | 2026-11-18 |
+| Bassa | 37 |  | Wayve | [Staff Software Engineer, AI Libraries](https://jobs.ashbyhq.com/wayve/000a7973-cec6-401c-818a-06781f1f6644) | London, United Kingdom | 2026-10-14 |
+| Bassa | 37 |  | Safran.AI | [AI Engineer (H/F)](https://jobs.lever.co/safran-ai/3eedd99a-7f79-4bff-8b8c-46b195ead6c3) | Paris | 2026-10-13 |
+| Bassa | 37 |  | Wayve | [Software Engineer, AI Libraries](https://jobs.ashbyhq.com/wayve/82f389e1-b856-4157-ab24-f83f467329e5) | London, United Kingdom | 2026-10-05 |
+| Bassa | 37 |  | Wayve | [Staff Validation Systems Engineer, AI Validation](https://jobs.ashbyhq.com/wayve/eef6a32a-f223-4072-8db0-6bf1ca03f3c7) | London, United Kingdom | 2026-10-03 |
+| Bassa | 37 |  | Thales | [Ingénieur Docteur en traitement du signal RADAR-SAR H/F](https://thales.wd3.myworkdayjobs.com/Careers/job/Elancourt/Ingnieur-Docteur-en-traitement-du-signal-RADAR-SAR-H-F_R0324957-1) | Elancourt | Posted 30+ Days Ago |
+| Bassa | 36 | 🆕 | what. AG | [Web Project Manager & Assistant to Head of Web (m/f/d)](https://www.arbeitnow.ch/jobs/companies/what-ag/web-project-manager-assistant-to-head-of-web-zurich-327463) | Zürich, Zürich, Switzerland | 2026-11-24 |
+| Bassa | 36 |  | Theodo | [Forward Deployed Engineer - CDI Paris - Theodo AI-Modernisation](https://www.arbeitnow.fr/jobs/companies/theodo/forward-deployed-engineer-cdi-paris-theodo-ai-modernisation-389755) | Paris | 2026-11-23 |
+| Bassa | 36 |  | QinetiQ | [Naimuri - Senior Data Scientist](https://careers.qinetiq.com/job/Manchester-Naimuri-Senior-Data-Scientist-Engl/1280625801/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS) | Manchester, England, United Kingdom | 2026-11-17 |
+| Bassa | 35 |  | Jobgether | [Senior Artificial Intelligence Specialist](https://jobs.lever.co/jobgether/050b324e-7524-4fc8-9bd7-9a40da81e38b) | Italy / Ireland / Switzerland / Spain / Portugal / Netherlands / Roma… | 2026-11-23 |
+| Bassa | 35 |  | Jobgether | [Senior AI Engineer (Internal Tools & Agents)](https://jobs.lever.co/jobgether/0b7492c8-2270-4764-9185-da7c1176ea81) | Chile / Belgium / South Africa / Croatia / Spain / Germany / Argentin… | 2026-11-20 |
+| Bassa | 34 | 🆕 | Doctolib | [Senior ML Manager - Voice Team (x/f/m)](https://www.arbeitnow.fr/jobs/companies/doctolib/senior-ml-manager-voice-team-levallois-perret-57992) | Paris | 2026-11-24 |
+| Bassa | 34 | 🆕 | Alexander Thamm Gmbh | [Senior Data & AI Consultant (m/w/d) – Automotive](https://www.arbeitnow.com/jobs/companies/alexander-thamm-gmbh/senior-data-ai-consultant-automotive-munchen-416189) | München | 2026-11-24 |
+| Bassa | 34 |  | Airbus | [Geospatial Commercial & Bid Manager](https://ag.wd3.myworkdayjobs.com/Airbus/job/Barcelona/Geospatial-Commercial---Bid-Manager_JR10350385) | Barcelona | Posted 30+ Days Ago |
 | Bassa | 33 | 🆕 | Speechmatics | [Senior Machine Learning Engineer](https://www.arbeitnow.co.uk/jobs/companies/speechmatics/senior-machine-learning-engineer-london-225319) | London | 2026-11-24 |
 | Bassa | 33 | 🆕 | Sanity | [Software Engineering Manager, Billing & Integrations](https://www.arbeitnow.co.uk/jobs/companies/sanity/software-engineering-manager-billing-integrations-london-uk-337815) | London, UK | 2026-11-24 |
 | Bassa | 33 | 🆕 | Spaitial | [Research Scientist - 3D Reconstruction & Novel View Synthesis](https://www.arbeitnow.co.uk/jobs/companies/spaitial/research-scientist-3d-reconstruction-novel-view-synthesis-london-301463) | London | 2026-11-24 |
 | Bassa | 33 | 🆕 | Saeki | [Senior ML Engineer](https://www.arbeitnow.ch/jobs/companies/saeki/senior-ml-engineer-zurich-497516) | Zurich | 2026-11-24 |
-| Bassa | 33 | 🆕 | Bjak | [Engineering Manager - AI-Native Email App](https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-ai-native-email-app-london-444103) | United Kingdom | 2026-11-23 |
-| Bassa | 33 | 🆕 | Bjak | [Engineering Manager - Stock Trading App](https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-stock-trading-app-london-6781) | United Kingdom | 2026-11-23 |
-| Bassa | 33 | 🆕 | Bjak | [Engineering Manager - Wealth Management App](https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-wealth-management-app-london-99649) | United Kingdom | 2026-11-23 |
-| Bassa | 33 | 🆕 | Bjak | [Engineering Manager - Travel FX App](https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-travel-fx-app-london-213505) | United Kingdom | 2026-11-23 |
-| Bassa | 33 | 🆕 | Bjak | [Engineering Manager - AI Payments App](https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-ai-payments-app-london-489211) | United Kingdom | 2026-11-23 |
-| Bassa | 33 | 🆕 | Bjak | [Engineering Manager](https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-london-377260) | United Kingdom | 2026-11-23 |
-| Bassa | 33 | 🆕 | ILLUIN Technology | [Senior Applied AI Manager (F/H)](https://www.arbeitnow.fr/jobs/companies/illuin-technology/senior-applied-ai-manager-f-h-puteaux-474357) | Paris La Défense | 2026-11-23 |
+| Bassa | 33 |  | ILLUIN Technology | [Senior Applied AI Manager (F/H)](https://www.arbeitnow.fr/jobs/companies/illuin-technology/senior-applied-ai-manager-f-h-puteaux-474357) | Paris La Défense | 2026-11-23 |
+| Bassa | 32 | 🆕 | Agon | [Member of Technical Staff, AI](https://www.arbeitnow.co.uk/jobs/companies/agon/member-of-technical-staff-ai-london-office-77198) | London Office | 2026-11-24 |
 | Bassa | 32 | 🆕 | Spaitial | [ML Inference Engineer](https://www.arbeitnow.co.uk/jobs/companies/spaitial/ml-inference-engineer-london-447835) | London | 2026-11-24 |
 | Bassa | 32 | 🆕 | Turbalabs | [Machine Learning Engineer](https://www.arbeitnow.com/jobs/companies/turbalabs/machine-learning-engineer-heidelberg-ger-293037) | Heidelberg, GER | 2026-11-24 |
-| Bassa | 32 | 🆕 | Jobgether | [Senior Data Scientist – Applied ML & GenAI](https://jobs.lever.co/jobgether/ee0c58b3-e91b-451f-ae67-6e734c6ecf0f) | Italy | 2026-11-18 |
-| Bassa | 32 | 🆕 | Wayve | [Release Manager - AI Models](https://jobs.ashbyhq.com/wayve/c8056c08-472a-4d64-8d69-a6520083bf80) | London, United Kingdom | 2026-10-21 |
-| Bassa | 32 | 🆕 | RTX | [Principal Data Scientist & Machine Learning Researcher](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/Gloucester-South-Gloucestershire/Principal-Data-Scientist---Machine-Learning-Researcher_01804570) | 3 Locations | Posted 30+ Days Ago |
-| Bassa | 31 | 🆕 | databricks | [AI Forward Deployed Engineer - Netherlands](https://www.arbeitnow.nl/jobs/companies/databricks/ai-forward-deployed-engineer-netherlands-amsterdam-113124) | Amsterdam | 2026-11-20 |
-| Bassa | 30 | 🆕 | Machine Learning Reply | [AI Application Engineer – AI Products (LLM & RAG) (m/f/d)](https://www.arbeitnow.com/jobs/companies/machine-learning-reply/ai-application-engineer-ai-products-llm-rag-berlin-322593) | Berlin, Berlin, Germany | 2026-11-23 |
-| Bassa | 30 | 🆕 | Jobgether | [Forward Deployed Engineer (AI & Digital Experience Platforms)](https://jobs.lever.co/jobgether/0c4b28f6-a430-488a-9dc0-2f5d6dbce8bd) | UK / France / Netherlands / Switzerland / Ireland / Germany / Spain | 2026-11-23 |
-| Bassa | 30 | 🆕 | Jobgether | [Lead Engineer - AI Platform](https://jobs.lever.co/jobgether/0d3e06d5-2b41-451e-a5f5-293dbababd00) | Ireland / Germany / Spain / Switzerland / UK / Netherlands / France | 2026-11-17 |
-| Bassa | 30 | 🆕 | Wayve | [Applied Scientist/Machine Learning Engineer, Gaia](https://jobs.ashbyhq.com/wayve/5d3baafc-4af6-47db-91a0-ee5cb2cf3e04) | London, United Kingdom | 2026-10-02 |
-| Bassa | 30 | 🆕 | ClearSpace | [On-board Data Handling Engineer](https://clearspace.bamboohr.com/careers/81) | London, London, City of | non indicata |
+| Bassa | 32 |  | Jobgether | [Senior Data Scientist – Applied ML & GenAI](https://jobs.lever.co/jobgether/ee0c58b3-e91b-451f-ae67-6e734c6ecf0f) | Italy | 2026-11-18 |
+| Bassa | 32 |  | Wayve | [Release Manager - AI Models](https://jobs.ashbyhq.com/wayve/c8056c08-472a-4d64-8d69-a6520083bf80) | London, United Kingdom | 2026-10-21 |
+| Bassa | 32 |  | RTX | [Principal Data Scientist & Machine Learning Researcher](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/Gloucester-South-Gloucestershire/Principal-Data-Scientist---Machine-Learning-Researcher_01804570) | 3 Locations | Posted 30+ Days Ago |
+| Bassa | 31 |  | databricks | [AI Forward Deployed Engineer - Netherlands](https://www.arbeitnow.nl/jobs/companies/databricks/ai-forward-deployed-engineer-netherlands-amsterdam-113124) | Amsterdam | 2026-11-20 |
+| Bassa | 30 | 🆕 | Machine Learning Reply | [AI Application Engineer – AI Products (LLM & RAG) (m/f/d)](https://www.arbeitnow.com/jobs/companies/machine-learning-reply/ai-application-engineer-ai-products-llm-rag-berlin-26318) | Berlin | 2026-11-24 |
+| Bassa | 30 | 🆕 | Backmarket | [Senior Data Scientist - Pricing](https://www.arbeitnow.fr/jobs/companies/backmarket/senior-data-scientist-pricing-paris-109147) | Paris | 2026-11-24 |
+| Bassa | 30 |  | Jobgether | [Forward Deployed Engineer (AI & Digital Experience Platforms)](https://jobs.lever.co/jobgether/0c4b28f6-a430-488a-9dc0-2f5d6dbce8bd) | UK / France / Netherlands / Switzerland / Ireland / Germany / Spain | 2026-11-23 |
+| Bassa | 30 |  | Wayve | [Applied Scientist/Machine Learning Engineer, Gaia](https://jobs.ashbyhq.com/wayve/5d3baafc-4af6-47db-91a0-ee5cb2cf3e04) | London, United Kingdom | 2026-10-02 |
+| Bassa | 30 |  | ClearSpace | [On-board Data Handling Engineer](https://clearspace.bamboohr.com/careers/81) | London, London, City of | non indicata |
 <!-- RISULTATI:FINE -->
 
 ## Primo avvio

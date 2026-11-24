@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T04:10:50.888500962Z",
+ "generated": "2026-11-24T18:47:34.14174873Z",
  "jobs": [
   {
    "key": "successfactors:https://jobs.esa.int:https://jobs.esa.int/job/Noordwijk-Earth-Observation-Campaign-Scientist/1458757833/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
@@ -31,7 +31,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:iceye:3662acb4-316e-4b9b-aa2d-71ba9f84a85d",
@@ -64,7 +64,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:iceye:2b6f4ed5-daee-4c4e-aa8f-1a441b600c45",
@@ -100,7 +100,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "successfactors:https://jobs.esa.int:https://jobs.esa.int/job/Frascati-ERS-EODownstream-Ground-System-Engineer/1458807533/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
@@ -127,7 +127,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:iceye:de792d17-acf3-4c8a-bf3f-f582ad84ea0a",
@@ -159,7 +159,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:iceye:bcb9940b-58cd-4c23-8671-7b67f011d07d",
@@ -193,7 +193,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:iceye:471cf438-9c29-4167-9c18-be4cc5f4e115",
@@ -224,7 +224,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "teamtailor:https://careers.open-cosmos.com:133cc451-e336-47f7-9aae-7c455e414442",
@@ -255,6 +255,43 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": false
+  },
+  {
+   "key": "ashby:iceye:5613d6f6-24be-4ebf-9b0e-a2284fd21650",
+   "company": "ICEYE",
+   "title": "Staff Image Processing Engineer",
+   "location": "Warsaw",
+   "remote": true,
+   "department": "Engineering",
+   "url": "https://jobs.ashbyhq.com/iceye/5613d6f6-24be-4ebf-9b0e-a2284fd21650",
+   "source": "Ashby",
+   "published": "2026-11-24T14:28:01.459Z",
+   "sector": "Spazio – EO SAR",
+   "macro_sector": "Aerospazio",
+   "aerospace": "Sì",
+   "company_rating": 9,
+   "country": "Finlandia / Europa",
+   "score": 70,
+   "priority": "Media",
+   "matched": [
+    "remote sensing",
+    "sar",
+    "synthetic aperture radar",
+    "computer vision",
+    "geospatial",
+    "engineering manager",
+    "satellite",
+    "image processing",
+    "multispectral",
+    "eo",
+    "lead",
+    "senior",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -285,7 +322,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "new": true
+   "new": false
   },
   {
    "key": "lever:safran-ai:f272d7d4-d63f-4d13-947f-b572fd974d80",
@@ -316,7 +353,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:e781b706-4494-472d-8831-74140ad1a10e",
@@ -346,7 +383,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "lever:safran-ai:5875c7a8-54f8-4e6f-bc6e-1e3a5a3e8ae8",
@@ -378,7 +415,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "recruitee:hydrosat:2823161",
@@ -414,7 +451,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:e43c1c44-787e-471b-89fb-ff986c3ab588",
@@ -443,7 +480,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "lever:jobgether:4581e1e7-fe7c-44f6-9f9f-f6fd688c0b91",
@@ -472,7 +509,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "personio:liveeo-gmbh:2864893",
@@ -503,7 +540,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "lever:loftorbital:e2428032-ee1a-4e34-a331-914aea52a93f",
@@ -533,7 +570,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "lever:loftorbital:9182f41f-2d8c-48ff-b914-49a408426e9e",
@@ -562,6 +599,30 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": false
+  },
+  {
+   "key": "arbeitnow:tech-lead-ml-engineering-paris-451067",
+   "company": "Qonto",
+   "title": "Tech Lead - ML Engineering",
+   "location": "Paris, France",
+   "remote": false,
+   "url": "https://www.arbeitnow.fr/jobs/companies/qonto/tech-lead-ml-engineering-paris-451067",
+   "source": "Arbeitnow",
+   "published": "2026-11-24T15:40:16Z",
+   "score": 62,
+   "priority": "Media",
+   "matched": [
+    "onboard",
+    "machine learning",
+    "tech lead",
+    "head",
+    "lead",
+    "python",
+    "sede: france"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -572,8 +633,8 @@
    "remote": false,
    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Getafe-Area/Synthetic-Aperture-Radar--SAR--Performance-Engineer_JR10448575-1",
    "source": "Workday",
-   "published": "2026-11-05T00:00:00Z",
-   "published_note": "Posted 19 Days Ago",
+   "published": "2026-11-04T00:00:00Z",
+   "published_note": "Posted 20 Days Ago",
    "sector": "Aerospazio e difesa",
    "macro_sector": "Aerospazio",
    "aerospace": "Sì",
@@ -588,7 +649,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "lever:blackshark:023ce5b4-3800-4b87-ac17-bdc30a6ddbd1",
@@ -622,7 +683,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:iceye:89154c8e-6501-4012-b71b-8c6711588ffb",
@@ -656,7 +717,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "lever:blackshark:7c292d32-b2d9-429e-94b5-a7907920429d",
@@ -686,7 +747,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "arbeitnow:senior-machine-learning-engineer-medical-imaging-munchen-128727",
@@ -713,6 +774,30 @@
    "new": true
   },
   {
+   "key": "arbeitnow:sr-engineering-manager-amsterdam-167050",
+   "company": "Mytomorrows",
+   "title": "Sr. Engineering Manager",
+   "location": "Amsterdam HQ",
+   "remote": false,
+   "url": "https://www.arbeitnow.nl/jobs/companies/mytomorrows/sr-engineering-manager-amsterdam-167050",
+   "source": "Arbeitnow",
+   "published": "2026-11-21T18:40:33Z",
+   "score": 60,
+   "priority": "Media",
+   "matched": [
+    "onboard",
+    "engineering manager",
+    "edge ai",
+    "lead",
+    "senior",
+    "python",
+    "sede: amsterdam"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
+   "new": true
+  },
+  {
    "key": "workday:ag:/job/Getafe-Area/Earth-Observation-Satellite-System-Engineer_JR10423783",
    "company": "Airbus",
    "title": "Earth Observation Satellite System Engineer",
@@ -736,7 +821,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "successfactors:https://jobs.esa.int:https://jobs.esa.int/job/Noordwijk-FORUM-Project-Manager/1458816433/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
@@ -766,7 +851,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "greenhouse:planetlabs:8306456",
@@ -797,7 +882,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "personio:liveeo-gmbh:2873911",
@@ -830,7 +915,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "greenhouse:helsing:5028718101",
@@ -858,7 +943,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:c65879b5-065c-4c29-87ae-3b74f4be2f98",
@@ -887,7 +972,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "lever:safran-ai:04678422-8092-44ca-ab22-fa82bc09946c",
@@ -916,6 +1001,29 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "new": false
+  },
+  {
+   "key": "arbeitnow:forward-deployed-engineering-manager-munich-48680",
+   "company": "Auterion",
+   "title": "Forward Deployed Engineering Manager",
+   "location": "Munich",
+   "remote": false,
+   "url": "https://www.arbeitnow.com/jobs/companies/auterion/forward-deployed-engineering-manager-munich-48680",
+   "source": "Arbeitnow",
+   "published": "2026-11-24T12:55:15Z",
+   "score": 56,
+   "priority": "Media",
+   "matched": [
+    "onboard",
+    "engineering manager",
+    "technical lead",
+    "lead",
+    "python",
+    "sede: munich"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -949,7 +1057,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:34758430-ea52-4ebd-a850-0ea518a41385",
@@ -977,35 +1085,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
-  },
-  {
-   "key": "lever:jobgether:15d4c9c5-9434-4f11-b44d-182b593664c1",
-   "company": "Jobgether",
-   "title": "Machine Learning Engineer",
-   "location": "Poland / Netherlands / Sweden / UK / Romania / Austria / Belgium / Portugal / France / Spain / Germany / South Africa / Switzerland / Ireland / Italy",
-   "remote": true,
-   "department": "IT",
-   "url": "https://jobs.lever.co/jobgether/15d4c9c5-9434-4f11-b44d-182b593664c1",
-   "source": "Lever",
-   "published": "2026-11-17T08:30:47.428Z",
-   "sector": "Aggregatore (aziende partner non nominate)",
-   "macro_sector": "Varie",
-   "aerospace": "No",
-   "company_rating": 4,
-   "country": "Remoto",
-   "score": 55,
-   "priority": "Media",
-   "matched": [
-    "deep learning",
-    "machine learning",
-    "mlops",
-    "python",
-    "sede: italy"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:438bc870-6abc-42a2-be78-1bc746a56a90",
@@ -1033,7 +1113,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:iceye:4470b416-a308-41a3-a967-293389b62beb",
@@ -1066,7 +1146,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "arbeitnow:senior-technical-program-manager-applied-ai-london-272541",
@@ -1094,30 +1174,6 @@
    "new": true
   },
   {
-   "key": "arbeitnow:staff-technical-program-manager-machine-learning-london-252286",
-   "company": "Cohere",
-   "title": "Staff Technical Program Manager, Machine Learning",
-   "location": "London",
-   "remote": false,
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/cohere/staff-technical-program-manager-machine-learning-london-252286",
-   "source": "Arbeitnow",
-   "published": "2026-11-23T12:40:20Z",
-   "score": 53,
-   "priority": "Media",
-   "matched": [
-    "machine learning",
-    "edge ai",
-    "foundation models",
-    "lead",
-    "senior",
-    "program manager",
-    "sede: london"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-24T04:10:50.888500962Z",
-   "new": true
-  },
-  {
    "key": "arbeitnow:research-scientist-foundation-model-world-model-site-memory-zurich-448097",
    "company": "Laelaps",
    "title": "Research Scientist, Foundation Model (World Model \u0026 Site Memory)",
@@ -1138,7 +1194,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:iceye:7270373f-9e9c-4608-b492-39afa380fb48",
@@ -1168,7 +1224,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:bdf6686e-52e9-45b6-9cf3-3de9645a9b04",
@@ -1195,7 +1251,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "greenhouse:planetlabs:8324235",
@@ -1224,7 +1280,64 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": false
+  },
+  {
+   "key": "greenhouse:planetlabs:8396499",
+   "company": "Planet",
+   "title": "Technical Program Manager, Solutions",
+   "location": "Ljubljana, Slovenia",
+   "remote": false,
+   "department": "Program Management",
+   "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8396499",
+   "source": "Greenhouse",
+   "published": "2026-11-24T10:51:54Z",
+   "sector": "Spazio – EO",
+   "macro_sector": "Aerospazio",
+   "aerospace": "Sì",
+   "company_rating": 9,
+   "country": "Germania / Olanda",
+   "score": 50,
+   "priority": "Media",
+   "matched": [
+    "earth observation",
+    "remote sensing",
+    "geospatial",
+    "satellites",
+    "lead",
+    "program manager"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
+  },
+  {
+   "key": "lever:jobgether:15d4c9c5-9434-4f11-b44d-182b593664c1",
+   "company": "Jobgether",
+   "title": "Machine Learning Engineer",
+   "location": "Poland / Netherlands / Sweden / UK / Romania / Austria / Belgium / Portugal / France / Spain / Germany / South Africa / Switzerland / Ireland / Italy",
+   "remote": true,
+   "department": "IT",
+   "url": "https://jobs.lever.co/jobgether/15d4c9c5-9434-4f11-b44d-182b593664c1",
+   "source": "Lever",
+   "published": "2026-11-17T08:30:47.428Z",
+   "sector": "Aggregatore (aziende partner non nominate)",
+   "macro_sector": "Varie",
+   "aerospace": "No",
+   "company_rating": 4,
+   "country": "Remoto",
+   "score": 50,
+   "priority": "Media",
+   "matched": [
+    "deep learning",
+    "machine learning",
+    "mlops",
+    "python",
+    "sede: italy"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": false
   },
   {
    "key": "ashby:wayve:6ac4d9d0-f0e2-47a1-b0ef-712c9bde1d4d",
@@ -1251,30 +1364,31 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
-   "key": "arbeitnow:senior-data-scientist-applied-scientist-berlin-487392",
-   "company": "Vestiairecollective",
-   "title": "Senior Data Scientist - Applied Scientist",
-   "location": "Berlin",
+   "key": "arbeitnow:senior-ai-engineer-h-f-paris-204994",
+   "company": "Marsorobotics",
+   "title": "Senior AI Engineer H/F",
+   "location": "Paris",
    "remote": false,
-   "url": "https://www.arbeitnow.com/jobs/companies/vestiairecollective/senior-data-scientist-applied-scientist-berlin-487392",
+   "url": "https://www.arbeitnow.fr/jobs/companies/marsorobotics/senior-ai-engineer-h-f-paris-204994",
    "source": "Arbeitnow",
-   "published": "2026-11-23T00:07:14Z",
+   "published": "2026-11-24T15:40:17Z",
    "score": 49,
    "priority": "Bassa",
    "matched": [
+    "computer vision",
     "deep learning",
-    "machine learning",
     "pytorch",
+    "lead",
     "senior",
     "mlops",
     "python",
-    "sede: berlin"
+    "sede: paris"
    ],
    "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -1305,7 +1419,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:iceye:2ef68fcc-6ce8-476e-8c94-6e7b099842e9",
@@ -1336,7 +1450,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:9e02479e-88c0-4e01-bb43-993d9ad5d5c7",
@@ -1364,7 +1478,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "greenhouse:planetlabs:8221607",
@@ -1393,7 +1507,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:iceye:f1923306-9ffa-4b2f-bee3-c7472c711167",
@@ -1424,6 +1538,29 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": false
+  },
+  {
+   "key": "arbeitnow:machine-learning-fellow-human-frontier-collective-368940",
+   "company": "scaleai",
+   "title": "Machine Learning Fellow - Human Frontier Collective",
+   "location": "",
+   "remote": false,
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/scaleai/machine-learning-fellow-human-frontier-collective-368940",
+   "source": "Arbeitnow",
+   "published": "2026-11-24T06:55:23Z",
+   "score": 48,
+   "priority": "Bassa",
+   "matched": [
+    "deep learning",
+    "machine learning",
+    "pytorch",
+    "senior",
+    "mlops",
+    "python"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -1447,51 +1584,32 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
-   "key": "arbeitnow:engineering-manager-cloud-security-munich-236210",
-   "company": "FINN",
-   "title": "Engineering Manager - Cloud \u0026 Security (m/f/x)",
-   "location": "Munich",
+   "key": "lever:safran-ai:9304b7d7-69c2-4e54-80cf-8cdd47fdb007",
+   "company": "Safran.AI",
+   "title": "Engineering Manager DevOps (H/F)",
+   "location": "Paris",
    "remote": false,
-   "url": "https://www.arbeitnow.com/jobs/companies/finn/engineering-manager-cloud-security-munich-236210",
-   "source": "Arbeitnow",
-   "published": "2026-11-23T00:07:16Z",
-   "score": 48,
-   "priority": "Bassa",
-   "matched": [
-    "on board",
-    "engineering manager",
-    "lead",
-    "python",
-    "sede: munich"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
-  },
-  {
-   "key": "arbeitnow:senior-robotics-vision-perception-engineer-munich-314299",
-   "company": "Batch Robotics GmbH",
-   "title": "(Senior) Robotics Vision \u0026 Perception Engineer (m/f/d)",
-   "location": "Munich",
-   "remote": false,
-   "url": "https://www.arbeitnow.com/jobs/companies/batch-robotics-gmbh/senior-robotics-vision-perception-engineer-munich-314299",
-   "source": "Arbeitnow",
-   "published": "2026-11-23T11:30:45Z",
+   "department": "Customer  Solutions Services",
+   "url": "https://jobs.lever.co/safran-ai/9304b7d7-69c2-4e54-80cf-8cdd47fdb007",
+   "source": "Lever",
+   "published": "2026-11-24T11:16:10.172Z",
+   "sector": "Geospatial AI per la difesa",
+   "macro_sector": "Difesa",
+   "aerospace": "No",
+   "company_rating": 8,
+   "country": "Francia",
    "score": 47,
    "priority": "Bassa",
    "matched": [
-    "computer vision",
-    "edge ai",
-    "segmentation",
-    "senior",
-    "python",
-    "sede: munich"
+    "engineering manager",
+    "satellite",
+    "sede: paris"
    ],
    "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T12:13:49.266005784Z",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -1519,29 +1637,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
-  },
-  {
-   "key": "arbeitnow:lead-machine-learning-engineer-london-189898",
-   "company": "Faculty",
-   "title": "Lead Machine Learning Engineer",
-   "location": "London",
-   "remote": false,
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/faculty/lead-machine-learning-engineer-london-189898",
-   "source": "Arbeitnow",
-   "published": "2026-11-23T15:40:26Z",
-   "score": 45,
-   "priority": "Bassa",
-   "matched": [
-    "machine learning",
-    "pytorch",
-    "lead",
-    "senior",
-    "sede: london"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-24T04:10:50.888500962Z",
-   "new": true
+   "new": false
   },
   {
    "key": "workday:thales:/job/Toulouse/Digital-Ground-Architect-for-Earth-Observation_R0322925-1",
@@ -1551,8 +1647,8 @@
    "remote": false,
    "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Toulouse/Digital-Ground-Architect-for-Earth-Observation_R0322925-1",
    "source": "Workday",
-   "published": "2026-10-30T00:00:00Z",
-   "published_note": "Posted 25 Days Ago",
+   "published": "2026-10-29T00:00:00Z",
+   "published_note": "Posted 26 Days Ago",
    "sector": "Spazio – costruttore di satelliti",
    "macro_sector": "Aerospazio",
    "aerospace": "Sì",
@@ -1566,7 +1662,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:b52585d5-ed8a-4ec8-90f5-2cd06b766e73",
@@ -1593,7 +1689,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:e457992b-17a7-44eb-8e08-0482a5632386",
@@ -1620,7 +1716,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "arbeitnow:lead-ai-governance-paris-paris-villeneuve-dascq-nord-384921",
@@ -1672,7 +1768,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "new": true
+   "new": false
   },
   {
    "key": "successfactors:https://careers.qinetiq.com:https://careers.qinetiq.com/job/Manchester-Naimuri-Technical-Lead-Defence-Engl/1452198533/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
@@ -1699,7 +1795,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "new": true
+   "new": false
   },
   {
    "key": "lever:loftorbital:f5f9edbc-3e8c-4eb3-b757-25cfcbf8e7fa",
@@ -1728,6 +1824,48 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": false
+  },
+  {
+   "key": "arbeitnow:senior-engineering-manager-geneva-paris-france-16972",
+   "company": "Proton",
+   "title": "Senior Engineering Manager",
+   "location": "Geneva, Paris, France",
+   "remote": false,
+   "url": "https://www.arbeitnow.ch/jobs/companies/proton/senior-engineering-manager-geneva-paris-france-16972",
+   "source": "Arbeitnow",
+   "published": "2026-11-24T15:55:38Z",
+   "score": 43,
+   "priority": "Bassa",
+   "matched": [
+    "engineering manager",
+    "lead",
+    "senior",
+    "sede: france"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
+   "new": true
+  },
+  {
+   "key": "arbeitnow:customer-service-team-lead-chatham-277782",
+   "company": "Lendable",
+   "title": "Customer Service Team Lead",
+   "location": "Chatham",
+   "remote": false,
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/lendable/customer-service-team-lead-chatham-277782",
+   "source": "Arbeitnow",
+   "published": "2026-11-23T18:40:19Z",
+   "score": 43,
+   "priority": "Bassa",
+   "matched": [
+    "machine learning",
+    "team lead",
+    "head",
+    "lead"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -1756,7 +1894,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:002821a8-dd53-4737-be19-dc3270f4d39b",
@@ -1784,7 +1922,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:192550ad-e0f6-42d1-a704-414671527a05",
@@ -1813,7 +1951,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "bamboohr:astroscale:689",
@@ -1839,50 +1977,313 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "new": true
+   "new": false
   },
   {
-   "key": "arbeitnow:machine-learning-engineer-london-417945",
-   "company": "Trainline",
-   "title": "Machine Learning Engineer",
-   "location": "London",
-   "remote": false,
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/trainline/machine-learning-engineer-london-417945",
-   "source": "Arbeitnow",
-   "published": "2026-11-23T12:40:20Z",
-   "score": 42,
-   "priority": "Bassa",
-   "matched": [
-    "on board",
-    "machine learning",
-    "gis",
-    "python",
-    "sede: london"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-24T04:10:50.888500962Z",
-   "new": true
-  },
-  {
-   "key": "arbeitnow:remote-senior-data-scientist-research-eu-uk-berlin-88725",
-   "company": "Makersite GmbH",
-   "title": "Senior Data Scientist - Research EU/UK (m/f/x)",
-   "location": "Remote job",
+   "key": "lever:jobgether:124c99a8-505d-469c-9362-fd7e4445b670",
+   "company": "Jobgether",
+   "title": "Principal Data Center \u0026 Cloud Engineering Lead and Strategist - Remote (Portland, OR)",
+   "location": "Portland",
    "remote": true,
-   "url": "https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-senior-data-scientist-research-eu-uk-berlin-88725",
-   "source": "Arbeitnow",
-   "published": "2026-11-22T15:31:28Z",
+   "department": "IT",
+   "url": "https://jobs.lever.co/jobgether/124c99a8-505d-469c-9362-fd7e4445b670",
+   "source": "Lever",
+   "published": "2026-11-24T16:21:14.415Z",
+   "sector": "Aggregatore (aziende partner non nominate)",
+   "macro_sector": "Varie",
+   "aerospace": "No",
+   "company_rating": 4,
+   "country": "Remoto",
    "score": 42,
    "priority": "Bassa",
    "matched": [
-    "machine learning",
-    "pytorch",
+    "lead",
     "senior",
+    "principal",
     "python",
     "sede: remote"
    ],
    "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
+   "new": true
+  },
+  {
+   "key": "lever:jobgether:dd000db9-8a8b-4403-8354-5bbe5ee1da9c",
+   "company": "Jobgether",
+   "title": "Principal Data Center \u0026 Cloud Engineering Lead and Strategist - Remote (Raleigh, NC)",
+   "location": "Raleigh",
+   "remote": true,
+   "department": "IT",
+   "url": "https://jobs.lever.co/jobgether/dd000db9-8a8b-4403-8354-5bbe5ee1da9c",
+   "source": "Lever",
+   "published": "2026-11-24T16:20:37.982Z",
+   "sector": "Aggregatore (aziende partner non nominate)",
+   "macro_sector": "Varie",
+   "aerospace": "No",
+   "company_rating": 4,
+   "country": "Remoto",
+   "score": 42,
+   "priority": "Bassa",
+   "matched": [
+    "lead",
+    "senior",
+    "principal",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
+   "new": true
+  },
+  {
+   "key": "lever:jobgether:e62d0897-4c4f-4ccd-9da3-d92490289d4a",
+   "company": "Jobgether",
+   "title": "Principal Data Center \u0026 Cloud Engineering Lead and Strategist - Remote (Indianapolis, IN)",
+   "location": "Indianapolis",
+   "remote": true,
+   "department": "IT",
+   "url": "https://jobs.lever.co/jobgether/e62d0897-4c4f-4ccd-9da3-d92490289d4a",
+   "source": "Lever",
+   "published": "2026-11-24T16:19:49.608Z",
+   "sector": "Aggregatore (aziende partner non nominate)",
+   "macro_sector": "Varie",
+   "aerospace": "No",
+   "company_rating": 4,
+   "country": "Remoto",
+   "score": 42,
+   "priority": "Bassa",
+   "matched": [
+    "lead",
+    "senior",
+    "principal",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
+   "new": true
+  },
+  {
+   "key": "lever:jobgether:eae75fd8-8d6d-4df1-9ac4-9804945e9a48",
+   "company": "Jobgether",
+   "title": "Principal Data Center \u0026 Cloud Engineering Lead and Strategist - Remote (Dallas, TX)",
+   "location": "Dallas",
+   "remote": true,
+   "department": "IT",
+   "url": "https://jobs.lever.co/jobgether/eae75fd8-8d6d-4df1-9ac4-9804945e9a48",
+   "source": "Lever",
+   "published": "2026-11-24T16:19:17.548Z",
+   "sector": "Aggregatore (aziende partner non nominate)",
+   "macro_sector": "Varie",
+   "aerospace": "No",
+   "company_rating": 4,
+   "country": "Remoto",
+   "score": 42,
+   "priority": "Bassa",
+   "matched": [
+    "lead",
+    "senior",
+    "principal",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
+   "new": true
+  },
+  {
+   "key": "lever:jobgether:a812c7ad-af52-4de5-8a44-7670d6a5c1a4",
+   "company": "Jobgether",
+   "title": "Principal Data Center \u0026 Cloud Engineering Lead and Strategist - Remote (Phoenix, AZ)",
+   "location": "Phoenix",
+   "remote": true,
+   "department": "IT",
+   "url": "https://jobs.lever.co/jobgether/a812c7ad-af52-4de5-8a44-7670d6a5c1a4",
+   "source": "Lever",
+   "published": "2026-11-24T16:18:46.286Z",
+   "sector": "Aggregatore (aziende partner non nominate)",
+   "macro_sector": "Varie",
+   "aerospace": "No",
+   "company_rating": 4,
+   "country": "Remoto",
+   "score": 42,
+   "priority": "Bassa",
+   "matched": [
+    "lead",
+    "senior",
+    "principal",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
+   "new": true
+  },
+  {
+   "key": "lever:jobgether:7c7ec6e1-463c-4cf9-aa41-fa259f275682",
+   "company": "Jobgether",
+   "title": "Principal Data Center \u0026 Cloud Engineering Lead and Strategist - Remote (Philadelphia, PA)",
+   "location": "Philadelphia",
+   "remote": true,
+   "department": "IT",
+   "url": "https://jobs.lever.co/jobgether/7c7ec6e1-463c-4cf9-aa41-fa259f275682",
+   "source": "Lever",
+   "published": "2026-11-24T16:18:09.837Z",
+   "sector": "Aggregatore (aziende partner non nominate)",
+   "macro_sector": "Varie",
+   "aerospace": "No",
+   "company_rating": 4,
+   "country": "Remoto",
+   "score": 42,
+   "priority": "Bassa",
+   "matched": [
+    "lead",
+    "senior",
+    "principal",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
+   "new": true
+  },
+  {
+   "key": "lever:jobgether:a448cf4d-21e5-4c36-b870-50885cc7a959",
+   "company": "Jobgether",
+   "title": "Principal Data Center \u0026 Cloud Engineering Lead and Strategist - Remote (Miami, FL)",
+   "location": "Miami",
+   "remote": true,
+   "department": "IT",
+   "url": "https://jobs.lever.co/jobgether/a448cf4d-21e5-4c36-b870-50885cc7a959",
+   "source": "Lever",
+   "published": "2026-11-24T16:16:28.499Z",
+   "sector": "Aggregatore (aziende partner non nominate)",
+   "macro_sector": "Varie",
+   "aerospace": "No",
+   "company_rating": 4,
+   "country": "Remoto",
+   "score": 42,
+   "priority": "Bassa",
+   "matched": [
+    "lead",
+    "senior",
+    "principal",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
+   "new": true
+  },
+  {
+   "key": "lever:jobgether:c79eadc8-daa6-4c5d-be05-8766c5ebe49e",
+   "company": "Jobgether",
+   "title": "Principal Data Center \u0026 Cloud Engineering Lead and Strategist - Remote (San Diego, CA)",
+   "location": "San Diego",
+   "remote": true,
+   "department": "IT",
+   "url": "https://jobs.lever.co/jobgether/c79eadc8-daa6-4c5d-be05-8766c5ebe49e",
+   "source": "Lever",
+   "published": "2026-11-24T16:15:53.529Z",
+   "sector": "Aggregatore (aziende partner non nominate)",
+   "macro_sector": "Varie",
+   "aerospace": "No",
+   "company_rating": 4,
+   "country": "Remoto",
+   "score": 42,
+   "priority": "Bassa",
+   "matched": [
+    "lead",
+    "senior",
+    "principal",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
+   "new": true
+  },
+  {
+   "key": "lever:jobgether:72c5f735-3252-48aa-b27c-a7f960b3339b",
+   "company": "Jobgether",
+   "title": "Principal Data Center \u0026 Cloud Engineering Lead and Strategist - Remote (Atlanta, GA)",
+   "location": "Atlanta",
+   "remote": true,
+   "department": "IT",
+   "url": "https://jobs.lever.co/jobgether/72c5f735-3252-48aa-b27c-a7f960b3339b",
+   "source": "Lever",
+   "published": "2026-11-24T16:13:44.897Z",
+   "sector": "Aggregatore (aziende partner non nominate)",
+   "macro_sector": "Varie",
+   "aerospace": "No",
+   "company_rating": 4,
+   "country": "Remoto",
+   "score": 42,
+   "priority": "Bassa",
+   "matched": [
+    "lead",
+    "senior",
+    "principal",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
+   "new": true
+  },
+  {
+   "key": "lever:jobgether:22770a24-38e2-433e-a851-20c871ccc812",
+   "company": "Jobgether",
+   "title": "Principal Data Center \u0026 Cloud Engineering Lead and Strategist - Remote (Chicago, IL)",
+   "location": "Chicago",
+   "remote": true,
+   "department": "IT",
+   "url": "https://jobs.lever.co/jobgether/22770a24-38e2-433e-a851-20c871ccc812",
+   "source": "Lever",
+   "published": "2026-11-24T16:11:56.458Z",
+   "sector": "Aggregatore (aziende partner non nominate)",
+   "macro_sector": "Varie",
+   "aerospace": "No",
+   "company_rating": 4,
+   "country": "Remoto",
+   "score": 42,
+   "priority": "Bassa",
+   "matched": [
+    "lead",
+    "senior",
+    "principal",
+    "python",
+    "sede: remote"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
+   "new": true
+  },
+  {
+   "key": "lever:jobgether:1a7fedb0-00cb-4157-bb8e-93646a8300ea",
+   "company": "Jobgether",
+   "title": "Senior Project Manager",
+   "location": "Romania / Ireland / Germany / Portugal / Spain / Switzerland / Italy / UK / France / Netherlands",
+   "remote": true,
+   "department": "Project Management",
+   "url": "https://jobs.lever.co/jobgether/1a7fedb0-00cb-4157-bb8e-93646a8300ea",
+   "source": "Lever",
+   "published": "2026-11-24T12:46:41.128Z",
+   "sector": "Aggregatore (aziende partner non nominate)",
+   "macro_sector": "Varie",
+   "aerospace": "No",
+   "company_rating": 4,
+   "country": "Remoto",
+   "score": 42,
+   "priority": "Bassa",
+   "matched": [
+    "lead",
+    "senior",
+    "project manager",
+    "sede: italy"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -1909,7 +2310,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "recruitee:hydrosat:2701208",
@@ -1939,94 +2340,28 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
-   "key": "arbeitnow:senior-machine-learning-engineer-london-388261",
-   "company": "Faculty",
-   "title": "Senior Machine Learning Engineer",
-   "location": "London",
+   "key": "arbeitnow:ai-engineer-h-f-paris-261054",
+   "company": "Marsorobotics",
+   "title": "AI Engineer H/F",
+   "location": "Paris",
    "remote": false,
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/faculty/senior-machine-learning-engineer-london-388261",
+   "url": "https://www.arbeitnow.fr/jobs/companies/marsorobotics/ai-engineer-h-f-paris-261054",
    "source": "Arbeitnow",
-   "published": "2026-11-23T15:40:26Z",
-   "score": 41,
-   "priority": "Bassa",
-   "matched": [
-    "machine learning",
-    "pytorch",
-    "edge ai",
-    "lead",
-    "senior",
-    "python",
-    "sede: london"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-24T04:10:50.888500962Z",
-   "new": true
-  },
-  {
-   "key": "arbeitnow:data-scientist-trust-safety-amsterdam-87460",
-   "company": "Vinteden",
-   "title": "Data Scientist, Trust \u0026 Safety",
-   "location": "Amsterdam",
-   "remote": false,
-   "url": "https://www.arbeitnow.nl/jobs/companies/vinteden/data-scientist-trust-safety-amsterdam-87460",
-   "source": "Arbeitnow",
-   "published": "2026-11-19T00:55:18Z",
+   "published": "2026-11-24T15:40:17Z",
    "score": 41,
    "priority": "Bassa",
    "matched": [
     "computer vision",
-    "machine learning",
+    "deep learning",
     "pytorch",
     "python",
-    "sede: amsterdam"
+    "sede: paris"
    ],
    "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
-  },
-  {
-   "key": "arbeitnow:tech-lead-marketplace-experience-berlin-278949",
-   "company": "Bridgemaker GmbH",
-   "title": "Tech Lead Marketplace Experience (m/w/d)",
-   "location": "Berlin",
-   "remote": false,
-   "url": "https://www.arbeitnow.com/jobs/companies/bridgemaker-gmbh/tech-lead-marketplace-experience-berlin-278949",
-   "source": "Arbeitnow",
-   "published": "2026-11-23T14:17:30Z",
-   "score": 39,
-   "priority": "Bassa",
-   "matched": [
-    "tech lead",
-    "lead",
-    "senior",
-    "sede: berlin"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
-  },
-  {
-   "key": "arbeitnow:tech-lead-grower-experience-berlin-336126",
-   "company": "Bridgemaker GmbH",
-   "title": "Tech Lead Grower Experience (m/w/d)",
-   "location": "Berlin",
-   "remote": false,
-   "url": "https://www.arbeitnow.com/jobs/companies/bridgemaker-gmbh/tech-lead-grower-experience-berlin-336126",
-   "source": "Arbeitnow",
-   "published": "2026-11-23T14:17:30Z",
-   "score": 39,
-   "priority": "Bassa",
-   "matched": [
-    "tech lead",
-    "lead",
-    "senior",
-    "sede: berlin"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -2054,7 +2389,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "greenhouse:planetlabs:8226128",
@@ -2083,18 +2418,18 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
-   "key": "workday:ag:/job/Stuttgart-Area/Senior-Machine-Learning-Engineer--d-m-w-_JR10459155",
+   "key": "workday:ag:/job/Ulm-Area/Senior-Artificial-Intelligence-Machine-Learning-Engineer--d-f-m-_JR10443053-1",
    "company": "Airbus",
-   "title": "Senior Machine Learning Engineer (d/m/w)",
-   "location": "Stuttgart Area",
+   "title": "Senior Artificial Intelligence/Machine Learning Engineer (d/f/m)",
+   "location": "Ulm Area",
    "remote": false,
-   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Stuttgart-Area/Senior-Machine-Learning-Engineer--d-m-w-_JR10459155",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Ulm-Area/Senior-Artificial-Intelligence-Machine-Learning-Engineer--d-f-m-_JR10443053-1",
    "source": "Workday",
-   "published": "2026-11-19T00:00:00Z",
-   "published_note": "Posted 5 Days Ago",
+   "published": "2026-11-24T00:00:00Z",
+   "published_note": "Posted Today",
    "sector": "Aerospazio e difesa",
    "macro_sector": "Aerospazio",
    "aerospace": "Sì",
@@ -2107,7 +2442,7 @@
     "senior"
    ],
    "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -2134,7 +2469,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "new": true
+   "new": false
   },
   {
    "key": "workday:thales:/job/Roma/Artificial-Intelligence-Space-Engineer_R0210027",
@@ -2158,7 +2493,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "lever:jobgether:26d91a34-f86b-498f-a367-b2bff5439841",
@@ -2195,8 +2530,8 @@
    "remote": false,
    "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Vlizy-Villacoublay/Tech-Lead-IA-F-H_R0344884-1",
    "source": "Workday",
-   "published": "2026-11-19T00:00:00Z",
-   "published_note": "Posted 5 Days Ago",
+   "published": "2026-11-18T00:00:00Z",
+   "published_note": "Posted 6 Days Ago",
    "sector": "Spazio – costruttore di satelliti",
    "macro_sector": "Aerospazio",
    "aerospace": "Sì",
@@ -2210,7 +2545,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:000a7973-cec6-401c-818a-06781f1f6644",
@@ -2237,7 +2572,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "lever:safran-ai:3eedd99a-7f79-4bff-8b8c-46b195ead6c3",
@@ -2265,7 +2600,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:82f389e1-b856-4157-ab24-f83f467329e5",
@@ -2292,7 +2627,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:eef6a32a-f223-4072-8db0-6bf1ca03f3c7",
@@ -2319,7 +2654,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "workday:thales:/job/Elancourt/Ingnieur-Docteur-en-traitement-du-signal-RADAR-SAR-H-F_R0324957-1",
@@ -2344,6 +2679,28 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": false
+  },
+  {
+   "key": "arbeitnow:web-project-manager-assistant-to-head-of-web-zurich-327463",
+   "company": "what. AG",
+   "title": "Web Project Manager \u0026 Assistant to Head of Web (m/f/d)",
+   "location": "Zürich, Zürich, Switzerland",
+   "remote": false,
+   "url": "https://www.arbeitnow.ch/jobs/companies/what-ag/web-project-manager-assistant-to-head-of-web-zurich-327463",
+   "source": "Arbeitnow",
+   "published": "2026-11-24T09:31:36Z",
+   "score": 36,
+   "priority": "Bassa",
+   "matched": [
+    "head",
+    "lead",
+    "senior",
+    "project manager",
+    "sede: switzerland"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -2366,7 +2723,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "successfactors:https://careers.qinetiq.com:https://careers.qinetiq.com/job/Manchester-Naimuri-Senior-Data-Scientist-Engl/1280625801/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
@@ -2393,7 +2750,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "new": true
+   "new": false
   },
   {
    "key": "lever:jobgether:050b324e-7524-4fc8-9bd7-9a40da81e38b",
@@ -2419,31 +2776,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
-  },
-  {
-   "key": "arbeitnow:senior-staff-ml-scientist-bidding-optimization-berlin-248715",
-   "company": "adjoe",
-   "title": "Senior/Staff ML Scientist - Bidding \u0026 Optimization (f/m/d)",
-   "location": "Berlin",
-   "remote": false,
-   "url": "https://www.arbeitnow.com/jobs/companies/adjoe/senior-staff-ml-scientist-bidding-optimization-berlin-248715",
-   "source": "Arbeitnow",
-   "published": "2026-11-22T18:40:12Z",
-   "score": 35,
-   "priority": "Bassa",
-   "matched": [
-    "deep learning",
-    "machine learning",
-    "pytorch",
-    "lead",
-    "senior",
-    "python",
-    "sede: berlin"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "lever:jobgether:0b7492c8-2270-4764-9185-da7c1176ea81",
@@ -2469,26 +2802,50 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": false
+  },
+  {
+   "key": "arbeitnow:senior-ml-manager-voice-team-levallois-perret-57992",
+   "company": "Doctolib",
+   "title": "Senior ML Manager - Voice Team (x/f/m)",
+   "location": "Paris",
+   "remote": false,
+   "url": "https://www.arbeitnow.fr/jobs/companies/doctolib/senior-ml-manager-voice-team-levallois-perret-57992",
+   "source": "Arbeitnow",
+   "published": "2026-11-24T15:40:16Z",
+   "score": 34,
+   "priority": "Bassa",
+   "matched": [
+    "machine learning",
+    "lead",
+    "senior",
+    "python",
+    "sede: paris"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
-   "key": "arbeitnow:engineering-manager-customs-amsterdam-328631",
-   "company": "Flexport",
-   "title": "Engineering Manager, Customs",
-   "location": "Amsterdam",
+   "key": "arbeitnow:senior-data-ai-consultant-automotive-munchen-416189",
+   "company": "Alexander Thamm Gmbh",
+   "title": "Senior Data \u0026 AI Consultant (m/w/d) – Automotive",
+   "location": "München",
    "remote": false,
-   "url": "https://www.arbeitnow.nl/jobs/companies/flexport/engineering-manager-customs-amsterdam-328631",
+   "url": "https://www.arbeitnow.com/jobs/companies/alexander-thamm-gmbh/senior-data-ai-consultant-automotive-munchen-416189",
    "source": "Arbeitnow",
-   "published": "2026-11-18T21:55:18Z",
-   "score": 35,
+   "published": "2026-11-24T15:32:53Z",
+   "score": 34,
    "priority": "Bassa",
    "matched": [
-    "engineering manager",
-    "lead",
-    "sede: amsterdam"
+    "machine learning",
+    "senior",
+    "principal",
+    "python",
+    "sede: münchen"
    ],
    "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -2514,7 +2871,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "arbeitnow:senior-machine-learning-engineer-london-225319",
@@ -2600,126 +2957,6 @@
    "new": true
   },
   {
-   "key": "arbeitnow:engineering-manager-ai-native-email-app-london-444103",
-   "company": "Bjak",
-   "title": "Engineering Manager - AI-Native Email App",
-   "location": "United Kingdom",
-   "remote": false,
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-ai-native-email-app-london-444103",
-   "source": "Arbeitnow",
-   "published": "2026-11-23T03:42:53Z",
-   "score": 33,
-   "priority": "Bassa",
-   "matched": [
-    "engineering manager",
-    "lead",
-    "sede: united kingdom"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
-  },
-  {
-   "key": "arbeitnow:engineering-manager-stock-trading-app-london-6781",
-   "company": "Bjak",
-   "title": "Engineering Manager - Stock Trading App",
-   "location": "United Kingdom",
-   "remote": false,
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-stock-trading-app-london-6781",
-   "source": "Arbeitnow",
-   "published": "2026-11-23T03:42:53Z",
-   "score": 33,
-   "priority": "Bassa",
-   "matched": [
-    "engineering manager",
-    "lead",
-    "sede: united kingdom"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
-  },
-  {
-   "key": "arbeitnow:engineering-manager-wealth-management-app-london-99649",
-   "company": "Bjak",
-   "title": "Engineering Manager - Wealth Management App",
-   "location": "United Kingdom",
-   "remote": false,
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-wealth-management-app-london-99649",
-   "source": "Arbeitnow",
-   "published": "2026-11-23T03:42:53Z",
-   "score": 33,
-   "priority": "Bassa",
-   "matched": [
-    "engineering manager",
-    "lead",
-    "sede: united kingdom"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
-  },
-  {
-   "key": "arbeitnow:engineering-manager-travel-fx-app-london-213505",
-   "company": "Bjak",
-   "title": "Engineering Manager - Travel FX App",
-   "location": "United Kingdom",
-   "remote": false,
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-travel-fx-app-london-213505",
-   "source": "Arbeitnow",
-   "published": "2026-11-23T03:42:53Z",
-   "score": 33,
-   "priority": "Bassa",
-   "matched": [
-    "engineering manager",
-    "lead",
-    "sede: united kingdom"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
-  },
-  {
-   "key": "arbeitnow:engineering-manager-ai-payments-app-london-489211",
-   "company": "Bjak",
-   "title": "Engineering Manager - AI Payments App",
-   "location": "United Kingdom",
-   "remote": false,
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-ai-payments-app-london-489211",
-   "source": "Arbeitnow",
-   "published": "2026-11-23T03:42:53Z",
-   "score": 33,
-   "priority": "Bassa",
-   "matched": [
-    "engineering manager",
-    "lead",
-    "sede: united kingdom"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
-  },
-  {
-   "key": "arbeitnow:engineering-manager-london-377260",
-   "company": "Bjak",
-   "title": "Engineering Manager",
-   "location": "United Kingdom",
-   "remote": false,
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/bjak/engineering-manager-london-377260",
-   "source": "Arbeitnow",
-   "published": "2026-11-23T03:42:53Z",
-   "score": 33,
-   "priority": "Bassa",
-   "matched": [
-    "engineering manager",
-    "lead",
-    "sede: united kingdom"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
-  },
-  {
    "key": "arbeitnow:senior-applied-ai-manager-f-h-puteaux-474357",
    "company": "ILLUIN Technology",
    "title": "Senior Applied AI Manager (F/H)",
@@ -2738,6 +2975,28 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
+   "new": false
+  },
+  {
+   "key": "arbeitnow:member-of-technical-staff-ai-london-office-77198",
+   "company": "Agon",
+   "title": "Member of Technical Staff, AI",
+   "location": "London Office",
+   "remote": false,
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/agon/member-of-technical-staff-ai-london-office-77198",
+   "source": "Arbeitnow",
+   "published": "2026-11-24T15:40:17Z",
+   "score": 32,
+   "priority": "Bassa",
+   "matched": [
+    "machine learning",
+    "foundation models",
+    "head",
+    "python",
+    "sede: london"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -2807,7 +3066,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:c8056c08-472a-4d64-8d69-a6520083bf80",
@@ -2833,7 +3092,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "workday:globalhr:/job/Gloucester-South-Gloucestershire/Principal-Data-Scientist---Machine-Learning-Researcher_01804570",
@@ -2858,7 +3117,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "new": true
+   "new": false
   },
   {
    "key": "arbeitnow:ai-forward-deployed-engineer-netherlands-amsterdam-113124",
@@ -2879,27 +3138,48 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
-   "key": "arbeitnow:ai-application-engineer-ai-products-llm-rag-berlin-322593",
+   "key": "arbeitnow:ai-application-engineer-ai-products-llm-rag-berlin-26318",
    "company": "Machine Learning Reply",
    "title": "AI Application Engineer – AI Products (LLM \u0026 RAG) (m/f/d)",
-   "location": "Berlin, Berlin, Germany",
+   "location": "Berlin",
    "remote": false,
-   "url": "https://www.arbeitnow.com/jobs/companies/machine-learning-reply/ai-application-engineer-ai-products-llm-rag-berlin-322593",
+   "url": "https://www.arbeitnow.com/jobs/companies/machine-learning-reply/ai-application-engineer-ai-products-llm-rag-berlin-26318",
    "source": "Arbeitnow",
-   "published": "2026-11-23T18:31:23Z",
+   "published": "2026-11-24T10:20:10Z",
    "score": 30,
    "priority": "Bassa",
    "matched": [
     "machine learning",
     "edge ai",
     "python",
-    "sede: germany"
+    "sede: berlin"
    ],
    "salary_ok": "n.d.",
-   "first_seen": "2026-11-24T04:10:50.888500962Z",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
+   "new": true
+  },
+  {
+   "key": "arbeitnow:senior-data-scientist-pricing-paris-109147",
+   "company": "Backmarket",
+   "title": "Senior Data Scientist - Pricing",
+   "location": "Paris",
+   "remote": false,
+   "url": "https://www.arbeitnow.fr/jobs/companies/backmarket/senior-data-scientist-pricing-paris-109147",
+   "source": "Arbeitnow",
+   "published": "2026-11-24T06:40:10Z",
+   "score": 30,
+   "priority": "Bassa",
+   "matched": [
+    "machine learning",
+    "senior",
+    "python",
+    "sede: paris"
+   ],
+   "salary_ok": "n.d.",
+   "first_seen": "2026-11-24T18:47:34.14174873Z",
    "new": true
   },
   {
@@ -2927,33 +3207,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
-  },
-  {
-   "key": "lever:jobgether:0d3e06d5-2b41-451e-a5f5-293dbababd00",
-   "company": "Jobgether",
-   "title": "Lead Engineer - AI Platform",
-   "location": "Ireland / Germany / Spain / Switzerland / UK / Netherlands / France",
-   "remote": true,
-   "department": "IT",
-   "url": "https://jobs.lever.co/jobgether/0d3e06d5-2b41-451e-a5f5-293dbababd00",
-   "source": "Lever",
-   "published": "2026-11-17T09:38:37.031Z",
-   "sector": "Aggregatore (aziende partner non nominate)",
-   "macro_sector": "Varie",
-   "aerospace": "No",
-   "company_rating": 4,
-   "country": "Remoto",
-   "score": 30,
-   "priority": "Bassa",
-   "matched": [
-    "lead",
-    "python",
-    "sede: remote"
-   ],
-   "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": true
+   "new": false
   },
   {
    "key": "ashby:wayve:5d3baafc-4af6-47db-91a0-ee5cb2cf3e04",
@@ -2980,7 +3234,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "new": true
+   "new": false
   },
   {
    "key": "bamboohr:clearspace:81",
@@ -3004,7 +3258,7 @@
    ],
    "salary_ok": "n.d.",
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "new": true
+   "new": false
   }
  ],
  "sources": [
@@ -3013,10 +3267,10 @@
    "type": "ashby",
    "ok": true,
    "skipped": false,
-   "fetched": 195,
-   "kept": 11,
+   "fetched": 202,
+   "kept": 12,
    "verified": true,
-   "millis": 227
+   "millis": 225
   },
   {
    "name": "Planet · Greenhouse",
@@ -3024,7 +3278,7 @@
    "ok": true,
    "skipped": false,
    "fetched": 107,
-   "kept": 4,
+   "kept": 5,
    "verified": true,
    "millis": 337
   },
@@ -3033,30 +3287,30 @@
    "type": "lever",
    "ok": true,
    "skipped": false,
-   "fetched": 86,
+   "fetched": 90,
    "kept": 3,
    "verified": true,
-   "millis": 224
+   "millis": 622
   },
   {
    "name": "Overstory · Ashby",
    "type": "ashby",
    "ok": true,
    "skipped": false,
-   "fetched": 7,
+   "fetched": 8,
    "kept": 0,
    "verified": true,
-   "millis": 68
+   "millis": 269
   },
   {
    "name": "Scandit · Greenhouse",
    "type": "greenhouse",
    "ok": true,
    "skipped": false,
-   "fetched": 11,
+   "fetched": 10,
    "kept": 0,
    "verified": true,
-   "millis": 174
+   "millis": 66
   },
   {
    "name": "LiveEO · Personio",
@@ -3066,7 +3320,7 @@
    "fetched": 23,
    "kept": 2,
    "verified": true,
-   "millis": 1368
+   "millis": 315
   },
   {
    "name": "Black Shark · Lever",
@@ -3076,27 +3330,27 @@
    "fetched": 5,
    "kept": 2,
    "verified": true,
-   "millis": 928
+   "millis": 826
   },
   {
    "name": "osapiens · Pinpoint",
    "type": "pinpoint",
    "ok": true,
    "skipped": false,
-   "fetched": 76,
+   "fetched": 75,
    "kept": 0,
    "verified": true,
-   "millis": 1776
+   "millis": 1453
   },
   {
    "name": "Airbus · Workday",
    "type": "workday",
    "ok": true,
    "skipped": false,
-   "fetched": 134,
+   "fetched": 138,
    "kept": 4,
    "verified": false,
-   "millis": 11797
+   "millis": 11583
   },
   {
    "name": "Thales · Workday",
@@ -3106,27 +3360,27 @@
    "fetched": 153,
    "kept": 4,
    "verified": false,
-   "millis": 12000
+   "millis": 11770
   },
   {
    "name": "Jobgether · Lever",
    "type": "lever",
    "ok": true,
    "skipped": false,
-   "fetched": 3808,
-   "kept": 11,
+   "fetched": 4261,
+   "kept": 21,
    "verified": true,
-   "millis": 1993
+   "millis": 3070
   },
   {
    "name": "ESA · Successfactors",
    "type": "successfactors",
    "ok": true,
    "skipped": false,
-   "fetched": 72,
+   "fetched": 73,
    "kept": 3,
    "verified": true,
-   "millis": 7656
+   "millis": 6147
   },
   {
    "name": "Open Cosmos · Teamtailor",
@@ -3136,7 +3390,7 @@
    "fetched": 58,
    "kept": 2,
    "verified": true,
-   "millis": 143
+   "millis": 241
   },
   {
    "name": "Development Seed · Greenhouse",
@@ -3146,7 +3400,7 @@
    "fetched": 1,
    "kept": 0,
    "verified": true,
-   "millis": 41
+   "millis": 76
   },
   {
    "name": "Hydrosat · Recruitee",
@@ -3156,17 +3410,17 @@
    "fetched": 14,
    "kept": 2,
    "verified": true,
-   "millis": 304
+   "millis": 314
   },
   {
    "name": "Safran.AI · Lever",
    "type": "lever",
    "ok": true,
    "skipped": false,
-   "fetched": 16,
-   "kept": 4,
+   "fetched": 17,
+   "kept": 5,
    "verified": true,
-   "millis": 166
+   "millis": 235
   },
   {
    "name": "Helsing · Greenhouse",
@@ -3176,27 +3430,27 @@
    "fetched": 176,
    "kept": 1,
    "verified": true,
-   "millis": 234
+   "millis": 313
   },
   {
    "name": "Wayve · Ashby",
    "type": "ashby",
    "ok": true,
    "skipped": false,
-   "fetched": 152,
+   "fetched": 151,
    "kept": 19,
    "verified": true,
-   "millis": 114
+   "millis": 143
   },
   {
    "name": "Spire Global · Greenhouse",
    "type": "greenhouse",
    "ok": true,
    "skipped": false,
-   "fetched": 25,
+   "fetched": 23,
    "kept": 0,
    "verified": true,
-   "millis": 75
+   "millis": 190
   },
   {
    "name": "Kuva Space · Teamtailor",
@@ -3206,7 +3460,7 @@
    "fetched": 2,
    "kept": 0,
    "verified": true,
-   "millis": 129
+   "millis": 357
   },
   {
    "name": "OroraTech · Personio",
@@ -3216,7 +3470,7 @@
    "fetched": 1,
    "kept": 0,
    "verified": true,
-   "millis": 830
+   "millis": 505
   },
   {
    "name": "Leaf Space · Teamtailor",
@@ -3226,27 +3480,27 @@
    "fetched": 10,
    "kept": 1,
    "verified": true,
-   "millis": 666
+   "millis": 609
   },
   {
    "name": "Leonardo DRS · Successfactors",
    "type": "successfactors",
    "ok": true,
    "skipped": false,
-   "fetched": 88,
+   "fetched": 90,
    "kept": 0,
    "verified": true,
-   "millis": 3101
+   "millis": 1528
   },
   {
    "name": "Rolls-Royce · Workday",
    "type": "workday",
    "ok": true,
    "skipped": false,
-   "fetched": 107,
+   "fetched": 106,
    "kept": 0,
    "verified": true,
-   "millis": 11540
+   "millis": 11746
   },
   {
    "name": "Kongsberg · Teamtailor",
@@ -3256,47 +3510,47 @@
    "fetched": 9,
    "kept": 0,
    "verified": true,
-   "millis": 1052
+   "millis": 602
   },
   {
    "name": "QinetiQ · Successfactors",
    "type": "successfactors",
    "ok": true,
    "skipped": false,
-   "fetched": 70,
+   "fetched": 72,
    "kept": 3,
    "verified": true,
-   "millis": 7061
+   "millis": 5989
   },
   {
    "name": "SES · Successfactors",
    "type": "successfactors",
    "ok": true,
    "skipped": false,
-   "fetched": 58,
+   "fetched": 57,
    "kept": 0,
    "verified": true,
-   "millis": 7517
+   "millis": 5757
   },
   {
    "name": "Eutelsat OneWeb · Successfactors",
    "type": "successfactors",
    "ok": true,
    "skipped": false,
-   "fetched": 44,
+   "fetched": 45,
    "kept": 0,
    "verified": true,
-   "millis": 3074
+   "millis": 2772
   },
   {
    "name": "Isar Aerospace · Greenhouse",
    "type": "greenhouse",
    "ok": true,
    "skipped": false,
-   "fetched": 146,
+   "fetched": 142,
    "kept": 0,
    "verified": true,
-   "millis": 166
+   "millis": 228
   },
   {
    "name": "The Exploration Company · Ashby",
@@ -3306,17 +3560,17 @@
    "fetched": 124,
    "kept": 0,
    "verified": true,
-   "millis": 152
+   "millis": 76
   },
   {
    "name": "ClearSpace · Bamboohr",
    "type": "bamboohr",
    "ok": true,
    "skipped": false,
-   "fetched": 30,
+   "fetched": 27,
    "kept": 1,
    "verified": true,
-   "millis": 430
+   "millis": 766
   },
   {
    "name": "Redwire Space Europe · Greenhouse",
@@ -3326,7 +3580,7 @@
    "fetched": 11,
    "kept": 0,
    "verified": true,
-   "millis": 48
+   "millis": 122
   },
   {
    "name": "Exolaunch · Personio",
@@ -3336,7 +3590,7 @@
    "fetched": 10,
    "kept": 0,
    "verified": true,
-   "millis": 1279
+   "millis": 152
   },
   {
    "name": "Astroscale · Bamboohr",
@@ -3346,7 +3600,7 @@
    "fetched": 48,
    "kept": 1,
    "verified": true,
-   "millis": 1089
+   "millis": 901
   },
   {
    "name": "Satellogic · Bamboohr",
@@ -3356,7 +3610,7 @@
    "fetched": 15,
    "kept": 0,
    "verified": true,
-   "millis": 838
+   "millis": 754
   },
   {
    "name": "GE Aerospace · Workday",
@@ -3366,17 +3620,17 @@
    "fetched": 85,
    "kept": 0,
    "verified": true,
-   "millis": 1974
+   "millis": 2439
   },
   {
    "name": "Boeing · Workday",
    "type": "workday",
    "ok": true,
    "skipped": false,
-   "fetched": 183,
+   "fetched": 178,
    "kept": 0,
    "verified": true,
-   "millis": 10246
+   "millis": 11249
   },
   {
    "name": "Northrop Grumman · Workday",
@@ -3386,7 +3640,7 @@
    "fetched": 167,
    "kept": 0,
    "verified": true,
-   "millis": 5507
+   "millis": 5816
   },
   {
    "name": "RTX · Workday",
@@ -3396,47 +3650,47 @@
    "fetched": 205,
    "kept": 1,
    "verified": true,
-   "millis": 3474
+   "millis": 4886
   },
   {
    "name": "L3Harris · Successfactors",
    "type": "successfactors",
    "ok": true,
    "skipped": false,
-   "fetched": 115,
+   "fetched": 106,
    "kept": 0,
    "verified": true,
-   "millis": 3808
+   "millis": 2089
   },
   {
    "name": "Blue Origin · Workday",
    "type": "workday",
    "ok": true,
    "skipped": false,
-   "fetched": 113,
+   "fetched": 115,
    "kept": 0,
    "verified": true,
-   "millis": 4667
+   "millis": 5889
   },
   {
    "name": "SpaceX · Greenhouse",
    "type": "greenhouse",
    "ok": true,
    "skipped": false,
-   "fetched": 2860,
+   "fetched": 2853,
    "kept": 0,
    "verified": true,
-   "millis": 2046
+   "millis": 14567
   },
   {
    "name": "Rocket Lab · Greenhouse",
    "type": "greenhouse",
    "ok": true,
    "skipped": false,
-   "fetched": 554,
+   "fetched": 547,
    "kept": 0,
    "verified": true,
-   "millis": 652
+   "millis": 714
   },
   {
    "name": "Capella Space · Greenhouse",
@@ -3446,7 +3700,7 @@
    "fetched": 8,
    "kept": 0,
    "verified": true,
-   "millis": 45
+   "millis": 68
   },
   {
    "name": "BlackSky · Greenhouse",
@@ -3456,17 +3710,17 @@
    "fetched": 39,
    "kept": 0,
    "verified": true,
-   "millis": 142
+   "millis": 157
   },
   {
    "name": "Embraer · Breezy",
    "type": "breezy",
    "ok": true,
    "skipped": false,
-   "fetched": 53,
+   "fetched": 52,
    "kept": 0,
    "verified": true,
-   "millis": 165
+   "millis": 118
   },
   {
    "name": "Adzuna: machine learning @ Roma it",
@@ -3881,9 +4135,9 @@
    "ok": true,
    "skipped": false,
    "fetched": 900,
-   "kept": 34,
+   "kept": 28,
    "verified": true,
-   "millis": 838
+   "millis": 880
   },
   {
    "name": "Remotive: machine learning @",
@@ -3893,7 +4147,7 @@
    "fetched": 15,
    "kept": 0,
    "verified": true,
-   "millis": 113
+   "millis": 139
   }
  ]
 }
