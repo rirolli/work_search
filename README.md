@@ -15,7 +15,7 @@ I file vengono committati nel repository e allegati all'esecuzione come artefatt
 ## Risultati
 
 <!-- RISULTATI:INIZIO -->
-_Aggiornato il 24/11/2026 19:47 (ora di Roma) · 120 offerte in linea con il profilo su 11624 scaricate · **4 alta**, 42 media, 74 bassa · **39 nuove**_
+_Aggiornato il 24/11/2026 20:06 (ora di Roma) · 120 offerte in linea con il profilo su 11621 scaricate · **4 alta**, 42 media, 74 bassa · **40 nuove**_
 
 Filtri e ordinamento: [`docs/index.html`](docs/index.html) · Excel: [`docs/offerte.xlsx`](docs/offerte.xlsx)
 
@@ -63,7 +63,7 @@ Filtri e ordinamento: [`docs/index.html`](docs/index.html) · Excel: [`docs/offe
 | Media | 52 |  | Laelaps | [Research Scientist, Foundation Model (World Model & Site Memory)](https://www.arbeitnow.ch/jobs/companies/laelaps/research-scientist-foundation-model-world-model-site-memory-zurich-448097) | Zürich, Switzerland | 2026-11-22 |
 | Media | 52 |  | ICEYE | [Lead, AI Hardware Design Skunkworks](https://jobs.ashbyhq.com/iceye/7270373f-9e9c-4608-b492-39afa380fb48) | Valencia | 2026-11-11 |
 | Media | 52 |  | Wayve | [Tech Lead - Remote Assist, Robotaxi](https://jobs.ashbyhq.com/wayve/bdf6686e-52e9-45b6-9cf3-3de9645a9b04) | London, United Kingdom | 2026-10-04 |
-| Media | 51 |  | Planet | [Senior Director of Engineering - Civil Government and Commercial](https://job-boards.greenhouse.io/planetlabs/jobs/8324235) | Haarlem, Netherlands / Berlin, Germany / Ljubljana, Slovenia | 2026-10-27 |
+| Media | 51 | 🆕 | Planet | [Senior Director of Engineering - Civil Government and Commercial](https://job-boards.greenhouse.io/planetlabs/jobs/8324236) | Ljubljana, Slovenia / Haarlem, Netherlands / Berlin, Germany | 2026-10-27 |
 | Media | 50 | 🆕 | Planet | [Technical Program Manager, Solutions](https://job-boards.greenhouse.io/planetlabs/jobs/8396499) | Ljubljana, Slovenia | 2026-11-24 |
 | Media | 50 |  | Jobgether | [Machine Learning Engineer](https://jobs.lever.co/jobgether/15d4c9c5-9434-4f11-b44d-182b593664c1) | Poland / Netherlands / Sweden / UK / Romania / Austria / Belgium / Po… | 2026-11-17 |
 | Media | 50 |  | Wayve | [Engineering Manager - Compute and Data Platform](https://jobs.ashbyhq.com/wayve/6ac4d9d0-f0e2-47a1-b0ef-712c9bde1d4d) | London, United Kingdom | 2026-11-04 |

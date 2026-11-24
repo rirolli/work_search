@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T18:47:34.14174873Z",
+ "generated": "2026-11-24T19:06:06.299483881Z",
  "jobs": [
   {
    "key": "successfactors:https://jobs.esa.int:https://jobs.esa.int/job/Noordwijk-Earth-Observation-Campaign-Scientist/1458757833/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS",
@@ -1254,15 +1254,15 @@
    "new": false
   },
   {
-   "key": "greenhouse:planetlabs:8324235",
+   "key": "greenhouse:planetlabs:8324236",
    "company": "Planet",
    "title": "Senior Director of Engineering - Civil Government and Commercial",
-   "location": "Haarlem, Netherlands / Berlin, Germany / Ljubljana, Slovenia",
+   "location": "Ljubljana, Slovenia / Haarlem, Netherlands / Berlin, Germany",
    "remote": false,
    "department": "Solutions (SWE)",
-   "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8324235",
+   "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8324236",
    "source": "Greenhouse",
-   "published": "2026-10-27T15:04:08Z",
+   "published": "2026-10-27T15:04:11Z",
    "sector": "Spazio – EO",
    "macro_sector": "Aerospazio",
    "aerospace": "Sì",
@@ -1279,8 +1279,8 @@
     "sede: netherlands"
    ],
    "salary_ok": "n.d.",
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "new": false
+   "first_seen": "2026-11-24T19:06:06.299483881Z",
+   "new": true
   },
   {
    "key": "greenhouse:planetlabs:8396499",
@@ -3270,7 +3270,7 @@
    "fetched": 202,
    "kept": 12,
    "verified": true,
-   "millis": 225
+   "millis": 814
   },
   {
    "name": "Planet · Greenhouse",
@@ -3280,7 +3280,7 @@
    "fetched": 107,
    "kept": 5,
    "verified": true,
-   "millis": 337
+   "millis": 202
   },
   {
    "name": "Loft Orbital · Lever",
@@ -3290,7 +3290,7 @@
    "fetched": 90,
    "kept": 3,
    "verified": true,
-   "millis": 622
+   "millis": 2172
   },
   {
    "name": "Overstory · Ashby",
@@ -3300,7 +3300,7 @@
    "fetched": 8,
    "kept": 0,
    "verified": true,
-   "millis": 269
+   "millis": 297
   },
   {
    "name": "Scandit · Greenhouse",
@@ -3310,7 +3310,7 @@
    "fetched": 10,
    "kept": 0,
    "verified": true,
-   "millis": 66
+   "millis": 67
   },
   {
    "name": "LiveEO · Personio",
@@ -3320,7 +3320,7 @@
    "fetched": 23,
    "kept": 2,
    "verified": true,
-   "millis": 315
+   "millis": 1387
   },
   {
    "name": "Black Shark · Lever",
@@ -3330,7 +3330,7 @@
    "fetched": 5,
    "kept": 2,
    "verified": true,
-   "millis": 826
+   "millis": 984
   },
   {
    "name": "osapiens · Pinpoint",
@@ -3340,7 +3340,7 @@
    "fetched": 75,
    "kept": 0,
    "verified": true,
-   "millis": 1453
+   "millis": 1618
   },
   {
    "name": "Airbus · Workday",
@@ -3350,7 +3350,7 @@
    "fetched": 138,
    "kept": 4,
    "verified": false,
-   "millis": 11583
+   "millis": 11228
   },
   {
    "name": "Thales · Workday",
@@ -3360,7 +3360,7 @@
    "fetched": 153,
    "kept": 4,
    "verified": false,
-   "millis": 11770
+   "millis": 12438
   },
   {
    "name": "Jobgether · Lever",
@@ -3370,7 +3370,7 @@
    "fetched": 4261,
    "kept": 21,
    "verified": true,
-   "millis": 3070
+   "millis": 4697
   },
   {
    "name": "ESA · Successfactors",
@@ -3380,7 +3380,7 @@
    "fetched": 73,
    "kept": 3,
    "verified": true,
-   "millis": 6147
+   "millis": 6273
   },
   {
    "name": "Open Cosmos · Teamtailor",
@@ -3390,7 +3390,7 @@
    "fetched": 58,
    "kept": 2,
    "verified": true,
-   "millis": 241
+   "millis": 205
   },
   {
    "name": "Development Seed · Greenhouse",
@@ -3400,7 +3400,7 @@
    "fetched": 1,
    "kept": 0,
    "verified": true,
-   "millis": 76
+   "millis": 61
   },
   {
    "name": "Hydrosat · Recruitee",
@@ -3410,7 +3410,7 @@
    "fetched": 14,
    "kept": 2,
    "verified": true,
-   "millis": 314
+   "millis": 337
   },
   {
    "name": "Safran.AI · Lever",
@@ -3420,7 +3420,7 @@
    "fetched": 17,
    "kept": 5,
    "verified": true,
-   "millis": 235
+   "millis": 800
   },
   {
    "name": "Helsing · Greenhouse",
@@ -3430,7 +3430,7 @@
    "fetched": 176,
    "kept": 1,
    "verified": true,
-   "millis": 313
+   "millis": 193
   },
   {
    "name": "Wayve · Ashby",
@@ -3440,7 +3440,7 @@
    "fetched": 151,
    "kept": 19,
    "verified": true,
-   "millis": 143
+   "millis": 148
   },
   {
    "name": "Spire Global · Greenhouse",
@@ -3450,7 +3450,7 @@
    "fetched": 23,
    "kept": 0,
    "verified": true,
-   "millis": 190
+   "millis": 80
   },
   {
    "name": "Kuva Space · Teamtailor",
@@ -3460,7 +3460,7 @@
    "fetched": 2,
    "kept": 0,
    "verified": true,
-   "millis": 357
+   "millis": 83
   },
   {
    "name": "OroraTech · Personio",
@@ -3470,7 +3470,7 @@
    "fetched": 1,
    "kept": 0,
    "verified": true,
-   "millis": 505
+   "millis": 146
   },
   {
    "name": "Leaf Space · Teamtailor",
@@ -3480,7 +3480,7 @@
    "fetched": 10,
    "kept": 1,
    "verified": true,
-   "millis": 609
+   "millis": 564
   },
   {
    "name": "Leonardo DRS · Successfactors",
@@ -3490,7 +3490,7 @@
    "fetched": 90,
    "kept": 0,
    "verified": true,
-   "millis": 1528
+   "millis": 2857
   },
   {
    "name": "Rolls-Royce · Workday",
@@ -3500,7 +3500,7 @@
    "fetched": 106,
    "kept": 0,
    "verified": true,
-   "millis": 11746
+   "millis": 11949
   },
   {
    "name": "Kongsberg · Teamtailor",
@@ -3510,7 +3510,7 @@
    "fetched": 9,
    "kept": 0,
    "verified": true,
-   "millis": 602
+   "millis": 648
   },
   {
    "name": "QinetiQ · Successfactors",
@@ -3520,7 +3520,7 @@
    "fetched": 72,
    "kept": 3,
    "verified": true,
-   "millis": 5989
+   "millis": 9087
   },
   {
    "name": "SES · Successfactors",
@@ -3530,7 +3530,7 @@
    "fetched": 57,
    "kept": 0,
    "verified": true,
-   "millis": 5757
+   "millis": 6503
   },
   {
    "name": "Eutelsat OneWeb · Successfactors",
@@ -3540,7 +3540,7 @@
    "fetched": 45,
    "kept": 0,
    "verified": true,
-   "millis": 2772
+   "millis": 3053
   },
   {
    "name": "Isar Aerospace · Greenhouse",
@@ -3550,7 +3550,7 @@
    "fetched": 142,
    "kept": 0,
    "verified": true,
-   "millis": 228
+   "millis": 240
   },
   {
    "name": "The Exploration Company · Ashby",
@@ -3560,7 +3560,7 @@
    "fetched": 124,
    "kept": 0,
    "verified": true,
-   "millis": 76
+   "millis": 136
   },
   {
    "name": "ClearSpace · Bamboohr",
@@ -3570,7 +3570,7 @@
    "fetched": 27,
    "kept": 1,
    "verified": true,
-   "millis": 766
+   "millis": 848
   },
   {
    "name": "Redwire Space Europe · Greenhouse",
@@ -3580,7 +3580,7 @@
    "fetched": 11,
    "kept": 0,
    "verified": true,
-   "millis": 122
+   "millis": 64
   },
   {
    "name": "Exolaunch · Personio",
@@ -3590,7 +3590,7 @@
    "fetched": 10,
    "kept": 0,
    "verified": true,
-   "millis": 152
+   "millis": 1275
   },
   {
    "name": "Astroscale · Bamboohr",
@@ -3600,7 +3600,7 @@
    "fetched": 48,
    "kept": 1,
    "verified": true,
-   "millis": 901
+   "millis": 1006
   },
   {
    "name": "Satellogic · Bamboohr",
@@ -3610,7 +3610,7 @@
    "fetched": 15,
    "kept": 0,
    "verified": true,
-   "millis": 754
+   "millis": 859
   },
   {
    "name": "GE Aerospace · Workday",
@@ -3620,7 +3620,7 @@
    "fetched": 85,
    "kept": 0,
    "verified": true,
-   "millis": 2439
+   "millis": 2757
   },
   {
    "name": "Boeing · Workday",
@@ -3630,7 +3630,7 @@
    "fetched": 178,
    "kept": 0,
    "verified": true,
-   "millis": 11249
+   "millis": 11248
   },
   {
    "name": "Northrop Grumman · Workday",
@@ -3640,7 +3640,7 @@
    "fetched": 167,
    "kept": 0,
    "verified": true,
-   "millis": 5816
+   "millis": 6151
   },
   {
    "name": "RTX · Workday",
@@ -3650,7 +3650,7 @@
    "fetched": 205,
    "kept": 1,
    "verified": true,
-   "millis": 4886
+   "millis": 4754
   },
   {
    "name": "L3Harris · Successfactors",
@@ -3660,7 +3660,7 @@
    "fetched": 106,
    "kept": 0,
    "verified": true,
-   "millis": 2089
+   "millis": 2843
   },
   {
    "name": "Blue Origin · Workday",
@@ -3670,27 +3670,27 @@
    "fetched": 115,
    "kept": 0,
    "verified": true,
-   "millis": 5889
+   "millis": 5468
   },
   {
    "name": "SpaceX · Greenhouse",
    "type": "greenhouse",
    "ok": true,
    "skipped": false,
-   "fetched": 2853,
+   "fetched": 2851,
    "kept": 0,
    "verified": true,
-   "millis": 14567
+   "millis": 1376
   },
   {
    "name": "Rocket Lab · Greenhouse",
    "type": "greenhouse",
    "ok": true,
    "skipped": false,
-   "fetched": 547,
+   "fetched": 546,
    "kept": 0,
    "verified": true,
-   "millis": 714
+   "millis": 451
   },
   {
    "name": "Capella Space · Greenhouse",
@@ -3710,7 +3710,7 @@
    "fetched": 39,
    "kept": 0,
    "verified": true,
-   "millis": 157
+   "millis": 79
   },
   {
    "name": "Embraer · Breezy",
@@ -3720,7 +3720,7 @@
    "fetched": 52,
    "kept": 0,
    "verified": true,
-   "millis": 118
+   "millis": 497
   },
   {
    "name": "Adzuna: machine learning @ Roma it",
@@ -4137,7 +4137,7 @@
    "fetched": 900,
    "kept": 28,
    "verified": true,
-   "millis": 880
+   "millis": 1008
   },
   {
    "name": "Remotive: machine learning @",
@@ -4147,7 +4147,7 @@
    "fetched": 15,
    "kept": 0,
    "verified": true,
-   "millis": 139
+   "millis": 93
   }
  ]
 }
