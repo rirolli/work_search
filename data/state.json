@@ -1,82 +1,82 @@
 {
- "last_run": "2026-11-27T07:14:14.663275694Z",
+ "last_run": "2026-11-27T19:05:45.787085515Z",
  "jobs": {
+  "arbeitnow:applied-machine-learning-engineer-emea-london-219855": {
+   "company": "Fireworks",
+   "title": "Applied Machine Learning Engineer, EMEA",
+   "location": "London",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/fireworks/applied-machine-learning-engineer-emea-london-219855",
+   "origin": "Arbeitnow: @",
+   "priority": "Bassa",
+   "score": 36,
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
+  },
+  "arbeitnow:engineering-manager-auctions-munich-319655": {
+   "company": "caronsale",
+   "title": "Engineering Manager – Auctions (m/w/d)",
+   "location": "Munich",
+   "url": "https://www.arbeitnow.com/jobs/companies/caronsale/engineering-manager-auctions-munich-319655",
+   "origin": "Arbeitnow: @",
+   "priority": "Bassa",
+   "score": 43,
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
+  },
   "arbeitnow:engineering-manager-chat-platform-london-312014": {
    "company": "Deliveroo",
    "title": "Engineering Manager - Chat Platform",
-   "location": "London / London, England, United Kingdom",
+   "location": "London",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/engineering-manager-chat-platform-london-312014",
    "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 43,
    "first_seen": "2026-11-27T07:14:14.663275694Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
-  "arbeitnow:mid-senior-full-stack-ai-product-engineer-berlin-352833": {
-   "company": "Spatial Commerce Ltd",
-   "title": "Mid-Senior Full-Stack AI Product Engineer",
-   "location": "Berlin",
-   "url": "https://www.arbeitnow.com/jobs/companies/spatial-commerce-ltd/mid-senior-full-stack-ai-product-engineer-berlin-352833",
-   "origin": "Arbeitnow: @",
-   "priority": "Bassa",
-   "score": 36,
-   "first_seen": "2026-11-26T19:06:12.167691204Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
-  },
-  "arbeitnow:remote-ai-research-engineer-multi-modal-agents-united-kindom-321418": {
-   "company": "Tether Operations Limited",
-   "title": "AI Research Engineer (Multi-Modal Agents)",
-   "location": "Remote job",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/tether-operations-limited/remote-ai-research-engineer-multi-modal-agents-united-kindom-321418",
-   "origin": "Arbeitnow: @",
-   "priority": "Bassa",
-   "score": 34,
-   "first_seen": "2026-11-27T07:14:14.663275694Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
-  },
-  "arbeitnow:remote-senior-data-scientist-research-eu-uk-berlin-247671": {
-   "company": "Makersite GmbH",
-   "title": "Senior Data Scientist - Research EU/UK (m/f/x)",
-   "location": "Remote job",
-   "url": "https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-senior-data-scientist-research-eu-uk-berlin-247671",
+  "arbeitnow:engineering-manager-mission-autonomy-all-genders-berlin-munich-bavaria-363144": {
+   "company": "Skdse",
+   "title": "Engineering Manager Mission Autonomy (All Genders)",
+   "location": "Berlin; Munich, Bavaria",
+   "url": "https://www.arbeitnow.com/jobs/companies/skdse/engineering-manager-mission-autonomy-all-genders-berlin-munich-bavaria-363144",
    "origin": "Arbeitnow: @",
    "priority": "Bassa",
    "score": 42,
-   "first_seen": "2026-11-26T19:06:12.167691204Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
-  "arbeitnow:remote-senior-principal-product-manager-mlops-56922": {
-   "company": "Radiant",
-   "title": "Senior/Principal Product Manager - MLOps",
-   "location": "United Kingdom - Remote",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/radiant/remote-senior-principal-product-manager-mlops-56922",
+  "arbeitnow:engineering-manager-old-street-329132": {
+   "company": "Granola",
+   "title": "Engineering Manager",
+   "location": "London",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/granola/engineering-manager-old-street-329132",
    "origin": "Arbeitnow: @",
    "priority": "Media",
-   "score": 55,
-   "first_seen": "2026-11-27T07:14:14.663275694Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "score": 51,
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
-  "arbeitnow:research-engineer-inference-foundation-munich-349707": {
-   "company": "Mistral AI",
-   "title": "Research Engineer, Inference Foundation",
-   "location": "Munich",
-   "url": "https://www.arbeitnow.com/jobs/companies/mistralai/research-engineer-inference-foundation-munich-349707",
+  "arbeitnow:forward-deployed-software-engineering-manager-london-66879": {
+   "company": "databricks",
+   "title": "Forward Deployed Software Engineering Manager",
+   "location": "London",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/databricks/forward-deployed-software-engineering-manager-london-66879",
    "origin": "Arbeitnow: @",
    "priority": "Bassa",
-   "score": 31,
-   "first_seen": "2026-11-26T07:14:20.300731256Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "score": 37,
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
-  "arbeitnow:senior-ai-deployment-strategist-robotics-emea-paris-101646": {
-   "company": "Mistral AI",
-   "title": "Senior AI Deployment Strategist, Robotics - EMEA",
-   "location": "Paris",
-   "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/senior-ai-deployment-strategist-robotics-emea-paris-101646",
+  "arbeitnow:senior-data-engineer-data-ai-platform-berlin-127467": {
+   "company": "7NXT GmbH",
+   "title": "Senior Data Engineer- Data \u0026 AI Platform (f/m/d)",
+   "location": "Berlin",
+   "url": "https://www.arbeitnow.com/jobs/companies/7nxt-gmbh/senior-data-engineer-data-ai-platform-berlin-127467",
    "origin": "Arbeitnow: @",
    "priority": "Bassa",
-   "score": 41,
-   "first_seen": "2026-11-26T07:14:20.300731256Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "score": 32,
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "arbeitnow:senior-engineering-manager-geneva-paris-france-16972": {
    "company": "Proton",
@@ -87,7 +87,7 @@
    "priority": "Bassa",
    "score": 43,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "arbeitnow:senior-engineering-manager-infra-platform-group-utrecht-157004": {
    "company": "Channable",
@@ -98,7 +98,18 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-26T07:14:20.300731256Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
+  },
+  "arbeitnow:senior-engineering-manager-united-kingdom-44041": {
+   "company": "Develocity",
+   "title": "Senior Engineering Manager",
+   "location": "United Kingdom / Switzerland",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/develocity/senior-engineering-manager-united-kingdom-44041",
+   "origin": "Arbeitnow: @",
+   "priority": "Bassa",
+   "score": 45,
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "arbeitnow:senior-machine-learning-engineer-ai-technical-lead-amsterdam-283684": {
    "company": "Protolabs",
@@ -109,7 +120,7 @@
    "priority": "Alta",
    "score": 82,
    "first_seen": "2026-11-25T07:14:37.897793165Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "arbeitnow:senior-machine-learning-engineer-growth-personalisation-london-498446": {
    "company": "Deliveroo",
@@ -120,7 +131,7 @@
    "priority": "Bassa",
    "score": 36,
    "first_seen": "2026-11-27T07:14:14.663275694Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "arbeitnow:senior-machine-learning-engineer-munich-germany-5311": {
    "company": "CesiumAstro",
@@ -131,7 +142,7 @@
    "priority": "Media",
    "score": 54,
    "first_seen": "2026-11-27T07:14:14.663275694Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "arbeitnow:senior-machine-learning-engineer-recommendations-london-267352": {
    "company": "Deliveroo",
@@ -142,7 +153,7 @@
    "priority": "Bassa",
    "score": 36,
    "first_seen": "2026-11-27T07:14:14.663275694Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "arbeitnow:senior-research-scientist-3d-reconstruction-spatial-ai-zurich-143119": {
    "company": "intrinsicrobotics",
@@ -153,18 +164,7 @@
    "priority": "Bassa",
    "score": 48,
    "first_seen": "2026-11-25T19:05:49.971595568Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
-  },
-  "arbeitnow:senior-research-scientist-ai-safety-london-75011": {
-   "company": "Faculty",
-   "title": "Senior Research Scientist - AI Safety",
-   "location": "London",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/faculty/senior-research-scientist-ai-safety-london-75011",
-   "origin": "Arbeitnow: @",
-   "priority": "Bassa",
-   "score": 47,
-   "first_seen": "2026-11-27T07:14:14.663275694Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "arbeitnow:senior-software-engineer-perception-paris-465218": {
    "company": "Outsight",
@@ -175,18 +175,7 @@
    "priority": "Bassa",
    "score": 30,
    "first_seen": "2026-11-27T07:14:14.663275694Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
-  },
-  "arbeitnow:software-engineering-manager-accounting-product-paris-16775": {
-   "company": "Qonto",
-   "title": "Software Engineering Manager - Accounting Product",
-   "location": "Paris, France",
-   "url": "https://www.arbeitnow.fr/jobs/companies/qonto/software-engineering-manager-accounting-product-paris-16775",
-   "origin": "Arbeitnow: @",
-   "priority": "Bassa",
-   "score": 49,
-   "first_seen": "2026-11-26T19:06:12.167691204Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:iceye:2b6f4ed5-daee-4c4e-aa8f-1a441b600c45": {
    "company": "ICEYE",
@@ -197,7 +186,7 @@
    "priority": "Alta",
    "score": 78,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:iceye:2ef68fcc-6ce8-476e-8c94-6e7b099842e9": {
    "company": "ICEYE",
@@ -208,7 +197,7 @@
    "priority": "Bassa",
    "score": 49,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:iceye:3662acb4-316e-4b9b-aa2d-71ba9f84a85d": {
    "company": "ICEYE",
@@ -219,7 +208,7 @@
    "priority": "Alta",
    "score": 81,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:iceye:4470b416-a308-41a3-a967-293389b62beb": {
    "company": "ICEYE",
@@ -230,7 +219,7 @@
    "priority": "Media",
    "score": 55,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:iceye:471cf438-9c29-4167-9c18-be4cc5f4e115": {
    "company": "ICEYE",
@@ -241,7 +230,7 @@
    "priority": "Media",
    "score": 73,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:iceye:5613d6f6-24be-4ebf-9b0e-a2284fd21650": {
    "company": "ICEYE",
@@ -252,7 +241,7 @@
    "priority": "Media",
    "score": 70,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:iceye:7270373f-9e9c-4608-b492-39afa380fb48": {
    "company": "ICEYE",
@@ -263,7 +252,7 @@
    "priority": "Media",
    "score": 52,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:iceye:89154c8e-6501-4012-b71b-8c6711588ffb": {
    "company": "ICEYE",
@@ -274,7 +263,7 @@
    "priority": "Media",
    "score": 61,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:iceye:9dc49b37-2a22-4e94-9af3-d4312f366cd8": {
    "company": "ICEYE",
@@ -285,7 +274,7 @@
    "priority": "Bassa",
    "score": 49,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:iceye:b6afce4f-317c-4154-82c6-dcd5fa9895ae": {
    "company": "ICEYE",
@@ -296,7 +285,7 @@
    "priority": "Bassa",
    "score": 49,
    "first_seen": "2026-11-26T19:06:12.167691204Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:iceye:bcb9940b-58cd-4c23-8671-7b67f011d07d": {
    "company": "ICEYE",
@@ -307,7 +296,7 @@
    "priority": "Media",
    "score": 73,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:iceye:de792d17-acf3-4c8a-bf3f-f582ad84ea0a": {
    "company": "ICEYE",
@@ -318,7 +307,7 @@
    "priority": "Media",
    "score": 73,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:iceye:f1923306-9ffa-4b2f-bee3-c7472c711167": {
    "company": "ICEYE",
@@ -329,7 +318,7 @@
    "priority": "Bassa",
    "score": 49,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:000a7973-cec6-401c-818a-06781f1f6644": {
    "company": "Wayve",
@@ -340,7 +329,7 @@
    "priority": "Bassa",
    "score": 37,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:002821a8-dd53-4737-be19-dc3270f4d39b": {
    "company": "Wayve",
@@ -351,7 +340,7 @@
    "priority": "Bassa",
    "score": 43,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:192550ad-e0f6-42d1-a704-414671527a05": {
    "company": "Wayve",
@@ -362,7 +351,7 @@
    "priority": "Bassa",
    "score": 43,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:34758430-ea52-4ebd-a850-0ea518a41385": {
    "company": "Wayve",
@@ -373,7 +362,7 @@
    "priority": "Media",
    "score": 56,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:438bc870-6abc-42a2-be78-1bc746a56a90": {
    "company": "Wayve",
@@ -384,7 +373,7 @@
    "priority": "Media",
    "score": 55,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:5d3baafc-4af6-47db-91a0-ee5cb2cf3e04": {
    "company": "Wayve",
@@ -395,7 +384,7 @@
    "priority": "Bassa",
    "score": 30,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:6ac4d9d0-f0e2-47a1-b0ef-712c9bde1d4d": {
    "company": "Wayve",
@@ -406,7 +395,7 @@
    "priority": "Media",
    "score": 50,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:82f389e1-b856-4157-ab24-f83f467329e5": {
    "company": "Wayve",
@@ -417,7 +406,7 @@
    "priority": "Bassa",
    "score": 37,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:929b2cb4-a3da-4038-ab3c-62cf6f220adb": {
    "company": "Wayve",
@@ -428,7 +417,7 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:9e02479e-88c0-4e01-bb43-993d9ad5d5c7": {
    "company": "Wayve",
@@ -439,7 +428,7 @@
    "priority": "Bassa",
    "score": 49,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:a4bd512b-36de-4a28-96b4-80e6b056ee4b": {
    "company": "Wayve",
@@ -450,7 +439,7 @@
    "priority": "Media",
    "score": 56,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:b52585d5-ed8a-4ec8-90f5-2cd06b766e73": {
    "company": "Wayve",
@@ -461,7 +450,7 @@
    "priority": "Bassa",
    "score": 45,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:bdf6686e-52e9-45b6-9cf3-3de9645a9b04": {
    "company": "Wayve",
@@ -472,7 +461,7 @@
    "priority": "Media",
    "score": 52,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:c65879b5-065c-4c29-87ae-3b74f4be2f98": {
    "company": "Wayve",
@@ -483,7 +472,7 @@
    "priority": "Media",
    "score": 57,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:c8056c08-472a-4d64-8d69-a6520083bf80": {
    "company": "Wayve",
@@ -494,7 +483,7 @@
    "priority": "Bassa",
    "score": 32,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:e43c1c44-787e-471b-89fb-ff986c3ab588": {
    "company": "Wayve",
@@ -505,7 +494,7 @@
    "priority": "Media",
    "score": 67,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:e457992b-17a7-44eb-8e08-0482a5632386": {
    "company": "Wayve",
@@ -516,7 +505,7 @@
    "priority": "Bassa",
    "score": 45,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:e781b706-4494-472d-8831-74140ad1a10e": {
    "company": "Wayve",
@@ -527,7 +516,7 @@
    "priority": "Media",
    "score": 68,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "ashby:wayve:eef6a32a-f223-4072-8db0-6bf1ca03f3c7": {
    "company": "Wayve",
@@ -538,7 +527,7 @@
    "priority": "Bassa",
    "score": 37,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "bamboohr:astroscale:689": {
    "company": "Astroscale",
@@ -549,7 +538,7 @@
    "priority": "Bassa",
    "score": 43,
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "bamboohr:clearspace:81": {
    "company": "ClearSpace",
@@ -560,7 +549,7 @@
    "priority": "Bassa",
    "score": 30,
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "greenhouse:helsing:5028718101": {
    "company": "Helsing",
@@ -571,7 +560,7 @@
    "priority": "Media",
    "score": 57,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "greenhouse:planetlabs:8221607": {
    "company": "Planet",
@@ -582,7 +571,7 @@
    "priority": "Bassa",
    "score": 49,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "greenhouse:planetlabs:8226128": {
    "company": "Planet",
@@ -593,7 +582,7 @@
    "priority": "Bassa",
    "score": 39,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "greenhouse:planetlabs:8306456": {
    "company": "Planet",
@@ -604,18 +593,18 @@
    "priority": "Media",
    "score": 59,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
-  "greenhouse:planetlabs:8318600": {
+  "greenhouse:planetlabs:8324235": {
    "company": "Planet",
    "title": "Senior Director of Engineering - Civil Government and Commercial",
-   "location": "Berlin, Germany / Haarlem, Netherlands / Ljubljana, Slovenia",
-   "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8318600",
+   "location": "Haarlem, Netherlands / Ljubljana, Slovenia / Berlin, Germany",
+   "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8324235",
    "origin": "Planet · Greenhouse",
    "priority": "Media",
    "score": 51,
-   "first_seen": "2026-11-26T19:06:12.167691204Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "greenhouse:planetlabs:8396499": {
    "company": "Planet",
@@ -626,7 +615,7 @@
    "priority": "Media",
    "score": 50,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:031238a4-28d6-4c9a-846a-81057065dc1a": {
    "company": "Jobgether",
@@ -637,7 +626,7 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-25T19:05:49.971595568Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:0426c415-dad1-4a04-bead-94871f112334": {
    "company": "Jobgether",
@@ -648,7 +637,7 @@
    "priority": "Bassa",
    "score": 47,
    "first_seen": "2026-11-25T19:05:49.971595568Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:050b324e-7524-4fc8-9bd7-9a40da81e38b": {
    "company": "Jobgether",
@@ -659,7 +648,7 @@
    "priority": "Bassa",
    "score": 35,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:076bcfae-d0ba-4b59-b7d4-3523fc5a00a7": {
    "company": "Jobgether",
@@ -670,7 +659,7 @@
    "priority": "Bassa",
    "score": 48,
    "first_seen": "2026-11-27T07:14:14.663275694Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:09504694-cb9a-4c44-bd6f-8153206320ef": {
    "company": "Jobgether",
@@ -681,18 +670,7 @@
    "priority": "Media",
    "score": 51,
    "first_seen": "2026-11-25T19:05:49.971595568Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
-  },
-  "lever:jobgether:0b7492c8-2270-4764-9185-da7c1176ea81": {
-   "company": "Jobgether",
-   "title": "Senior AI Engineer (Internal Tools \u0026 Agents)",
-   "location": "Chile / South Africa / Spain / Germany / Argentina / Switzerland / Romania / Norway / Finland / Poland / Italy / Kenya / Denmark / New Zealand / Sweden / Estonia / UK / Netherlands / France / Colombia",
-   "url": "https://jobs.lever.co/jobgether/0b7492c8-2270-4764-9185-da7c1176ea81",
-   "origin": "Jobgether · Lever",
-   "priority": "Bassa",
-   "score": 35,
-   "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:0c4b28f6-a430-488a-9dc0-2f5d6dbce8bd": {
    "company": "Jobgether",
@@ -703,7 +681,7 @@
    "priority": "Bassa",
    "score": 30,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:124c99a8-505d-469c-9362-fd7e4445b670": {
    "company": "Jobgether",
@@ -714,7 +692,7 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:1764f255-9d8d-44c6-bcf5-1d666a18d2ca": {
    "company": "Jobgether",
@@ -725,7 +703,7 @@
    "priority": "Media",
    "score": 68,
    "first_seen": "2026-11-26T19:06:12.167691204Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:183023e1-760d-4bcd-a49e-b501078e61d8": {
    "company": "Jobgether",
@@ -736,7 +714,7 @@
    "priority": "Media",
    "score": 56,
    "first_seen": "2026-11-26T07:14:20.300731256Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:1a7fedb0-00cb-4157-bb8e-93646a8300ea": {
    "company": "Jobgether",
@@ -747,7 +725,7 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:1b3f4152-df24-4146-a1fb-bcc9ce2c1c7c": {
    "company": "Jobgether",
@@ -758,7 +736,7 @@
    "priority": "Media",
    "score": 71,
    "first_seen": "2026-11-25T19:05:49.971595568Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:1f07ccda-6d36-464d-91f3-656a88eabb72": {
    "company": "Jobgether",
@@ -769,7 +747,18 @@
    "priority": "Bassa",
    "score": 43,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
+  },
+  "lever:jobgether:1f1d710f-a2b1-4f8e-a997-bfab528dd22e": {
+   "company": "Jobgether",
+   "title": "Staff DevOps Engineer, AI Security",
+   "location": "Netherlands",
+   "url": "https://jobs.lever.co/jobgether/1f1d710f-a2b1-4f8e-a997-bfab528dd22e",
+   "origin": "Jobgether · Lever",
+   "priority": "Bassa",
+   "score": 49,
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:21b858fa-ad0e-4574-a2a1-1fa68158b510": {
    "company": "Jobgether",
@@ -780,7 +769,7 @@
    "priority": "Bassa",
    "score": 30,
    "first_seen": "2026-11-25T07:14:37.897793165Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:2269f9ba-a397-4416-9074-ffb8b6463709": {
    "company": "Jobgether",
@@ -791,7 +780,7 @@
    "priority": "Bassa",
    "score": 37,
    "first_seen": "2026-11-26T19:06:12.167691204Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:22770a24-38e2-433e-a851-20c871ccc812": {
    "company": "Jobgether",
@@ -802,7 +791,7 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:2386ecd0-a540-4ae4-85fe-9d3704ae4a2f": {
    "company": "Jobgether",
@@ -813,7 +802,7 @@
    "priority": "Bassa",
    "score": 47,
    "first_seen": "2026-11-25T19:05:49.971595568Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:25c11f2e-10b6-46fe-9c54-90a705c7ce43": {
    "company": "Jobgether",
@@ -824,7 +813,7 @@
    "priority": "Bassa",
    "score": 36,
    "first_seen": "2026-11-26T07:14:20.300731256Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:26d91a34-f86b-498f-a367-b2bff5439841": {
    "company": "Jobgether",
@@ -835,7 +824,18 @@
    "priority": "Bassa",
    "score": 37,
    "first_seen": "2026-11-24T04:10:50.888500962Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
+  },
+  "lever:jobgether:30efe880-0fd1-49b9-8181-5ac2c4b44185": {
+   "company": "Jobgether",
+   "title": "Senior Data Scientist - Research EU/UK (m/f/x)",
+   "location": "Germany",
+   "url": "https://jobs.lever.co/jobgether/30efe880-0fd1-49b9-8181-5ac2c4b44185",
+   "origin": "Jobgether · Lever",
+   "priority": "Bassa",
+   "score": 46,
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:42d18a30-7f04-4ba0-958a-6254afd330ea": {
    "company": "Jobgether",
@@ -846,7 +846,7 @@
    "priority": "Bassa",
    "score": 47,
    "first_seen": "2026-11-25T19:05:49.971595568Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:4581e1e7-fe7c-44f6-9f9f-f6fd688c0b91": {
    "company": "Jobgether",
@@ -855,9 +855,9 @@
    "url": "https://jobs.lever.co/jobgether/4581e1e7-fe7c-44f6-9f9f-f6fd688c0b91",
    "origin": "Jobgether · Lever",
    "priority": "Media",
-   "score": 64,
+   "score": 59,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:4daf458d-7395-4781-8b02-50b5e5fd34c9": {
    "company": "Jobgether",
@@ -868,7 +868,7 @@
    "priority": "Bassa",
    "score": 32,
    "first_seen": "2026-11-26T07:14:20.300731256Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:5107c0ec-75cc-4fb2-9f92-a274dfd0e8cc": {
    "company": "Jobgether",
@@ -879,7 +879,7 @@
    "priority": "Bassa",
    "score": 30,
    "first_seen": "2026-11-26T19:06:12.167691204Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:6631ceec-b238-49bb-8be1-76456539e8f4": {
    "company": "Jobgether",
@@ -890,7 +890,18 @@
    "priority": "Bassa",
    "score": 39,
    "first_seen": "2026-11-25T19:05:49.971595568Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
+  },
+  "lever:jobgether:7026821f-1d4a-4b0f-ac75-b885ac6a20d7": {
+   "company": "Jobgether",
+   "title": "Senior AI Engineer (Internal Tools \u0026 Agents)",
+   "location": "Italy",
+   "url": "https://jobs.lever.co/jobgether/7026821f-1d4a-4b0f-ac75-b885ac6a20d7",
+   "origin": "Jobgether · Lever",
+   "priority": "Bassa",
+   "score": 30,
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:72c5f735-3252-48aa-b27c-a7f960b3339b": {
    "company": "Jobgether",
@@ -901,7 +912,7 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:7916b7a6-7da0-4f45-bba6-dff1d67922e3": {
    "company": "Jobgether",
@@ -912,7 +923,7 @@
    "priority": "Bassa",
    "score": 35,
    "first_seen": "2026-11-26T19:06:12.167691204Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:7c7ec6e1-463c-4cf9-aa41-fa259f275682": {
    "company": "Jobgether",
@@ -923,7 +934,7 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:8d47bfd3-1c6b-4a6e-bf54-75f75c11911f": {
    "company": "Jobgether",
@@ -934,7 +945,7 @@
    "priority": "Bassa",
    "score": 43,
    "first_seen": "2026-11-25T19:05:49.971595568Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:9990af7e-a826-45a6-aa37-a54441e83fe7": {
    "company": "Jobgether",
@@ -945,7 +956,7 @@
    "priority": "Media",
    "score": 51,
    "first_seen": "2026-11-26T07:14:20.300731256Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:9b0d83cb-b8fc-46ee-b11a-930c7611feb6": {
    "company": "Jobgether",
@@ -956,7 +967,7 @@
    "priority": "Media",
    "score": 50,
    "first_seen": "2026-11-26T07:14:20.300731256Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:a448cf4d-21e5-4c36-b870-50885cc7a959": {
    "company": "Jobgether",
@@ -967,7 +978,7 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:a812c7ad-af52-4de5-8a44-7670d6a5c1a4": {
    "company": "Jobgether",
@@ -978,7 +989,7 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:ae66d2b0-a01a-4c4d-b2d3-052614f501bd": {
    "company": "Jobgether",
@@ -989,7 +1000,7 @@
    "priority": "Bassa",
    "score": 33,
    "first_seen": "2026-11-26T19:06:12.167691204Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:bd8c6491-ea38-412a-b309-6801b1b25e3e": {
    "company": "Jobgether",
@@ -1000,7 +1011,7 @@
    "priority": "Bassa",
    "score": 34,
    "first_seen": "2026-11-25T19:05:49.971595568Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:c16948b6-7ad4-46f1-a945-cdac8c01ec51": {
    "company": "Jobgether",
@@ -1011,7 +1022,7 @@
    "priority": "Bassa",
    "score": 47,
    "first_seen": "2026-11-27T07:14:14.663275694Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:c79eadc8-daa6-4c5d-be05-8766c5ebe49e": {
    "company": "Jobgether",
@@ -1022,7 +1033,7 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:d5b7d06c-57c5-4f1b-94ec-290a5c5ed0b6": {
    "company": "Jobgether",
@@ -1033,7 +1044,7 @@
    "priority": "Bassa",
    "score": 35,
    "first_seen": "2026-11-26T07:14:20.300731256Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:dd000db9-8a8b-4403-8354-5bbe5ee1da9c": {
    "company": "Jobgether",
@@ -1044,7 +1055,7 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:e62d0897-4c4f-4ccd-9da3-d92490289d4a": {
    "company": "Jobgether",
@@ -1055,7 +1066,18 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
+  },
+  "lever:jobgether:e7d21bae-6600-4af9-a50e-ca9baa2c507b": {
+   "company": "Jobgether",
+   "title": "Senior Applied Scientist - Remote (Portland)",
+   "location": "Portland",
+   "url": "https://jobs.lever.co/jobgether/e7d21bae-6600-4af9-a50e-ca9baa2c507b",
+   "origin": "Jobgether · Lever",
+   "priority": "Bassa",
+   "score": 39,
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:eae75fd8-8d6d-4df1-9ac4-9804945e9a48": {
    "company": "Jobgether",
@@ -1066,7 +1088,18 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
+  },
+  "lever:jobgether:f3e9b1f4-d23f-45c6-8fcc-0ac1f617cd1c": {
+   "company": "Jobgether",
+   "title": "Senior Applied Scientist - Remote (Philadelphia)",
+   "location": "Philadelphia",
+   "url": "https://jobs.lever.co/jobgether/f3e9b1f4-d23f-45c6-8fcc-0ac1f617cd1c",
+   "origin": "Jobgether · Lever",
+   "priority": "Bassa",
+   "score": 39,
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:jobgether:f5a0241f-e3f5-41c5-a2d2-853ec0543c58": {
    "company": "Jobgether",
@@ -1077,7 +1110,7 @@
    "priority": "Media",
    "score": 57,
    "first_seen": "2026-11-25T19:05:49.971595568Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:loftorbital:9182f41f-2d8c-48ff-b914-49a408426e9e": {
    "company": "Loft Orbital",
@@ -1088,7 +1121,7 @@
    "priority": "Media",
    "score": 64,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:loftorbital:e2428032-ee1a-4e34-a331-914aea52a93f": {
    "company": "Loft Orbital",
@@ -1099,7 +1132,7 @@
    "priority": "Media",
    "score": 64,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:loftorbital:f5f9edbc-3e8c-4eb3-b757-25cfcbf8e7fa": {
    "company": "Loft Orbital",
@@ -1110,7 +1143,7 @@
    "priority": "Bassa",
    "score": 44,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:safran-ai:04678422-8092-44ca-ab22-fa82bc09946c": {
    "company": "Safran.AI",
@@ -1121,7 +1154,7 @@
    "priority": "Media",
    "score": 57,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:safran-ai:3eedd99a-7f79-4bff-8b8c-46b195ead6c3": {
    "company": "Safran.AI",
@@ -1132,7 +1165,7 @@
    "priority": "Bassa",
    "score": 37,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:safran-ai:5875c7a8-54f8-4e6f-bc6e-1e3a5a3e8ae8": {
    "company": "Safran.AI",
@@ -1143,7 +1176,7 @@
    "priority": "Media",
    "score": 68,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:safran-ai:9304b7d7-69c2-4e54-80cf-8cdd47fdb007": {
    "company": "Safran.AI",
@@ -1154,7 +1187,18 @@
    "priority": "Bassa",
    "score": 47,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
+  },
+  "lever:safran-ai:934211e0-993c-49ec-998b-51fb586e32f8": {
+   "company": "Safran.AI",
+   "title": "Junior Deep Learning Scientist (H/F)",
+   "location": "Paris",
+   "url": "https://jobs.lever.co/safran-ai/934211e0-993c-49ec-998b-51fb586e32f8",
+   "origin": "Safran.AI · Lever",
+   "priority": "Bassa",
+   "score": 32,
+   "first_seen": "2026-11-27T19:05:45.787085515Z",
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "lever:safran-ai:f272d7d4-d63f-4d13-947f-b572fd974d80": {
    "company": "Safran.AI",
@@ -1165,7 +1209,7 @@
    "priority": "Media",
    "score": 68,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "personio:liveeo-gmbh:2864893": {
    "company": "LiveEO",
@@ -1176,7 +1220,7 @@
    "priority": "Media",
    "score": 64,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "personio:liveeo-gmbh:2873911": {
    "company": "LiveEO",
@@ -1187,7 +1231,7 @@
    "priority": "Media",
    "score": 58,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "recruitee:hydrosat:2701208": {
    "company": "Hydrosat",
@@ -1198,7 +1242,7 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "recruitee:hydrosat:2823161": {
    "company": "Hydrosat",
@@ -1209,7 +1253,7 @@
    "priority": "Media",
    "score": 67,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "successfactors:https://careers.qinetiq.com:https://careers.qinetiq.com/job/Manchester-Naimuri-Senior-Data-Scientist-Engl/1280625801/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS": {
    "company": "QinetiQ",
@@ -1220,7 +1264,7 @@
    "priority": "Bassa",
    "score": 36,
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "successfactors:https://careers.qinetiq.com:https://careers.qinetiq.com/job/Manchester-Naimuri-Technical-Lead-Defence-Engl/1452198533/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS": {
    "company": "QinetiQ",
@@ -1231,7 +1275,7 @@
    "priority": "Bassa",
    "score": 49,
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "successfactors:https://careers.qinetiq.com:https://careers.qinetiq.com/job/Manchester-Technical-Lead-Engl/1266596701/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS": {
    "company": "QinetiQ",
@@ -1242,7 +1286,7 @@
    "priority": "Bassa",
    "score": 38,
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "successfactors:https://jobs.esa.int:https://jobs.esa.int/job/Frascati-ERS-EODownstream-Ground-System-Engineer/1458807533/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS": {
    "company": "ESA",
@@ -1253,7 +1297,7 @@
    "priority": "Media",
    "score": 73,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "successfactors:https://jobs.esa.int:https://jobs.esa.int/job/Noordwijk-Earth-Observation-Campaign-Scientist/1458757833/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS": {
    "company": "ESA",
@@ -1264,7 +1308,7 @@
    "priority": "Alta",
    "score": 78,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "successfactors:https://jobs.esa.int:https://jobs.esa.int/job/Noordwijk-FORUM-Project-Manager/1458816433/?feedId=null\u0026utm_source=J2WRSS\u0026utm_medium=rss\u0026utm_campaign=J2W_RSS": {
    "company": "ESA",
@@ -1275,7 +1319,7 @@
    "priority": "Media",
    "score": 54,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "teamtailor:https://careers.open-cosmos.com:133cc451-e336-47f7-9aae-7c455e414442": {
    "company": "Open Cosmos",
@@ -1286,7 +1330,7 @@
    "priority": "Media",
    "score": 71,
    "first_seen": "2026-11-23T12:13:49.266005784Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "teamtailor:https://careers.open-cosmos.com:c3d4fbc9-a42e-46d9-ae16-4c26ca92ac7c": {
    "company": "Open Cosmos",
@@ -1297,7 +1341,7 @@
    "priority": "Bassa",
    "score": 44,
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "teamtailor:https://leafspace.teamtailor.com:6c7171f2-17fa-4afe-acfb-6ee68e52a29b": {
    "company": "Leaf Space",
@@ -1308,7 +1352,7 @@
    "priority": "Media",
    "score": 70,
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "workday:ag:/job/Barcelona/Geospatial-Commercial---Bid-Manager_JR10350385": {
    "company": "Airbus",
@@ -1319,7 +1363,7 @@
    "priority": "Bassa",
    "score": 34,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "workday:ag:/job/Getafe-Area/Earth-Observation-Satellite-System-Engineer_JR10423783": {
    "company": "Airbus",
@@ -1330,7 +1374,7 @@
    "priority": "Media",
    "score": 60,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "workday:ag:/job/Getafe-Area/Synthetic-Aperture-Radar--SAR--Performance-Engineer_JR10448575-1": {
    "company": "Airbus",
@@ -1341,7 +1385,7 @@
    "priority": "Media",
    "score": 62,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "workday:ag:/job/Mnchen-Area/AI---Machine-Learning-Scientist---Materials-Research--d-m-w-_JR10458316": {
    "company": "Airbus",
@@ -1352,7 +1396,7 @@
    "priority": "Bassa",
    "score": 36,
    "first_seen": "2026-11-25T19:05:49.971595568Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "workday:ag:/job/Paris-Area/Thse-CIFRE---Rduction-de-dimension-non-linaire-et-Machine-Learning-pour-la-simulation-numrique--H-F-_JR10459513-1": {
    "company": "Airbus",
@@ -1363,7 +1407,7 @@
    "priority": "Bassa",
    "score": 36,
    "first_seen": "2026-11-26T19:06:12.167691204Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "workday:ag:/job/Portsmouth/Systems-Engineer_JR10433681": {
    "company": "Airbus",
@@ -1374,7 +1418,7 @@
    "priority": "Bassa",
    "score": 42,
    "first_seen": "2026-11-25T19:05:49.971595568Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "workday:ag:/job/Ulm-Area/Senior-Artificial-Intelligence-Machine-Learning-Engineer--d-f-m-_JR10443053-1": {
    "company": "Airbus",
@@ -1385,7 +1429,7 @@
    "priority": "Bassa",
    "score": 38,
    "first_seen": "2026-11-24T18:47:34.14174873Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "workday:globalhr:/job/Gloucester-South-Gloucestershire/Principal-Data-Scientist---Machine-Learning-Researcher_01804570": {
    "company": "RTX",
@@ -1396,7 +1440,7 @@
    "priority": "Bassa",
    "score": 32,
    "first_seen": "2026-11-23T12:53:36.284312151Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "workday:thales:/job/Elancourt/Ingnieur-Docteur-en-traitement-du-signal-RADAR-SAR-H-F_R0324957-1": {
    "company": "Thales",
@@ -1407,7 +1451,7 @@
    "priority": "Bassa",
    "score": 37,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "workday:thales:/job/Roma/Artificial-Intelligence-Space-Engineer_R0210027": {
    "company": "Thales",
@@ -1418,7 +1462,7 @@
    "priority": "Bassa",
    "score": 38,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "workday:thales:/job/Toulouse/Digital-Ground-Architect-for-Earth-Observation_R0322925-1": {
    "company": "Thales",
@@ -1429,7 +1473,7 @@
    "priority": "Bassa",
    "score": 45,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   },
   "workday:thales:/job/Vlizy-Villacoublay/Tech-Lead-IA-F-H_R0344884-1": {
    "company": "Thales",
@@ -1440,7 +1484,7 @@
    "priority": "Bassa",
    "score": 32,
    "first_seen": "2026-11-23T11:28:37.376858881Z",
-   "last_seen": "2026-11-27T07:14:14.663275694Z"
+   "last_seen": "2026-11-27T19:05:45.787085515Z"
   }
  }
 }
